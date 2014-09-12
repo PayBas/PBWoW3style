@@ -1,0 +1,42 @@
+/*  phpBB3 Style Sheet
+    --------------------------------------------------------------
+	Style name:			PBWoW 3 Battlecry
+	Based on style:		PBWoW 3
+	Original author:	PayBas ( http://pbwow.com/ )
+    --------------------------------------------------------------
+*/
+
+body {
+	background-image: url("./images/bg.jpg");
+}
+
+#page-body {
+	background-color: rgba(0,0,0,0.90);
+}
+
+#page-header .navbar { 
+	background: rgba(0,0,0,0.75);
+}
+
+#video-element1 {
+	background-image: none;
+	position: absolute;
+	top: 400px;
+	right: 492px;
+}
+#video-element2 {
+	background-image: none;
+	position: absolute;
+	top: 426px;
+	left: 522px;
+}
+
+/* =Media queries
+-------------------------------------------------------------- */
+
+@media only screen and (max-width: 999px), only screen and (max-device-width: 999px)
+{
+	body {
+		background-image: url("./images/bg-small.jpg");
+	}
+}

@@ -1,0 +1,48 @@
+/*  phpBB3 Style Sheet
+    --------------------------------------------------------------
+	Style name:			PBWoW 3 The Burning Crusade
+	Based on style:		PBWoW 3
+	Original author:	PayBas ( http://pbwow.com/ )
+    --------------------------------------------------------------
+*/
+
+body {
+	background-image: url("./images/bg.jpg");
+}
+
+.imageset.site_logo {
+	background: url("./images/logo.png") no-repeat 50% 0;
+	width: 280px;
+	height: 130px;
+	background-size: 100% 100%;
+}
+
+.navblock { 
+	background: rgba(0,0,0,0.75);
+}
+
+#video-element {
+	background-image: none;
+	position: absolute;
+	top: 160px;
+	left: 427px;
+}
+
+/* =Media queries
+-------------------------------------------------------------- */
+
+@media screen and (max-width: 859px), only screen and (max-device-width: 859px)
+{
+	.imageset.site_logo {
+		width: 224px;
+		height: 104px;
+		margin-top: 10px;
+	}
+}
+
+@media only screen and (max-width: 999px), only screen and (max-device-width: 999px)
+{
+	body {
+		background-image: url("./images/bg-small.jpg");
+	}
+}

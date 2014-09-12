@@ -1,0 +1,34 @@
+<script type="text/javascript">
+jQuery(function($) {
+	'use strict';
+
+	if($(window).width() >= 1300)
+	{
+		var v = '<video id="video-element1" preload="auto" autoplay="true" loop="loop">';
+		v += '<source src="{T_THEME_PATH}/videos/wotlk.mp4" type="video/mp4">';
+		v += '<source src="{T_THEME_PATH}/videos/wotlk.webm" type="video/webm">';
+		v += '</video>';
+		v += '<video id="video-element2" preload="auto" autoplay="true" loop="loop">';
+		v += '<source src="{T_THEME_PATH}/videos/tbc.mp4" type="video/mp4">';
+		v += '<source src="{T_THEME_PATH}/videos/tbc.webm" type="video/webm">';
+		v += '</video>';
+		v += '<video id="video-element3" preload="auto" autoplay="true" loop="loop">';
+		v += '<source src="{T_THEME_PATH}/videos/cat.mp4" type="video/mp4">';
+		v += '<source src="{T_THEME_PATH}/videos/cat.webm" type="video/webm">';
+		v += '</video>';
+
+		$("#video-container").html(v);
+		$("#video-container video").on("canplaythrough", function()
+		{
+			if ($(this).css("opacity") != 1)
+			{
+				$(this).delay(100).fadeTo(4000,1);
+			}
+		});
+	}
+	else
+	{
+		$("#video-background").hide();
+	}
+});
+</script>

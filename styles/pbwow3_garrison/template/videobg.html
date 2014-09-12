@@ -1,0 +1,30 @@
+<script type="text/javascript">
+jQuery(function($) {
+	'use strict';
+
+	if($(window).width() >= 1300)
+	{
+		var v = '<video id="video-element1" preload="auto" autoplay="true" loop="loop">';
+		v += '<source src="{T_THEME_PATH}/videos/left.mp4" type="video/mp4">';
+		v += '<source src="{T_THEME_PATH}/videos/left.webm" type="video/webm">';
+		v += '</video>';
+		v += '<video id="video-element2" preload="auto" autoplay="true" loop="loop">';
+		v += '<source src="{T_THEME_PATH}/videos/right.mp4" type="video/mp4">';
+		v += '<source src="{T_THEME_PATH}/videos/right.webm" type="video/webm">';
+		v += '</video>';
+
+		$("#video-container").html(v);
+		$("#video-container video").on("canplaythrough", function()
+		{
+			if ($(this).css("opacity") != 1)
+			{
+				$(this).delay(100).fadeTo(4000,1);
+			}
+		});
+	}
+	else
+	{
+		$("#video-background").hide();
+	}
+});
+</script>

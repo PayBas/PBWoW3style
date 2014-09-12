@@ -1,0 +1,43 @@
+/*  phpBB3 Style Sheet
+    --------------------------------------------------------------
+	Style name:			PBWoW 3 Garrison
+	Based on style:		PBWoW 3
+	Original author:	PayBas ( http://pbwow.com/ )
+    --------------------------------------------------------------
+*/
+
+body {
+	background-image: url("./images/bg.jpg");
+	background-color: #030309;
+}
+
+.navblock {
+	background-color: rgba(0,0,0,0.75);
+}
+
+#page-body {
+	background-color: rgba(0,0,0,0.75);
+}
+
+#video-element1 {
+	background-image: none;
+	position: absolute;
+	top: 587px;
+	right: 440px;
+}
+#video-element2 {
+	background-image: none;
+	position: absolute;
+	top: 430px;
+	left: 468px;
+}
+
+/* =Media queries
+-------------------------------------------------------------- */
+
+@media only screen and (max-width: 999px), only screen and (max-device-width: 999px)
+{
+	body {
+		background-image: url("./images/bg-small.jpg");
+	}
+}

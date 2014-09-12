@@ -1,0 +1,140 @@
+/* Recent Topics
+--------------------------------------------- */
+#recent-topics {
+	border-top-color: #b5b3b2;
+}
+
+#recent-topics li.row {
+	border-bottom-color: #C2C1C1;
+}
+
+#recent-topics a.topictitle {
+	color: #074e79;
+}
+
+#recent-topics a:hover {
+	color: #0295ee !important;
+}
+
+#recent-topics a.forum-link {
+	color: #5d5d5d;
+}
+
+#recent-topics a.forum-link:hover {
+	color: #333 !important;
+}
+
+/* Breadcrumb Menu
+--------------------------------------------- */
+#breadcrumb-menu .dropdown .pointer {
+	border-color: #999 transparent;
+}
+
+#breadcrumb-menu .dropdown-contents {
+	border-color: #999;
+}
+
+#breadcrumb-menu li {
+	border-color: #cac9c8;
+}
+
+#breadcrumb-menu .dropdown-contents a:hover {
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+#breadcrumb-menu li.children > a:before {
+	color: inherit !important;
+	opacity: 0.7;
+}
+
+#breadcrumb-menu li.current > a {
+	color: #363535;
+}
+
+/* Board Rules
+--------------------------------------------- */
+.mini-panel {
+	background: #ecebea;
+	border-color: #cac9c8;
+	border-width: 0 0 1px 0;
+	box-shadow: none;
+}
+
+ul.menu li {
+	border-color: #c5c5c5;
+}
+
+.boardrules-header {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #074e79;
+}
+
+.highlight {
+	background: #ecebea;
+	border: none;
+	color: inherit;
+}
+
+/* Board Announcements
+--------------------------------------------- */
+#phpbb_announcement {
+	background-color: #d07b01;
+	background-image: linear-gradient(#d07b01, #f3a900);
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.3);
+	color: #013f5b;
+}
+
+#phpbb_announcement .close:before {
+	color: #FFF;
+}
+
+/* Lightbox
+--------------------------------------------- */
+.lb-outerContainer {
+	background: #d3d1ce !important;
+	border: 2px solid #ecebea !important;
+}
+
+/* Quick Login
+--------------------------------------------- */
+#quick-login-panel {
+	background: url("./images/bg.jpg") no-repeat 50% 0 #020202;
+	border: 5px solid #525e67;
+	color: #68727b;
+	box-shadow: 0 0 20px #000;
+}
+
+#quick-login-panel .content {
+	border: none;
+	box-shadow: none;
+}
+
+#quick-login-panel dd {
+	background: none !important;
+}
+
+#quick-login-panel dt {
+	top: 0;
+	left: 20%;
+}
+
+#quick-login-panel a {
+	color: #0072a3;
+}
+
+#quick-login-panel a:hover {
+	color: #00c0ff;
+}
+
+#quick-login-panel input.inputbox {
+	background: linear-gradient(#e6e6e6, #fefefe) #fefefe;
+	margin: 13px 0 0 22px;
+	width: 191px !important;
+	height: 22px;
+}
+
+#quick-login-panel span {
+	color: #68727b;
+}

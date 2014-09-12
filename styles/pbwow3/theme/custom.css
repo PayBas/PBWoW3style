@@ -1,0 +1,157 @@
+/* Custom CSS for PBWoW
+
+You can customize whatever you want.
+Some defaults are included, like on PBWoW.com
+
+Get all the FontAwesome CSS codes here: https://fortawesome.github.io/Font-Awesome/icons/
+
+*/
+
+
+/* Special post styles
+--------------------------------------------- */
+
+.bg1 .postprofile { background-image: url("./images/avatar-bg1.gif"); }
+.bg2 .postprofile { background-image: url("./images/avatar-bg2.gif"); }
+.blizz .bg1 .postprofile { background-image: url("./images/avatar-bg1-blizz.gif"); }
+.blizz .bg2 .postprofile { background-image: url("./images/avatar-bg2-blizz.gif"); }
+.red .bg1 .postprofile { background-image: url("./images/avatar-bg1-red.jpg"); }
+.red .bg2 .postprofile { background-image: url("./images/avatar-bg2-red.jpg"); }
+
+.propass .postprofile .avatar:after {
+	background-image: url("./images/propass.gif");
+	content: "";
+	display: block;
+	height: 84px;
+	width: 120px;
+	position: absolute;
+	bottom: -9px;
+	left: 50%;
+	-webkit-transform: translateX(-49px);
+	-ms-transform: translateX(-49px);
+	transform: translateX(-49px);
+}
+.propass .postprofile .has-avatar .rank-icon {
+	background: none;
+}
+
+
+/* Hide/show profile fields
+ * (comment-out the fields that you DO want to display)
+--------------------------------------------- */
+
+.postprofile .profile-rank,
+/*.postprofile .profile-posts, */
+.postprofile .profile-joined,
+/*.postprofile .profile-pb_wow_guild,*/
+.postprofile .profile-pb_wow_level,
+.postprofile .profile-pb_wow_race,
+.postprofile .profile-pb_wow_gender,
+.postprofile .profile-pb_wow_class,
+.postprofile .profile-pb_diablo_class,
+.postprofile .profile-pb_diablo_gender,
+.postprofile .profile-pb_diablo_follower,
+.postprofile .profile-pb_wildstar_race,
+.postprofile .profile-pb_wildstar_class,
+.postprofile .profile-pb_wildstar_gender,
+.postprofile .profile-pb_wildstar_path,
+.postprofile .profile-pb_bnet_host,
+.postprofile .profile-pb_bnet_realm,
+.postprofile .profile-pb_bnet_name,
+.postprofile .profile-pb_bnet_url,
+.postprofile .profile-pb_bnet_avatar {
+	display: none;
+}
+
+/* Hide/show profile fields in the context dropdown */
+.profile-context .profile-rank,
+.profile-context .profile-joined {
+	display: inherit;
+}
+
+.profile-context .profile-rank img,
+.profile-context .profile-posts-rank img {
+	vertical-align: middle;
+}
+
+
+/* Styling profile fields
+ * (example of how to use only CSS to style profile fields)
+--------------------------------------------- */
+
+.postprofile .profile-custom-field:before,
+.postprofile .profile-custom-field:after { font-family: FontAwesome; }
+
+.postprofile .profile-pb_wow_guild { font-weight: bold; }
+.postprofile .profile-pb_wow_guild strong { display: none; }
+.postprofile .profile-pb_wow_guild:before { content: '\f104'; }
+.postprofile .profile-pb_wow_guild:after { content: ' \f105'; }
+
+
+/* General post content styling
+ * (example of how to apply custom CSS to special rank post layouts)
+--------------------------------------------- */
+
+.blizz .postprofile .profile-joined { display: none; }
+.blizz .content { color: #00C0FF; }
+.blizz .content strong { color: #FFF; }
+
+.mvp .content { color: #5DF644; }
+.mvp .content strong { color: #FFF; }
+
+
+/* Top-bar links
+ * (example of how to apply custom icons to elements in the top-bar)
+--------------------------------------------- */
+
+#top-bar .icon1:before			{ content: '\f1b3'; }
+#top-bar .icon2 > a:before		{ content: '\f004'; }
+#top-bar .icon3 > a:before		{ content: '\f0ac'; }
+#top-bar .icon4 > a:before		{ content: '\f0a4'; }
+#top-bar .icon5 > a:before		{ content: '\f019'; }
+
+
+/* Header links
+ * (example of how to apply custom CSS to links in the header)
+--------------------------------------------- */
+
+.small-icon.icon-portal > a:before		{ content: '\f0ac'; }
+.small-icon.icon-dkp > a:before			{ content: '\f091'; }
+.small-icon.icon-custom1 > a:before		{ content: '\f004'; }
+.small-icon.icon-custom2 > a:before		{ content: '\f164'; }
+
+
+/* Other stuff
+--------------------------------------------- */
+
+.donate-button {
+	background: url('./images/donate.jpg') no-repeat 0 0;
+	display: block;
+	width: 300px;
+	height: 220px;
+	padding: 0;
+	margin: 0 auto;
+}
+
+.donate-button:hover {
+	background-position: 0 -220px;
+}
+
+
+/* PBWoW.com specific stuff (personal preference)
+--------------------------------------------- */
+
+.section-viewforum .forabg ul.forums dl {
+	min-height: inherit;
+}
+
+body.section-viewtopic .postbody h3,
+#qr_postform .fields1 > dl {
+	display: none;
+}
+
+body.section-viewtopic .postbody p.author {
+	clear: none;
+	margin: 0;
+	padding: 8px 0 12px;
+}

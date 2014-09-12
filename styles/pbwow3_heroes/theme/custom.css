@@ -1,0 +1,102 @@
+/* Custom CSS for PBWoW Heroes
+
+You can customize whatever you want.
+Some defaults are included, like on PBWoW.com
+
+Get all the FontAwesome CSS codes here: https://fortawesome.github.io/Font-Awesome/icons/
+
+*/
+
+/* Special post styles
+--------------------------------------------- */
+
+.blizz .post 	{ background-image: url("./images/post_bg_blizzard.png"); background-position: 0 0; }
+.propass .post	{ background-image: url("./images/post_bg_propass.png"); }
+.mvp .post		{ background-image: url("./images/post_bg_mvp.png"); }
+
+
+/* Post profiles
+--------------------------------------------- */
+
+.blizz .postprofile .avatar-container	{ background: url("./images/avatar-sprite.png") 50% -309px no-repeat; }
+.mvp .postprofile .avatar-container		{ background: url("./images/avatar-sprite.png") 50% -159px no-repeat; }
+
+
+/* Profile view
+--------------------------------------------- */
+
+.blizz #viewprofile .panel:first-of-type,
+.propass #viewprofile .panel:first-of-type,
+.mvp #viewprofile .panel:first-of-type { 
+	background-position: 0 0, 100% 0, 50% -1px;
+	background-repeat: no-repeat;
+	background-size: 1px 100%, 1px 100%, auto;
+}
+.blizz #viewprofile .panel:first-of-type { 
+    background-image:	linear-gradient(rgba(161, 139, 175, 0.45), rgba(161, 139, 175, 0.14)),
+						linear-gradient(rgba(161, 139, 175, 0.45), rgba(161, 139, 175, 0.14)),
+						url("./images/post_bg_blizzard.png");
+	background-position: 0 0, 100% 0, 0 -1px;
+}
+.propass #viewprofile .panel:first-of-type { 
+    background-image:	linear-gradient(rgba(161, 139, 175, 0.45), rgba(161, 139, 175, 0.14)),
+						linear-gradient(rgba(161, 139, 175, 0.45), rgba(161, 139, 175, 0.14)),
+						url("./images/post_bg_propass.png");
+}
+.mvp #viewprofile .panel:first-of-type { 
+    background-image:	linear-gradient(rgba(161, 139, 175, 0.45), rgba(161, 139, 175, 0.14)),
+						linear-gradient(rgba(161, 139, 175, 0.45), rgba(161, 139, 175, 0.14)),
+						url("./images/post_bg_mvp.png");
+}
+
+
+/* General post content styling
+--------------------------------------------- */
+
+.blizz .content { color: #00C0FF; }
+.blizz .content strong { color: #FFF; }
+
+.mvp .content { color: #00D158; }
+.mvp .content strong { color: #FFF; }
+
+
+/* PBWoW.com specific stuff
+--------------------------------------------- */
+
+.advertisement, .misc-block.advertisement {
+	background: none;
+	border: none;
+	box-shadow: none;
+	overflow: visible;
+	margin: 95px auto;
+}
+
+.donate-button {
+	background: url('./images/donate.jpg') no-repeat 0 0;
+	background: url('./images/donate.jpg') no-repeat 0 0,
+				linear-gradient(rgba(0, 167, 255, 0.5), rgba(0, 91, 139, 0.5)) 0 0;
+	background-origin: content-box, border-box;
+	height: 300px;
+	width: 206px;
+	padding: 5px;
+	position: relative;
+}
+.donate-button:hover {
+	background-position: 0 0;
+}
+
+.donate-button:before {
+	background: url("./images/hover-border.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	content: "";
+	height: 490px;
+	width: 340px;
+	left: -62px;
+	top: -95px;
+	opacity: 0;
+	position: absolute;
+	transition: opacity 0.5s ease 0s;
+	z-index: 1;
+}
+.donate-button:hover:before {
+	opacity: 1;
+}

@@ -1,0 +1,49 @@
+/*  phpBB3 Style Sheet
+    --------------------------------------------------------------
+	Style name:			PBWoW 3 Pandaria
+	Based on style:		PBWoW 3
+	Original author:	PayBas ( http://pbwow.com/ )
+    --------------------------------------------------------------
+*/
+
+body {
+	background-image: url("./images/bg.jpg");
+	background-color: #020b10;
+	background-position: 49.999% -110px;
+}
+
+body.topbar {
+	background-position: 49.999% -69px;
+}
+
+.headerbar {
+	min-height: 300px;
+}
+
+.navblock {
+	background: rgba(0,0,0,0.80);
+}
+
+#video-element {
+	background-image: none;
+	position: absolute;
+	top: -109px;
+	left: -688px;
+}
+
+/* =Media queries
+-------------------------------------------------------------- */
+
+@media only screen and (max-width: 999px), only screen and (max-device-width: 999px)
+{
+	body {
+		background-image: url("./images/bg-small.jpg");
+	}
+}
+
+@media only screen and (min-width: 1000px), only screen and (min-device-width: 1000px)
+{
+	#logo {
+		margin-top: 20px !important;
+	}
+}

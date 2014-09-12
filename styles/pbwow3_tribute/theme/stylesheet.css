@@ -1,0 +1,55 @@
+/*  phpBB3 Style Sheet
+    --------------------------------------------------------------
+	Style name:			PBWoW 3 Tribute
+	Based on style:		PBWoW 3
+	Original author:	PayBas ( http://pbwow.com/ )
+    --------------------------------------------------------------
+*/
+
+body {
+	background-image: url("./images/tribute2.jpg");
+}
+
+.headerbar {
+	min-height: 255px;
+}
+
+.navblock { 
+	background: rgba(0,0,0,0.75);
+}
+
+#video-element1 {
+	background-image: none;
+	position: absolute;
+	top: 144px;
+	right: 499px;
+}
+#video-element2 {
+	background-image: none;
+	position: absolute;
+	top: 160px;
+	left: 427px;
+}
+#video-element3 {
+	background-image: none;
+	position: absolute;
+	top: -73px;
+	left: -259px;
+}
+
+/* =Media queries
+-------------------------------------------------------------- */
+
+@media only screen and (max-width: 999px), only screen and (max-device-width: 999px)
+{
+	body {
+		background-image: url("./images/tribute2-small.jpg");
+	}
+}
+
+@media only screen and (min-width: 1000px), only screen and (min-device-width: 1000px)
+{
+	#logo {
+		margin-top: 20px !important;
+	}
+}

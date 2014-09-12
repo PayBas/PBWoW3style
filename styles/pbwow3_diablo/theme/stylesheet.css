@@ -1,0 +1,412 @@
+/*  phpBB3 Style Sheet
+    --------------------------------------------------------------
+	Style name:			PBWoW 3 Diablo
+	Based on style:		PBWoW 3
+	Original author:	PayBas ( http://pbwow.com/ )
+    --------------------------------------------------------------
+*/
+
+/* Header & main body
+--------------------------------------------- */
+body {
+	background-image: url("./images/bg.jpg");
+	background-position: 50% -10px;
+}
+
+body.topbar {
+	background-position: 50% 31px;
+}
+
+.headerbar {
+	background: url("./images/forumliner-top.png") no-repeat 50% 100%;
+}
+
+#logo {
+	margin: -15px 0 0 -10px;
+}
+
+.imageset.site_logo {
+	background: url("./images/logo.png") no-repeat 50% 0;
+	background-size: 100% 100%;
+	width: 310px;
+	height: 241px;
+}
+
+.navblock { 
+	background-color: rgba(0,0,0,0.75);
+}
+
+.navblock, .navblock > .inner {
+	border-radius: 0;
+}
+
+#page-body {
+	background: #000;
+	background: url("./images/border-bot-left.gif") no-repeat 0 100%,
+				url("./images/border-bot-right.gif") no-repeat 100% 100%,
+				url("./images/border-top-right.gif") no-repeat 100% 0,
+				url("./images/border-top-left.gif") no-repeat 0 0,
+				url("./images/border-bot.gif") repeat-x 0 100%,
+				url("./images/border-top.gif") repeat-x 0 0,
+				url("./images/border-right.gif") repeat-y 100% 0,
+				url("./images/border-left.gif") repeat-y 0 0,
+	rgba(0,0,0,0.85);
+}
+#page-body:before {
+	box-shadow: 0 0 12px 6px rgba(0,0,0,0.6);
+}
+
+
+/* Links, arrows & text
+--------------------------------------------- */
+@font-face {
+    font-family: "Exocet Blizzard";
+    src:url("fonts/exocet-blizzard-medium.eot?#iefix") format("embedded-opentype"),
+		url("fonts/exocet-blizzard-medium.woff") format("woff"),
+		url("fonts/exocet-blizzard-medium.ttf") format("truetype"),
+		url("fonts/exocet-blizzard-medium.svg#svgExocetReaper") format("svg");
+}
+@font-face {
+    font-family: "Exocet Blizzard Light";
+    src:url("fonts/exocet-blizzard-light.eot?#iefix") format("embedded-opentype"),
+		url("fonts/exocet-blizzard-light.woff") format("woff"),
+		url("fonts/exocet-blizzard-light.ttf") format("truetype"),
+		url("fonts/exocet-blizzard-light.svg#svgExocetReaper") format("svg");
+}
+/*@font-face {
+    font-family: "Exocet Blizzard Heavy";
+    src:url("fonts/exocet-blizzard-heavy.eot?#iefix") format("embedded-opentype"),
+		url("fonts/exocet-blizzard-heavy.woff") format("woff"),
+		url("fonts/exocet-blizzard-heavy.ttf") format("truetype"),
+		url("fonts/exocet-blizzard-heavy.svg#svgExocetReaper") format("svg");
+}
+@font-face {
+    font-family: "Exocet Reaper";
+    src:url("fonts/exocet-reaper-medium.eot?#iefix") format("embedded-opentype"),
+		url("fonts/exocet-reaper-medium.woff") format("woff"),
+		url("fonts/exocet-reaper-medium.ttf") format("truetype"),
+		url("fonts/exocet-reaper-medium.svg#svgExocetReaper") format("svg");
+}
+@font-face {
+    font-family: "Exocet Reaper Light";
+    src:url("fonts/exocet-reaper-light.eot?#iefix") format("embedded-opentype"),
+		url("fonts/exocet-reaper-light.woff") format("woff"),
+		url("fonts/exocet-reaper-light.ttf") format("truetype"),
+		url("fonts/exocet-reaper-light.svg#svgExocetReaper") format("svg");
+}
+@font-face {
+    font-family: "Open Sans";
+    src:url("fonts/OpenSans-Regular.eot?#iefix") format("embedded-opentype"),
+		url("fonts/OpenSans-Regular.woff") format("woff");
+}*/
+
+a 			{ color: #6F9CA2; }
+a:hover 	{ color: #BEDDDD; }
+a:active	{ color: #AD835A; }
+
+a.topictitle,			a.forumtitle		{ color: #AD835A; }
+a.topictitle:hover,		a.forumtitle:hover	{ color: #FFFFFF; }
+a.topictitle:active,	a.forumtitle:active	{ color: #00D8FF; }
+
+.postprofile a, .postprofile dt.author a {
+	color: #AD835A;
+}
+
+h2 {
+	font-family: "Exocet Blizzard Light","Palatino Linotype",Times,serif;
+}
+
+.content h2, .panel h2 {
+	color: #6F9CA2;
+	font-size: 1.8em;
+}
+
+.postlink {
+	border-bottom-color: #555555;
+}
+
+
+/* Search box
+--------------------------------------------- */
+#search-box {
+	background: url("./images/forumliner-top-left.png") 100% 0;
+	width: auto;
+	height: 40px;
+	padding: 0 70px 0 16px;
+}
+#search-box:before {
+	background: url("./images/forumliner-top-left-end.png") no-repeat 0 0;
+	height: 40px;
+	width: 16px;
+	left: 0;
+	top: 0;
+}
+#search-box #keywords {
+	height: 24px;
+	margin: 12px 0 0 0;
+	border-color: #5F6670;
+}
+#search-box a.button {
+	background: url("./images/advanced-search.png") no-repeat 0 0;
+	position: relative;
+	display: inline-block;
+	top: inherit;
+	left: inherit;
+	width: 24px;
+	height: 24px;
+	margin: 11px 0 0 3px;
+}
+#search-box button.search-icon {
+	height: auto;
+	width: auto !important;
+	padding: 4px 6px;
+	margin: 12px 0 0 2px;
+	border: 1px solid #666;
+	border-radius: 2px;
+	background-color: #1a1a1a;
+	background-image: none;
+	background-image: linear-gradient(to top, #1a1a1a, #3a3a3a);
+	box-shadow: inset 0 0 2px 1px #1a1a1a, 0 2px 5px 1px rgba(0,0,0,0.5);
+	
+	font-family: "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	line-height: 14px;
+	text-shadow: 1px 2px 1px rgba(0,0,0,0.6);
+	text-transform: none;
+	color: #DDD;
+}
+#search-box button.search-icon:hover {
+	border: 1px solid #00C0FF;
+	background-position: 0 100%;
+	box-shadow: 0 0 2px 1px rgba(255,255,255,0.3);
+	color: #FFF;
+}
+
+
+/* Breadcrumbs & Navlinks
+--------------------------------------------- */
+#body-header {
+	background: url("./images/breadcrumb.jpg") repeat-x 0 0;
+	min-height: 47px;
+}
+#body-header:before, #body-header.no-search:before {
+	background: url("./images/forumliner-fix-left.png") no-repeat 100% 0;
+	width: 111px;
+	height: 75px;
+	margin-left: -99px;
+	top: -15px;
+}
+#body-header:after {
+	background: url("./images/forumliner-fix-right.png") no-repeat 0 0;
+	width: 110px;
+	height: 75px;
+	margin-right: -98px;
+	top: -15px;
+}
+
+#body-header ul.linklist {
+	padding: 6px 25px;
+}
+
+#body-header .crumb a {
+	color: #828E93;
+}
+#body-header .crumb a:hover {
+	color: #FFF;
+}
+#body-header .crumb a:before {
+	border-color: #555;
+}
+#body-header .crumb a:hover:before {
+	border-color: #6F9CA2;
+}
+
+
+/* Index & forum lists
+--------------------------------------------- */
+.forabg dd.forum-stats, .forabg dd.redirect, .forabg dd.mcp-status, #recent-topics dd.lastpost {
+	color: #6A5336;
+}
+ul.forums dl:hover {
+	border-color: #999;
+}
+
+.collapse-box h2,
+.stat-block h3 {
+	font-family: "Exocet Blizzard","Palatino Linotype",Times,serif;
+	font-size: 24px;
+	font-size: 2.4rem;
+}
+.collapse-box h2 a[href="#"]:before,
+.stat-block h3 a[href="#"]:before {
+	font-size: 0.7em;
+}
+
+
+/* Buttons
+--------------------------------------------- */
+.button:hover,
+.dropdown-visible .dropdown-select,
+.dropdown-visible .dropdown-select:hover,
+.nojs .dropdown-container:hover .dropdown-select {
+	background-color: #2061d2;
+	background-image: linear-gradient(to bottom, #a11213 0%, #731510 50%, #600704 51%, #490503 100%);
+	border-color: #cb0101;
+	text-shadow: 0 0 4px rgba(255,255,255,0.5);
+	box-shadow: 0 1px 7px 0 rgba(0,0,0,0.5), inset 0 1px 3px 0 rgba(255,7,0,0.3);
+	color: #FFF !important;
+}
+
+.dropdown-select:hover:after,
+.dropdown-visible .dropdown-select:after,
+.nojs .dropdown-container:hover .dropdown-select:after {
+	border-color: #a11213;
+}
+
+.inputbox:hover, .inputbox:focus {
+	border-color: #cb0101;
+}
+
+
+/* Pagination
+--------------------------------------------- */
+.pagination li a, .pagination li span {
+	border-radius: 0;
+}
+
+.pagination li.active span {
+	background-color: #0F1113;
+	border-color: #ad835a;
+}
+.pagination li.active span:hover {
+	background-color: #ad835a;
+	border-color: #ad835a;
+}
+
+.pagination li a {
+	color: #ad835a;
+	border-color: #5f6670;
+	background-color: #0F1113;
+}
+.pagination li a:hover,
+.pagination .active a:hover, 
+.pagination .dropdown-visible a.dropdown-trigger, 
+.nojs .pagination .dropdown-container:hover a.dropdown-trigger {
+	box-shadow: 0 0 3px 1px rgba(0,192,255,0.7);
+	color: #FFF;
+}
+
+
+/* Quick-reply
+--------------------------------------------- */
+#qr_postform .panel {
+	position: relative;
+}
+#qr_postform .panel:before,
+#qr_postform .panel:after {
+	content: "";
+	position: absolute;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+#qr_postform .panel:before {
+	background: url("./images/deco.png") 50% 0 no-repeat;
+	height: 45px;
+	width: 432px;
+	bottom: -24px;
+}
+#qr_postform .panel:after {
+	background: url("./images/skull.png") 50% 0 no-repeat;
+	height: 90px;
+	width: 60px;
+	bottom: -54px;
+}
+#qr_postform .panel:hover:after {
+	background-position: 50% -100px;
+}
+
+
+/* Drop-down menus
+--------------------------------------------- */
+.postprofile .context .user-icons a {
+	background-image: url("./images/context.gif");
+}
+
+
+/* Top-bar (custom)
+--------------------------------------------- */
+#top-bar a {
+	color: #BEDDDD;
+}
+#top-bar a:hover, #top-bar a:active {
+	color: #FFF;
+}
+
+
+/* Miscellaneous styles
+--------------------------------------------- */
+#container .boardrules-header {
+	font-family: "Exocet Blizzard Light","Palatino Linotype",Times,serif;
+}
+
+div#phpbb_announcement:hover {
+	border-color: #999;
+}
+
+#video-container {
+	background: url("./videos/malthael.jpg") no-repeat 49.999% 0;
+	height: 822px;
+	width: 2000px;
+}
+#video-border {
+	background: url("./images/section-border.png") repeat-x 0 0;
+	box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.5);
+	top: 820px;
+	height: 17px;
+}
+
+	
+
+/* =Media queries
+-------------------------------------------------------------- */
+@media screen and (max-width: 700px), only screen and (max-device-width: 700px)
+{
+	#page-body {
+		background: url("./images/border-bot.gif") repeat-x 0 100%,
+					url("./images/border-top.gif") repeat-x 0 0,
+					rgba(0,0,0,0.85) !important;
+	}
+	
+	#body-header ul.linklist {
+		padding: 6px 10px !important;
+	}
+}
+
+@media screen and (max-width: 859px), only screen and (max-device-width: 859px)
+{
+	.imageset.site_logo {
+		width: 248px;
+		height: 192px;
+	}
+}
+
+@media screen and (max-width: 999px), only screen and (max-device-width: 999px)
+{
+	body {
+		background-image: url("./images/bg-small.jpg");
+		background-position: 50% -10px;
+	}
+	#body-header:before, #body-header:after {
+		width: 12px;
+		margin: 0;
+	}
+}
+
+@media screen and (min-width: 1000px), only screen and (max-device-width: 1000px)
+{
+	#wrapper {
+		min-height: 850px;
+	}
+}

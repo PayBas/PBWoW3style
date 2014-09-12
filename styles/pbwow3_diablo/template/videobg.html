@@ -1,0 +1,23 @@
+<script type="text/javascript">
+jQuery(function($) {
+	'use strict';
+
+	if($(window).width() >= 1000) {
+
+		var v = '<video id="video-element" preload="auto" autoplay="true" loop="loop">';
+		v += '<source src="{T_THEME_PATH}/videos/malthael.mp4" type="video/mp4">';
+		v += '<source src="{T_THEME_PATH}/videos/malthael.webm" type="video/webm">';
+		v += '</video>';
+		v += '<div id="video-border"></div>';
+
+		$("#video-container").html(v);
+		$("#video-container video").on("canplaythrough", function(){
+			if ($(this).css("opacity") != 1) {
+				$(this).delay(100).fadeTo(4000,1);
+			}
+		});
+	} else {
+		$("#video-background").hide();
+	}
+}); 
+</script>

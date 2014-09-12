@@ -1,0 +1,220 @@
+/* Recent Topics
+--------------------------------------------- */
+#recent-topics {
+	border-top-color: #1D3F62;
+}
+
+#recent-topics li.row {
+	border-bottom-color: #172040;
+}
+
+#recent-topics li.row:hover {
+	background-color: rgba(34, 49, 84, 0.25);
+}
+
+#recent-topics a.forum-link {
+	color: #3d6f95;
+}
+
+/* Breadcrumb Menu
+--------------------------------------------- */
+#breadcrumb-menu .dropdown .pointer {
+	border-color: #5F3572 transparent;
+}
+
+#breadcrumb-menu .dropdown .pointer-inner {
+	bottom: -11px;
+}
+
+#breadcrumb-menu .dropdown-up .pointer-inner {
+	bottom: auto;
+	top: -11px;
+}
+
+#breadcrumb-menu .dropdown-contents {
+	border: 1px solid #5F3572;
+	box-shadow: none;
+}
+
+#breadcrumb-menu .dropdown li {
+	border-color: #282828;
+}
+
+#breadcrumb-menu .dropdown-contents a {
+	color: #48CCFF;
+}
+
+#breadcrumb-menu .dropdown-contents a:hover {
+	background-color: rgba(29, 63, 98, 0.3);
+	color: #FFF;
+}
+
+#breadcrumb-menu li.children > a:before {
+	color: #0096B7;
+}
+
+#breadcrumb-menu li.children > a:hover:before {
+	color: #FFF;
+}
+
+#breadcrumb-menu li.current > a {
+	color: #FFF;
+}
+
+/* Board Rules
+--------------------------------------------- */
+.mini-panel {
+	background-color: rgba(0, 0, 0, 0.4);
+	background-image: linear-gradient(rgba(161, 139, 175, 0.45), rgba(161, 139, 175, 0.14)), linear-gradient(rgba(161, 139, 175, 0.45), rgba(161, 139, 175, 0.14));
+	background-position: 0 0px, 100% 0;
+	background-repeat: no-repeat;
+	background-size: 1px 100%;
+	border: none;
+	border-bottom: 1px solid rgba(161, 139, 175, 0.14);
+	border-top: 1px solid rgba(161, 139, 175, 0.45);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+}
+
+ul.menu li {
+	border-color: #172040;
+}
+
+/* Board Announcements
+--------------------------------------------- */
+#phpbb_announcement {
+	background-clip: border-box;
+	background-origin: padding-box;
+	background-color: rgba(0, 0, 0, 0.5);
+	background-image: linear-gradient(rgba(0, 167, 255, 0.5), rgba(0, 91, 139, 0.5)), linear-gradient(rgba(0, 167, 255, 0.5), rgba(0, 91, 139, 0.5));
+	background-position: 100% 0px, 0 0;
+	background-repeat: no-repeat;
+	background-size: 4px 100%;
+	border-width: 4px 0;;
+	border-bottom-color: rgba(0, 91, 139, 0.5);
+	border-top-color: rgba(0, 167, 255, 0.5);
+	box-shadow: none;
+	color: #00a7ff;
+	padding: 14px 16px;
+	transition: none;
+}
+
+#phpbb_announcement:hover {
+	background-image: linear-gradient(#73CFFF, #007CBD), linear-gradient(#73CFFF, #007CBD);
+	border-bottom-color: #007CBD;
+	border-top-color: #73CFFF;
+	box-shadow: 0 0 20px 0 rgba(0, 156, 255, 0.3);
+}
+
+#phpbb_announcement .close {
+	transition: none !important;
+}
+
+#phpbb_announcement .close:before {
+	color: #FFF;
+}
+
+/* Lightbox
+--------------------------------------------- */
+.lb-outerContainer {
+	background-color: #000 !important;
+	border: 2px solid rgb(62, 7, 98) !important;
+	border-radius: 0 !important;
+	box-shadow: 0 0 6em 1em rgb(33, 3, 53) !important;
+}
+
+.lb-container {
+	padding: 0 !important;
+}
+
+.lightbox .lb-image {
+	border-radius: 0 !important;
+}
+
+/* Quick Login
+--------------------------------------------- */
+#quick-login-panel {
+	background: #050a14;
+	background-clip: border-box;
+	background-origin: border-box;
+	background-color: rgba(5, 10, 20, 0.9);
+	background-image: linear-gradient(#73CFFF, #007CBD), linear-gradient(#73CFFF, #007CBD), url("./images/particles.png");
+	background-position: 100% 0px, 0 0, 200px 100%;
+	background-repeat: no-repeat;
+	background-size: 5px 100%, 5px 100%, auto auto;
+	border: none;
+	border-bottom: 5px solid #007CBD;
+	border-top: 5px solid #73CFFF;
+	border-radius: 0;
+	color: #8EB1BC;
+	box-shadow: 0 0 20px 0 rgba(0, 156, 255, 0.4);
+}
+
+#quick-login-panel .content {
+	border: none;
+	box-shadow: none;
+}
+
+#quick-login-panel dd {
+	background: none !important;
+}
+
+#quick-login-panel dt {
+	font-family: "exo", "Myriad Pro", Myriad, Arial, sans-serif;
+	font-size: 1em;
+	font-weight: normal;
+	top: 0;
+	left: 20%;
+}
+
+#quick-login-panel input.inputbox {
+	margin: 13px 0 0 22px;
+	width: 191px !important;
+	height: 22px;
+	border-radius: 0;
+}
+
+/* mChat MOD (TODO for future)
+--------------------------------------------- */
+.section-mchat #body-content {
+	background: url("./images/particles.png") 100% 101% no-repeat;
+	background-clip: border-box;
+	background-origin: border-box;
+}
+.index-extra.solo div.block {
+	padding: 0;
+	background: none;
+}
+div.chatbox1 {
+	background: none;
+	padding: 4px 6px;
+
+	border: none;
+	border-radius: 0;
+	border-top: 2px solid #43286B;
+	border-bottom: 2px solid #14324E;
+	background-image: linear-gradient(#43286B, #14324E), linear-gradient(#43286B, #14324E);
+	background-size: 2px 100%;
+	background-position: 100% 0, 0 0;
+	background-repeat: no-repeat;
+}
+div.chatbox2 {
+	border: none;
+}
+#mChatmain {
+	border: none;
+	background: #060b10;
+	background: rgba(6, 11, 16, 0.5);
+	padding: 0;
+}
+div.mChatBG1, div.mChatBG2 {
+	background: none;
+	border-color: #172040 transparent transparent transparent;
+}
+div.mChatBG1:hover, div.mChatBG2:hover {
+	background-color: #0e202c;
+	background-color: rgba(34, 49, 84, 0.25);
+	color: #FFF;
+}
+div.mChatBG1 span, div.mChatBG2 span {
+	color: #224967;
+}

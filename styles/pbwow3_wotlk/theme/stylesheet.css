@@ -1,0 +1,135 @@
+/*  phpBB3 Style Sheet
+    --------------------------------------------------------------
+	Style name:			PBWoW 3 Wrath of the Lich King
+	Based on style:		PBWoW 3
+	Original author:	PayBas ( http://pbwow.com/ )
+    --------------------------------------------------------------
+*/
+
+body {
+	background-color: #050a12;
+	background-image: url("./images/bg.jpg");
+}
+
+.headerbar {
+	background-image: url("./images/forumliner-top.png");
+}
+
+#logo {
+	margin-top: 20px;
+}
+
+.imageset.site_logo {
+	background: url("./images/logo.png") no-repeat 50% 0;
+	width: 262px;
+	height: 134px;
+	background-size: 100% 100%;
+}
+
+.navblock { 
+	background: rgba(0,0,0,0.8);
+}
+
+#page-body {
+	background: #000;
+	background: url("./images/border-bot-left.gif") no-repeat 0 100%,
+				url("./images/border-bot-right.gif") no-repeat 100% 100%,
+				url("./images/border-top-right.gif") no-repeat 100% 0,
+				url("./images/border-top-left.gif") no-repeat 0 0,
+				url("./images/border-bot.gif") repeat-x 0 100%,
+				url("./images/border-top.gif") repeat-x 0 0,
+				url("./images/border-right.gif") repeat-y 100% 0,
+				url("./images/border-left.gif") repeat-y 0 0,
+	rgba(0,0,0,0.85);
+}
+#page-body:before {
+	box-shadow: 0 0 12px 6px rgba(0,0,0,0.6);	
+}
+
+a, a.topictitle, a.forumtitle { color: #f2c56e; }
+
+/* Body-top */
+
+#body-header 					{ background-image: url("./images/grey-bar-wide.gif"); }
+#body-header:before 			{ background-image: url("./images/forumliner-fix-left1.gif"); }
+#body-header.no-search:before 	{ background-image: url("./images/forumliner-fix-left2.gif"); }
+#body-header:after 				{ background-image: url("./images/forumliner-fix-right2.gif"); }
+
+#search-box {
+	background-image: url("./images/forumliner-top-left.gif");
+	width: 422px;
+}
+#search-box:before 				{ background-image: url("./en/forum-menu-quicksearch.gif"); }
+#search-box a.button			{ background-image: url("./en/forum-menu-advanced-search.gif"); }
+#search-box button.search-icon 	{ background-image: url("./en/forum-menu-search.gif"); }
+
+
+#top-bar {
+	background: url("./images/bar-bg.jpg") no-repeat scroll 50% 100% #122134;
+	border-bottom-color: #214463;
+}
+#top-bar > .inner {
+	border-right-color: #10283b;
+	border-left-color: #011323;
+}
+#top-bar .linklist > li {
+	border-left: 1px solid #10283b;
+	border-right-color: #011323;
+}
+
+/* Index */
+#recent-topics a.forum {
+	color: #AD835A;
+}
+#recent-topics dd.topic-stats {
+	color: #41434a;
+}
+
+/* Extras */
+.post:hover .innerborder2, .poll:hover .innerborder2 { 
+	box-shadow: 0 0 3px 2px rgba(168,191,203, 0.6);
+}
+
+.postlink {
+	border-bottom-color: #8C6407;
+}
+
+#video-element1 {
+	background-image: none;
+	position: absolute;
+	top: 144px;
+	right: 499px;
+}
+
+
+/* =Media queries
+-------------------------------------------------------------- */
+
+@media screen and (max-width: 700px), only screen and (max-device-width: 700px)
+{
+	#page-body {
+		background: url("./images/border-bot.gif") repeat-x 0 100%,
+					url("./images/border-top.gif") repeat-x 0 0,
+					rgba(0,0,0,0.85) !important;
+	}
+}
+
+@media screen and (max-width: 859px), only screen and (max-device-width: 859px)
+{
+	#logo {
+		margin-top: 10px;
+	}
+
+	.imageset.site_logo {
+		width: 210px;
+		height: 107px;
+	}
+}
+
+@media only screen and (max-width: 999px), only screen and (max-device-width: 999px)
+{
+	body {
+		background-image: url("./images/bg-small.jpg");
+	}
+}
+

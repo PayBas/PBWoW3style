@@ -1,0 +1,27 @@
+/*  This file is required because of a bug/limitation of phpBB 3.1.
+ *	More info: https://tracker.phpbb.com/browse/PHPBB3-11727
+ */
+
+body {
+	background-image: url("./images/global-bg.jpg");
+}
+
+#page-body {
+	background-color: #060b10;
+	background-color: rgba(11,1,22,0.7);
+	background-image: linear-gradient(rgba(59, 31, 78, 0.5), rgba(0, 216, 255, 0.5)), linear-gradient(rgba(59, 31, 78, 0.5), rgba(0, 216, 255, 0.5));
+	background-size: 1px 100%;
+	background-position: 100% 0, 0 0;
+	background-repeat: no-repeat;
+}
+#page-body:before, #page-body:after {
+	margin-left: -5px;
+}
+
+#body-header ul.navlinks {
+	padding: 7px 10px;
+}
+
+.post-container, #qr_postform, .topic_poll .panel {
+	margin: 0 -4px;
+}

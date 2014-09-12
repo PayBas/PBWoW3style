@@ -1,0 +1,60 @@
+/*  phpBB3 Style Sheet
+    --------------------------------------------------------------
+	Style name:			PBWoW 3 Warlords
+	Based on style:		PBWoW 3
+	Original author:	PayBas ( http://pbwow.com/ )
+    --------------------------------------------------------------
+*/
+
+body {
+	background-color: #100806;
+	background-image: url("./images/bg.jpg");
+}
+
+.headerbar {
+	min-height: 240px;
+}
+
+#logo {
+	margin-left: 0;
+}
+
+.imageset.site_logo {
+	background: url("./images/logo-small.png") no-repeat 50% 50%;
+	width: 330px;
+	height: 178px;
+	background-size: 100% 100%;
+}
+
+.navblock { 
+	background-color: rgba(0,0,0,0.8);
+}
+
+#page-body {
+	background-color: rgba(0,0,0,0.85);
+}
+#page-body:before {
+	box-shadow: 0 0 12px 7px rgba(10,6,4,0.7);
+}
+
+#video-container {
+	width: 1920px;
+}
+
+/* =Media queries
+-------------------------------------------------------------- */
+
+@media screen and (max-width: 859px), only screen and (max-device-width: 859px)
+{
+	.imageset.site_logo {
+		width: 264px;
+		height: 142px;
+	}
+}
+
+@media only screen and (max-width: 999px), only screen and (max-device-width: 999px)
+{
+	body {
+		background-image: url("./images/bg-small.jpg");
+	}
+}

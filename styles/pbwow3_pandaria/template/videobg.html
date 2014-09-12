@@ -1,0 +1,26 @@
+<script type="text/javascript">
+jQuery(function($) {
+	'use strict';
+
+	if($(window).width() >= 1100)
+	{
+		var v = '<video id="video-element" preload="auto" autoplay="true" loop="loop">';
+		v += '<source src="{T_THEME_PATH}/videos/mists.mp4" type="video/mp4">';
+		v += '<source src="{T_THEME_PATH}/videos/mists.webm" type="video/webm">';
+		v += '</video>';
+
+		$("#video-container").html(v);
+		$("#video-container video").on("canplaythrough", function()
+		{
+			if ($(this).css("opacity") != 1)
+			{
+				$(this).delay(100).fadeTo(4000,1);
+			}
+		});
+	}
+	else
+	{
+		$("#video-background").hide();
+	}
+});
+</script>

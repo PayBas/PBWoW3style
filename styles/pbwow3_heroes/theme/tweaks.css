@@ -1,0 +1,59 @@
+/*  This file is required because of a bug/limitation of phpBB 3.1.
+ *	More info: https://tracker.phpbb.com/browse/PHPBB3-11727
+ */
+
+/* Heroes of the Storm IE8 & IE9 style specific markup */
+
+.navblock {
+	border: 3px solid #43286B;
+	border-top: none;
+}
+
+.wow-post-frame2,
+.wow-poll-box1 {
+	border: 3px solid #43286B;
+}
+
+
+.wow-topics .innerborder1,
+table.table1,
+ul.cplist,
+div.chatbox1 {
+	border: 2px solid #43286B;
+}
+
+table.table1, ul.cplist {
+	padding: 0;
+}
+
+
+.wow-index .subforums-menu,
+#topic_preview {
+	border: 1px solid #8d66c6;
+}
+
+.panel, #cp-main .panel, #cp-main .pm {
+	border: 1px solid #14324E;
+}
+
+.wow-topics div.rules dl, .section-posting div.rules dl {
+	border: 2px solid #AA1155;
+	padding: 0;
+}
+
+.wow-topics div.rules dt, .section-posting div.rules dt {
+	background: #401;
+}
+
+#quick-login-panel {
+	border: 5px solid #43286B;
+}
+
+p.rules {
+	border: 2px solid #FF0028;
+}
+
+
+#navigation #active-subsection a {
+	background: #0e1721;
+}

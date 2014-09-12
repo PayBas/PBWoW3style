@@ -1,0 +1,102 @@
+/* Game Icons for PBWoW */
+
+/* === WoW === */
+/*.game-icon.icon-a { }  default and missing value */
+.game-icon-a .icon-wow-1			{ background-image: url("./images/icons/wow/race_human_male.jpg"); }
+.game-icon-a .icon-wow-1.female		{ background-image: url("./images/icons/wow/race_human_female.jpg"); }
+.game-icon-a .icon-wow-2			{ background-image: url("./images/icons/wow/race_orc_male.jpg"); }
+.game-icon-a .icon-wow-2.female		{ background-image: url("./images/icons/wow/race_orc_female.jpg"); }
+.game-icon-a .icon-wow-3			{ background-image: url("./images/icons/wow/race_dwarf_male.jpg"); }
+.game-icon-a .icon-wow-3.female		{ background-image: url("./images/icons/wow/race_dwarf_female.jpg"); }
+.game-icon-a .icon-wow-4			{ background-image: url("./images/icons/wow/race_night-elf_male.jpg"); }
+.game-icon-a .icon-wow-4.female		{ background-image: url("./images/icons/wow/race_night-elf_female.jpg"); }
+.game-icon-a .icon-wow-5			{ background-image: url("./images/icons/wow/race_undead_male.jpg"); }
+.game-icon-a .icon-wow-5.female		{ background-image: url("./images/icons/wow/race_undead_female.jpg"); }
+.game-icon-a .icon-wow-6			{ background-image: url("./images/icons/wow/race_tauren_male.jpg"); }
+.game-icon-a .icon-wow-6.female		{ background-image: url("./images/icons/wow/race_tauren_female.jpg"); }
+.game-icon-a .icon-wow-7			{ background-image: url("./images/icons/wow/race_gnome_male.jpg"); }
+.game-icon-a .icon-wow-7.female		{ background-image: url("./images/icons/wow/race_gnome_female.jpg"); }
+.game-icon-a .icon-wow-8			{ background-image: url("./images/icons/wow/race_troll_male.jpg"); }
+.game-icon-a .icon-wow-8.female		{ background-image: url("./images/icons/wow/race_troll_female.jpg"); }
+.game-icon-a .icon-wow-9			{ background-image: url("./images/icons/wow/race_goblin_male.jpg"); }
+.game-icon-a .icon-wow-9.female		{ background-image: url("./images/icons/wow/race_goblin_female.jpg"); }
+.game-icon-a .icon-wow-10			{ background-image: url("./images/icons/wow/race_blood-elf_male.jpg"); }
+.game-icon-a .icon-wow-10.female	{ background-image: url("./images/icons/wow/race_blood-elf_female.jpg"); }
+.game-icon-a .icon-wow-11			{ background-image: url("./images/icons/wow/race_draenei_male.jpg"); }
+.game-icon-a .icon-wow-11.female	{ background-image: url("./images/icons/wow/race_draenei_female.jpg"); }
+.game-icon-a .icon-wow-12			{ background-image: url("./images/icons/wow/race_worgen_male.jpg"); }
+.game-icon-a .icon-wow-12.female	{ background-image: url("./images/icons/wow/race_worgen_female.jpg"); }
+.game-icon-a .icon-wow-13			{ background-image: url("./images/icons/wow/race_pandaren_male.jpg"); }
+.game-icon-a .icon-wow-13.female	{ background-image: url("./images/icons/wow/race_pandaren_female.jpg"); }
+
+/*.game-icon.icon-b { }  default and missing value */
+.game-icon-b .icon-wow-1 	{ background-image: url("./images/icons/wow/class_warrior.jpg"); }
+.game-icon-b .icon-wow-2 	{ background-image: url("./images/icons/wow/class_paladin.jpg"); }
+.game-icon-b .icon-wow-3 	{ background-image: url("./images/icons/wow/class_hunter.jpg"); }
+.game-icon-b .icon-wow-4 	{ background-image: url("./images/icons/wow/class_rogue.jpg"); }
+.game-icon-b .icon-wow-5 	{ background-image: url("./images/icons/wow/class_priest.jpg"); }
+.game-icon-b .icon-wow-6 	{ background-image: url("./images/icons/wow/class_death-knight.jpg"); }
+.game-icon-b .icon-wow-7 	{ background-image: url("./images/icons/wow/class_shaman.jpg"); }
+.game-icon-b .icon-wow-8 	{ background-image: url("./images/icons/wow/class_mage.jpg"); }
+.game-icon-b .icon-wow-9 	{ background-image: url("./images/icons/wow/class_warlock.jpg"); }
+.game-icon-b .icon-wow-10	{ background-image: url("./images/icons/wow/class_monk.jpg"); }
+.game-icon-b .icon-wow-11	{ background-image: url("./images/icons/wow/class_druid.jpg"); }
+
+/*.game-icon.icon-c { }  default and missing value */
+.game-icon-c .icon-wow-1 	{ background-image: url("./images/icons/wow/faction_1.gif"); }
+.game-icon-c .icon-wow-2	{ background-image: url("./images/icons/wow/faction_2.gif"); }
+.game-icon-c .icon-wow-3	{ background-image: url("./images/icons/wow/faction_3.gif"); }
+
+
+/* === Diablo === */
+.game-icon-a .icon-diablo-1			{ background-image: url("./images/icons/diablo/barbarian_male.png"); }
+.game-icon-a .icon-diablo-1.female	{ background-image: url("./images/icons/diablo/barbarian_female.png"); }
+.game-icon-a .icon-diablo-2			{ background-image: url("./images/icons/diablo/demonhunter_male.png"); }
+.game-icon-a .icon-diablo-2.female	{ background-image: url("./images/icons/diablo/demonhunter_female.png"); }
+.game-icon-a .icon-diablo-3			{ background-image: url("./images/icons/diablo/monk_male.png"); }
+.game-icon-a .icon-diablo-3.female	{ background-image: url("./images/icons/diablo/monk_female.png"); }
+.game-icon-a .icon-diablo-4			{ background-image: url("./images/icons/diablo/witchdoctor_male.png"); }
+.game-icon-a .icon-diablo-4.female	{ background-image: url("./images/icons/diablo/witchdoctor_female.png"); }
+.game-icon-a .icon-diablo-5			{ background-image: url("./images/icons/diablo/wizard_male.png"); }
+.game-icon-a .icon-diablo-5.female	{ background-image: url("./images/icons/diablo/wizard_female.png"); }
+.game-icon-a .icon-diablo-6			{ background-image: url("./images/icons/diablo/crusader_male.png"); }
+.game-icon-a .icon-diablo-6.female	{ background-image: url("./images/icons/diablo/crusader_female.png"); }
+
+.game-icon-b .icon-diablo-1 { background-image: url("./images/icons/diablo/templar.png"); }
+.game-icon-b .icon-diablo-2 { background-image: url("./images/icons/diablo/scoundrel.png"); }
+.game-icon-b .icon-diablo-3 { background-image: url("./images/icons/diablo/enchantress.png"); }
+
+
+/* === Heroes of the Storm === */
+.game-icon-a .icon-hots-1 {	background-image: url("./images/icons/hots/pony.png"); }
+.game-icon-a .icon-hots-2 {	background-image: url("./images/icons/hots/dono.png"); }
+.game-icon-a .icon-hots-3 {	background-image: url("./images/icons/hots/dono.png"); }
+
+.game-icon-b .icon-hots-1 {	background-image: url("./images/icons/hots/pony.png"); }
+.game-icon-b .icon-hots-2 {	background-image: url("./images/icons/hots/dono.png"); }
+.game-icon-b .icon-hots-3 {	background-image: url("./images/icons/hots/dono.png"); }
+
+.game-icon-c .icon-hots-1 {	background-image: url("./images/icons/hots/pony.png"); }
+.game-icon-c .icon-hots-2 {	background-image: url("./images/icons/hots/dono.png"); }
+.game-icon-c .icon-hots-3 {	background-image: url("./images/icons/hots/dono.png"); }
+
+
+/* === Wildstar === */
+.game-icon-a .icon-wildstar-1 {	background-image: url("./images/icons/wildstar/race_human-exile.gif"); }
+.game-icon-a .icon-wildstar-2 {	background-image: url("./images/icons/wildstar/race_cassian.gif"); }
+.game-icon-a .icon-wildstar-3 {	background-image: url("./images/icons/wildstar/race_granok.gif"); }
+.game-icon-a .icon-wildstar-4 {	background-image: url("./images/icons/wildstar/race_draken.gif"); }
+.game-icon-a .icon-wildstar-5 {	background-image: url("./images/icons/wildstar/race_aurin.gif"); }
+.game-icon-a .icon-wildstar-6 {	background-image: url("./images/icons/wildstar/race_chua.gif"); }
+.game-icon-a .icon-wildstar-7 {	background-image: url("./images/icons/wildstar/race_mordesh.gif"); }
+.game-icon-a .icon-wildstar-8 {	background-image: url("./images/icons/wildstar/race_mechari.gif"); }
+
+.game-icon-b .icon-wildstar-1 {	background-image: url("./images/icons/wildstar/class_warrior.png"); }
+.game-icon-b .icon-wildstar-2 {	background-image: url("./images/icons/wildstar/class_esper.png"); }
+.game-icon-b .icon-wildstar-3 {	background-image: url("./images/icons/wildstar/class_spellslinger.png"); }
+.game-icon-b .icon-wildstar-4 {	background-image: url("./images/icons/wildstar/class_stalker.png"); }
+.game-icon-b .icon-wildstar-5 {	background-image: url("./images/icons/wildstar/class_medic.png"); }
+.game-icon-b .icon-wildstar-6 {	background-image: url("./images/icons/wildstar/class_engineer.png"); }
+
+.game-icon-c .icon-wildstar-1 {	background-image: url("./images/icons/wildstar/faction_exile.png"); }
+.game-icon-c .icon-wildstar-2 {	background-image: url("./images/icons/wildstar/faction_dominion.png"); }

@@ -1,0 +1,72 @@
+/* Custom CSS for PBWoW 3 Tech
+
+You can customize whatever you want.
+Some defaults are included, like on PBWoW.com
+
+Get all the FontAwesome CSS codes here: https://fortawesome.github.io/Font-Awesome/icons/
+
+*/
+
+/* Special post styles
+--------------------------------------------- */
+
+.blizz .post,
+.blizz #viewprofile .panel:first-of-type { background: #ecebea url("./images/blizz_bg.gif") no-repeat 0 0; }
+.blizz .content { color: #086d97; }
+.blizz .content strong { color: #41aef0; }
+
+.mvp .post,
+.mvp #viewprofile .panel:first-of-type { background: #dbdfda; }
+.mvp .content { color: #038515; }
+.mvp .content strong { color: #63913e; }
+
+
+/* Post profiles
+--------------------------------------------- */
+
+.blizz .postprofile .avatar { 
+	background: url("./images/avatar-tr-blizz.png") 100% 0 no-repeat, url("./images/avatar-bl-blizz.png") 0 100% no-repeat;
+}
+.blizz .postprofile .avatar img {
+	border-color: #77c1ff;
+	box-shadow: 0 0 8px rgba(1,93,255,0.5);
+}
+
+.mvp .postprofile .avatar { 
+	background: url("./images/avatar-tr-mvp.png") 100% 0 no-repeat, url("./images/avatar-bl-mvp.png") 0 100% no-repeat;
+}
+.mvp .postprofile .avatar img {
+	border-color: #79ad50;
+	box-shadow: 0 0 8px rgba(186,255,0,0.2);
+}
+
+.propass .postprofile .avatar {
+	background: url("./images/avatar-tr-propass.png") 100% 0 no-repeat, url("./images/avatar-bl-propass.png") 0 100% no-repeat;
+}
+.propass .postprofile .avatar img {
+	border-color: #f3a900;
+	box-shadow: 0 0 8px rgba(243,169,0,0.2);
+}
+
+
+/* PBWoW.com specific stuff
+--------------------------------------------- */
+
+.misc-block.advertisement {
+	border-radius: 8px;
+}
+
+.donate-button {
+	background: none;
+	height: auto;
+	width: auto;
+	padding: 10px;
+	position: relative;
+	text-align: center;
+}
+
+.donate-button:before {
+	content: 'donation button';
+	display: block;
+	font-size: 1.2em;
+}

@@ -1,0 +1,78 @@
+/*  phpBB3 Style Sheet
+    --------------------------------------------------------------
+	Style name:			PBWoW 3 WildStar
+	Based on style:		PBWoW 3
+	Original author:	PayBas ( http://pbwow.com/ )
+    --------------------------------------------------------------
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Jockey+One);
+
+body {
+	background-color: #000;
+	background-image: url("./images/bg.jpg") !important;
+	background-position: 50% 0 !important;
+}
+
+.imageset.site_logo {
+	background: url("./images/logo.png") no-repeat 50% 0;
+	width: 258px;
+	height: 44px;
+	background-size: 100% 100%;
+}
+
+#logo {
+	margin-top: 50px;
+}
+
+#top-bar {
+	background: rgba(11,13,19,0.75);
+	border-bottom-color: rgba(5,81,126,0.75);
+}
+#top-bar > .inner {
+	border: none;
+}
+#top-bar .linklist > li {
+	border: none;
+}
+#top-bar strong {
+	font-weight: normal;
+}
+
+#body-header,
+#page-body {
+	background-color: rgba(11,1,22,0.7) !important;
+}
+
+.postprofile .avatar-container {
+	background-image: url("./images/avatar-sprite.png") !important;
+}
+
+#video-background {
+	display: none;
+}
+
+h2, .collapse-box h2, .stat-block h3 {
+	letter-spacing: normal;
+	text-shadow: 0 0 14px rgba(0,156,255,0.7);
+}
+
+h2,
+.collapse-box h2,
+.stat-block h3,
+#top-bar,
+div.rules-link a,
+div.rules strong,
+.topic_poll h2,
+#quick-login-panel dt,
+#container .boardrules-header,
+.buttons div a,
+.dropdown-select,
+.topic_poll h2,
+li.header dt, li.header dd,
+table.table1 thead th,
+.button,
+a.button1, input.button1,
+a.button2, input.button2, input.button3 {
+	font-family: "Jockey One","Myriad Pro",Myriad,Arial,sans-serif;
+}

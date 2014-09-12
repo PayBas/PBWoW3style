@@ -1,0 +1,14 @@
+/* RTL definitions
+---------------------------------------- */
+
+.rtl ul.topiclist dd {
+	border: none;
+}
+
+.rtl .small-icon {
+	padding: 0;
+}
+
+.rtl ul.linklist li {
+	margin-left: 10px;
+}

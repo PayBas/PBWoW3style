@@ -1,0 +1,54 @@
+/*  phpBB3 Style Sheet
+    --------------------------------------------------------------
+	Style name:			PBWoW 3 Xmas
+	Based on style:		PBWoW 3
+	Original author:	PayBas ( http://pbwow.com/ )
+    --------------------------------------------------------------
+*/
+
+body {
+	background-color: #000;
+	background-image: url("./images/bg.jpg");
+}
+
+.imageset.site_logo {
+	background: url("./images/logo.png") no-repeat 50% 0;
+	width: 300px;
+	height: 150px;
+	background-size: 100% 100%;
+}
+
+#video-element1 {
+	background-image: none;
+	position: absolute;
+	top: 1px;
+	right: 407px;
+}
+#video-element2 {
+	background-image: none;
+	position: absolute;
+	top: 61px;
+	left: 519px;
+}
+
+/* =Media queries
+-------------------------------------------------------------- */
+
+@media screen and (max-width: 859px), only screen and (max-device-width: 859px)
+{
+	#logo {
+		margin-top: 10px;
+	}
+
+	.imageset.site_logo {
+		width: 200px;
+		height: 100px;
+	}
+}
+
+@media only screen and (max-width: 999px), only screen and (max-device-width: 999px)
+{
+	body {
+		background-image: url("./images/bg-small.jpg");
+	}
+}

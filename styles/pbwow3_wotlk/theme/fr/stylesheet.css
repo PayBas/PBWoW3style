@@ -1,0 +1,9 @@
+#search-box:before {
+	background-image: url("forum-menu-quicksearch.gif");
+}
+#search-box a.button {
+	background-image: url("forum-menu-advanced-search.gif");
+}
+#search-box button.search-icon {
+	background-image: url("forum-menu-search.gif");
+}
