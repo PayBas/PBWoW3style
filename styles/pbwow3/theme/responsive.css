@@ -188,7 +188,7 @@ fieldset.quickmod {
 fieldset.polls dt {
 	text-align: left;
 }
-fieldset.polls dd.resultbar, 
+fieldset.polls dd.resultbar,
 fieldset.polls dd.poll_option_percent {
 	margin-top: 0;
 }
@@ -222,9 +222,9 @@ body.topbar-fixed #wrap {
 	}
 }
 
-#cp-main .forabg, 
-#cp-main .forumdb, 
-#cp-main .post, 
+#cp-main .forabg,
+#cp-main .forumdb,
+#cp-main .post,
 #cp-main .panel {
 	border-radius: 0;
 }

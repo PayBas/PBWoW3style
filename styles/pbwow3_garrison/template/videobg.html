@@ -1,9 +1,8 @@
-<script type="text/javascript">
+<script>
 jQuery(function($) {
 	'use strict';
 
-	if($(window).width() >= 1300)
-	{
+	if($(window).width() >= 1300) {
 		var v = '<video id="video-element1" preload="auto" autoplay="true" loop="loop">';
 		v += '<source src="{T_THEME_PATH}/videos/left.mp4" type="video/mp4">';
 		v += '<source src="{T_THEME_PATH}/videos/left.webm" type="video/webm">';
@@ -13,17 +12,14 @@ jQuery(function($) {
 		v += '<source src="{T_THEME_PATH}/videos/right.webm" type="video/webm">';
 		v += '</video>';
 
-		$("#video-container").html(v);
-		$("#video-container video").on("canplaythrough", function()
-		{
-			if ($(this).css("opacity") != 1)
-			{
+		var $videoContainer = $('#video-container');
+		$videoContainer.html(v);
+		$videoContainer.find("video").on("canplaythrough", function() {
+			if ($(this).css("opacity") != 1) {
 				$(this).delay(100).fadeTo(4000,1);
 			}
 		});
-	}
-	else
-	{
+	} else {
 		$("#video-background").hide();
 	}
 });
