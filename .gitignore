@@ -1,0 +1,9 @@
+/styles/*
+!/styles/pbwow3*/
+*.gif
+*.jpg
+*.jpeg
+*.png
+*.mp4
+*.webm
+*.ogg
