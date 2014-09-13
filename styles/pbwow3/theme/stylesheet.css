@@ -98,7 +98,7 @@ body {
 }
 
 #site-description {
-	color: #000;
+	color: #333;
 }
 
 #site-description h1,
@@ -227,6 +227,7 @@ h1 {
 }
 
 h2 {
+	color: #F3E6D0;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 3em;
 	letter-spacing: -0.05em;
@@ -235,9 +236,10 @@ h2 {
 	text-overflow: ellipsis;
 	white-space: nowrap;
 }
-h2, h2 a { color: #F3E6D0; }
+h2 a { color: #F3E6D0; }
 h2 a:hover { color: #FFF; text-decoration: none; }
 h2 a:active { color: #00C0FF; }
+h2.solo { margin-bottom: 0.5em; }
 
 h3 {
 	border-bottom: 1px solid #444;
@@ -1372,7 +1374,7 @@ blockquote:after {
 }
 
 .signature, .notice {
-	border-top-color: #7C7C7C;
+	border-top-color: #555;
 	padding: 5px;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;

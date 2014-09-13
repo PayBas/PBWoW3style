@@ -40,9 +40,7 @@ Get all the FontAwesome CSS codes here: https://fortawesome.github.io/Font-Aweso
  * (comment-out the fields that you DO want to display)
 --------------------------------------------- */
 
-.postprofile .profile-rank,
 /*.postprofile .profile-posts, */
-.postprofile .profile-joined,
 /*.postprofile .profile-pb_wow_guild,*/
 .postprofile .profile-pb_wow_level,
 .postprofile .profile-pb_wow_race,
@@ -61,12 +59,6 @@ Get all the FontAwesome CSS codes here: https://fortawesome.github.io/Font-Aweso
 .postprofile .profile-pb_bnet_url,
 .postprofile .profile-pb_bnet_avatar {
 	display: none;
-}
-
-/* Hide/show profile fields in the context dropdown */
-.profile-context .profile-rank,
-.profile-context .profile-joined {
-	display: inherit;
 }
 
 .profile-context .profile-rank img,
@@ -92,7 +84,6 @@ Get all the FontAwesome CSS codes here: https://fortawesome.github.io/Font-Aweso
  * (example of how to apply custom CSS to special rank post layouts)
 --------------------------------------------- */
 
-.blizz .postprofile .profile-joined { display: none; }
 .blizz .content { color: #00C0FF; }
 .blizz .content strong { color: #FFF; }
 

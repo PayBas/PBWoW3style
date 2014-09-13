@@ -160,8 +160,10 @@
 			<!-- ENDIF -->
 
 			<!-- IF postrow.POSTER_JOINED --><dd class="profile-joined"><strong>{L_JOINED}{L_COLON}</strong> {postrow.POSTER_JOINED}</dd><!-- ENDIF -->
-			<!-- IF postrow.RANK_TITLE or postrow.RANK_IMG --><dd class="profile-rank">{postrow.RANK_IMG} {postrow.RANK_TITLE}</dd><!-- ENDIF -->
-			<!-- IF postrow.S_HAS_MULTIPLE_RANKS and (postrow.POSTS_RANK_TITLE or postrow.POSTS_RANK_IMG) --><dd class="profile-posts-rank">{postrow.POSTS_RANK_IMG} {postrow.POSTS_RANK_TITLE}</dd><!-- ENDIF -->
+			<!-- IF S_SMALL_RANKS -->
+				<!-- IF postrow.RANK_TITLE or postrow.RANK_IMG --><dd class="profile-rank">{postrow.RANK_IMG} {postrow.RANK_TITLE}</dd><!-- ENDIF -->
+				<!-- IF postrow.S_HAS_MULTIPLE_RANKS and (postrow.POSTS_RANK_TITLE or postrow.POSTS_RANK_IMG) --><dd class="profile-posts-rank">{postrow.POSTS_RANK_IMG} {postrow.POSTS_RANK_TITLE}</dd><!-- ENDIF -->
+			<!-- ENDIF -->
 
 
 		<!-- EVENT viewtopic_body_postrow_custom_fields_before -->

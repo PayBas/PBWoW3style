@@ -159,6 +159,12 @@ fieldset.quickmod {
 	position: static;
 }
 
+.post .postbody .content,
+#cp-main .post .content,
+#cp-main .pm .content {
+	text-align: inherit;
+}
+
 .notouch.section-viewtopic .post-buttons {
 	opacity: 1;
 }
@@ -198,6 +204,13 @@ fieldset.polls dd.resultbar {
 fieldset.polls dd.poll_option_percent {
 	width: 15%;
 	text-align: center;
+}
+
+@media only screen and (max-width: 500px), only screen and (max-device-width: 500px)
+{
+	.topic_poll p.author {
+		display: none;
+	}
 }
 
 #top-bar {
