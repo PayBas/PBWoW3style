@@ -24,7 +24,7 @@ Get all the FontAwesome CSS codes here: https://fortawesome.github.io/Font-Aweso
 /* Post profiles
 --------------------------------------------- */
 
-.blizz .postprofile .avatar { 
+.blizz .postprofile .avatar {
 	background: url("./images/avatar-tr-blizz.png") 100% 0 no-repeat, url("./images/avatar-bl-blizz.png") 0 100% no-repeat;
 }
 .blizz .postprofile .avatar img {
@@ -32,7 +32,7 @@ Get all the FontAwesome CSS codes here: https://fortawesome.github.io/Font-Aweso
 	box-shadow: 0 0 8px rgba(1,93,255,0.5);
 }
 
-.mvp .postprofile .avatar { 
+.mvp .postprofile .avatar {
 	background: url("./images/avatar-tr-mvp.png") 100% 0 no-repeat, url("./images/avatar-bl-mvp.png") 0 100% no-repeat;
 }
 .mvp .postprofile .avatar img {
