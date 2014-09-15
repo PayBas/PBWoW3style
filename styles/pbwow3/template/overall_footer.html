@@ -70,6 +70,21 @@ jQuery(function($) {
 		}
 	});
 
+	var $videoBG = $('#video-background');
+	var hasTopBar = $('#top-bar').length;
+
+	function resizeVideoBG() {
+		var height = $(window).height();
+		$videoBG.css('height', (height - 42) + 'px');
+	}
+
+	if (hasTopBar && $videoBG.length) {
+		$(window).resize(function() {
+			resizeVideoBG()
+		});
+		resizeVideoBG();
+	}
+
 	<!-- IF S_VIEWTOPIC -->
 	phpbb.dropdownVisibleContainers += ', .profile-context';
 
