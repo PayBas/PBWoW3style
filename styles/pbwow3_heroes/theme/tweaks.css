@@ -1,8 +1,6 @@
-/*  This file is required because of a bug/limitation of phpBB 3.1.
- *	More info: https://tracker.phpbb.com/browse/PHPBB3-11727
- */
-
 /* Heroes of the Storm IE8 & IE9 style specific markup */
+
+/* TODO: this crap is old */
 
 .navblock {
 	border: 3px solid #43286B;
