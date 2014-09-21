@@ -34,9 +34,7 @@ body {
 
 /* =Media queries
 -------------------------------------------------------------- */
-
-@media only screen and (max-width: 999px), only screen and (max-device-width: 999px)
-{
+@media only screen and (max-width: 999px), only screen and (max-device-width: 999px) {
 	body {
 		background-image: url("./images/bg-small.jpg");
 	}

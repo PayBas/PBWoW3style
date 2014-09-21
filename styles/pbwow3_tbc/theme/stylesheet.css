@@ -17,7 +17,7 @@ body {
 	background-size: 100% 100%;
 }
 
-.navblock { 
+.navblock {
 	background: rgba(0,0,0,0.75);
 }
 
@@ -30,9 +30,7 @@ body {
 
 /* =Media queries
 -------------------------------------------------------------- */
-
-@media screen and (max-width: 859px), only screen and (max-device-width: 859px)
-{
+@media screen and (max-width: 859px), only screen and (max-device-width: 859px) {
 	.imageset.site_logo {
 		width: 224px;
 		height: 104px;
@@ -40,8 +38,7 @@ body {
 	}
 }
 
-@media only screen and (max-width: 999px), only screen and (max-device-width: 999px)
-{
+@media only screen and (max-width: 999px), only screen and (max-device-width: 999px) {
 	body {
 		background-image: url("./images/bg-small.jpg");
 	}

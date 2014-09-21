@@ -126,27 +126,27 @@ h2 {
 }
 
 
-/* Search box
+/* Search box (header)
 --------------------------------------------- */
-#search-box {
+.search-header {
 	background: url("./images/forumliner-top-left.png") 100% 0;
 	width: auto;
 	height: 40px;
 	padding: 0 70px 0 16px;
 }
-#search-box:before {
+.search-header:before {
 	background: url("./images/forumliner-top-left-end.png") no-repeat 0 0;
 	height: 40px;
 	width: 16px;
 	left: 0;
 	top: 0;
 }
-#search-box #keywords {
+.search-header .inputbox {
 	height: 24px;
 	margin: 12px 0 0 0;
 	border-color: #5F6670;
 }
-#search-box a.button {
+.search-header a.button {
 	background: url("./images/advanced-search.png") no-repeat 0 0;
 	position: relative;
 	display: inline-block;
@@ -156,7 +156,7 @@ h2 {
 	height: 24px;
 	margin: 11px 0 0 3px;
 }
-#search-box button.search-icon {
+.search-header button.search-icon {
 	height: auto;
 	width: auto !important;
 	padding: 4px 6px;
@@ -175,7 +175,7 @@ h2 {
 	text-transform: none;
 	color: #DDD;
 }
-#search-box button.search-icon:hover {
+.search-header button.search-icon:hover {
 	border: 1px solid #00C0FF;
 	background-position: 0 100%;
 	box-shadow: 0 0 2px 1px rgba(255,255,255,0.3);
@@ -369,11 +369,9 @@ div#phpbb_announcement:hover {
 }
 
 
-
 /* =Media queries
 -------------------------------------------------------------- */
-@media screen and (max-width: 700px), only screen and (max-device-width: 700px)
-{
+@media screen and (max-width: 700px), only screen and (max-device-width: 700px) {
 	#page-body {
 		background: url("./images/border-bot.gif") repeat-x 0 100%,
 					url("./images/border-top.gif") repeat-x 0 0,
@@ -385,16 +383,14 @@ div#phpbb_announcement:hover {
 	}
 }
 
-@media screen and (max-width: 859px), only screen and (max-device-width: 859px)
-{
+@media screen and (max-width: 859px), only screen and (max-device-width: 859px) {
 	.imageset.site_logo {
 		width: 248px;
 		height: 192px;
 	}
 }
 
-@media screen and (max-width: 999px), only screen and (max-device-width: 999px)
-{
+@media screen and (max-width: 999px), only screen and (max-device-width: 999px) {
 	body {
 		background-image: url("./images/bg-small.jpg");
 		background-position: 50% -10px;
@@ -405,8 +401,7 @@ div#phpbb_announcement:hover {
 	}
 }
 
-@media screen and (min-width: 1000px), only screen and (max-device-width: 1000px)
-{
+@media screen and (min-width: 1000px), only screen and (max-device-width: 1000px) {
 	#wrapper {
 		min-height: 850px;
 	}

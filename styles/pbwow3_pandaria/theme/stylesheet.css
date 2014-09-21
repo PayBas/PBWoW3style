@@ -33,16 +33,13 @@ body.topbar {
 
 /* =Media queries
 -------------------------------------------------------------- */
-
-@media only screen and (max-width: 999px), only screen and (max-device-width: 999px)
-{
+@media only screen and (max-width: 999px), only screen and (max-device-width: 999px) {
 	body {
 		background-image: url("./images/bg-small.jpg");
 	}
 }
 
-@media only screen and (min-width: 1000px), only screen and (min-device-width: 1000px)
-{
+@media only screen and (min-width: 1000px), only screen and (min-device-width: 1000px) {
 	#logo {
 		margin-top: 20px !important;
 	}

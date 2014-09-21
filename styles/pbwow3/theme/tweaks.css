@@ -25,9 +25,9 @@ dd label input { vertical-align: text-bottom\9; }
 ------------------------------------------------------------------------------*/
 
 /* Border-radius bleed fix */
-#search-box,
-#search-box .inputbox,
-#search-box a.button { border-radius: 0; }
+.search-header,
+.search-header .inputbox,
+.search-header a.button { border-radius: 0; }
 
 
 /* PBWoW 3 Tweaks

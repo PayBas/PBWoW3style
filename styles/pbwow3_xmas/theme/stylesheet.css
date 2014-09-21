@@ -33,9 +33,7 @@ body {
 
 /* =Media queries
 -------------------------------------------------------------- */
-
-@media screen and (max-width: 859px), only screen and (max-device-width: 859px)
-{
+@media screen and (max-width: 859px), only screen and (max-device-width: 859px) {
 	#logo {
 		margin-top: 10px;
 	}
@@ -46,8 +44,7 @@ body {
 	}
 }
 
-@media only screen and (max-width: 999px), only screen and (max-device-width: 999px)
-{
+@media only screen and (max-width: 999px), only screen and (max-device-width: 999px) {
 	body {
 		background-image: url("./images/bg-small.jpg");
 	}

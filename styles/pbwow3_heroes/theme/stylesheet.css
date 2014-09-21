@@ -237,54 +237,6 @@ li.header dt, li.header dd, li.header a, table.table1 thead th,
         opacity: 1;*/
 }
 
-/* Search box
---------------------------------------------- */
-#search-box {
-    background: #000;
-    background-color: rgba(0, 0, 0, 0.8);
-    border: 1px solid #271B41;
-    height: 40px;
-    position: absolute;
-    right: 0;
-    left: auto;
-    bottom: 30px;
-    width: 335px;
-    z-index: 1;
-}
-#search-box:before {
-    display: none;
-}
-#search-box input {
-    vertical-align: inherit;
-}
-#search-box #keywords {
-    background: none;
-    border: none;
-    border-radius: 0;
-    color: #FFF;
-    font-size: 13px;
-    margin: 0;
-    padding: 12px 0 12px 12px;
-    height: 40px;
-    width: 295px;
-}
-#search-box #keywords:focus {
-    border: none;
-}
-#search-box a.button {
-    display: none; /* TODO: find elegant solutions */
-}
-#search-box button.search-icon {
-    background: url("./images/magnifying-glass.png") no-repeat;
-    border: medium none;
-    cursor: pointer;
-    height: 40px;
-    position: absolute;
-    right: 2px;
-    top: 0;
-    width: 40px !important;
-}
-
 /* Breadcrumbs & Navlinks
 --------------------------------------------- */
 #body-header {
@@ -874,6 +826,54 @@ fieldset.submit-buttons input {
 #format-buttons input:active {
     background: #4a0b6b;
     box-shadow: none;
+}
+
+/* Search box (header)
+--------------------------------------------- */
+.search-header {
+	background: #000;
+	background-color: rgba(0, 0, 0, 0.8);
+	border: 1px solid #271B41;
+	height: 40px;
+	position: absolute;
+	right: 0;
+	left: auto;
+	bottom: 30px;
+	width: 335px;
+	z-index: 1;
+}
+.search-header:before {
+	display: none;
+}
+.search-header input {
+	vertical-align: inherit;
+}
+.search-header .inputbox {
+	background: none;
+	border: none;
+	border-radius: 0;
+	color: #FFF;
+	font-size: 13px;
+	margin: 0;
+	padding: 12px 0 12px 12px;
+	height: 40px;
+	width: 295px;
+}
+.search-header .inputbox:focus {
+	border: none;
+}
+.search-header a.button {
+	display: none; /* TODO: find elegant solutions */
+}
+.search-header button.search-icon {
+	background: url("./images/magnifying-glass.png") no-repeat;
+	border: medium none;
+	cursor: pointer;
+	height: 40px;
+	position: absolute;
+	right: 2px;
+	top: 0;
+	width: 40px !important;
 }
 
 /* CP common
