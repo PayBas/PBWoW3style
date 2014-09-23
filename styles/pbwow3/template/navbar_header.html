@@ -18,7 +18,7 @@
 						<!-- IF S_USER_LOGGED_IN -->
 							<li class="small-icon icon-search-new"><a href="{U_SEARCH_NEW}" role="menuitem">{L_SEARCH_NEW}</a></li>
 						<!-- ENDIF -->
-						<!-- IF S_LOAD_UNREADS --> 
+						<!-- IF S_LOAD_UNREADS -->
 							<li class="small-icon icon-search-unread"><a href="{U_SEARCH_UNREAD}" role="menuitem">{L_SEARCH_UNREAD}</a></li>
 						<!-- ENDIF -->
 						<li class="small-icon icon-search-unanswered"><a href="{U_SEARCH_UNANSWERED}" role="menuitem">{L_SEARCH_UNANSWERED}</a></li>
@@ -48,14 +48,14 @@
 					<div class="pointer"><div class="pointer-inner"></div></div>
 					<ul class="dropdown-contents" role="menu">
 						<!-- IF U_RESTORE_PERMISSIONS --><li class="small-icon icon-restore-permissions"><a href="{U_RESTORE_PERMISSIONS}">{L_RESTORE_PERMISSIONS}</a></li><!-- ENDIF -->
-	
+
 						<!-- EVENT navbar_header_profile_list_before -->
-	
+
 						<li class="small-icon icon-ucp"><a href="{U_PROFILE}" title="{L_PROFILE}" role="menuitem">{L_PROFILE}</a></li>
 						<li class="small-icon icon-profile"><a href="{U_USER_PROFILE}" title="{L_READ_PROFILE}" role="menuitem">{L_READ_PROFILE}</a></li>
-	
+
 						<!-- EVENT navbar_header_profile_list_after -->
-	
+
 						<li class="separator"></li>
 						<li class="small-icon icon-logout"><a href="{U_LOGIN_LOGOUT}" title="{L_LOGIN_LOGOUT}" accesskey="x" role="menuitem">{L_LOGIN_LOGOUT}</a></li>
 					</ul>
@@ -91,7 +91,7 @@
 		<!-- IF U_MCP --><li class="small-icon icon-mcp rightside" data-skip-responsive="true"><a href="{U_MCP}" title="{L_MCP}" role="menuitem">{L_MCP_SHORT}</a></li><!-- ENDIF -->
 
 		<!-- EVENT overall_header_navigation_append -->
-	
+
 		<li class="small-icon icon-faq rightside"><a href="{U_FAQ}" title="{L_FAQ_EXPLAIN}">{L_FAQ}</a></li>
 
 		<!-- EVENT overall_header_navigation_prepend -->
@@ -124,16 +124,16 @@
 
 		<!-- IF not S_IS_BOT -->
 			<!-- IF S_INDEX -->
-				<!-- IF S_USER_LOGGED_IN and U_MARK_FORUMS --><li class="rightside"><a href="{U_MARK_FORUMS}" accesskey="m" data-ajax="mark_forums_read">{L_MARK_FORUMS_READ}</a></li><!-- ENDIF -->
+				<!-- IF S_USER_LOGGED_IN and U_MARK_FORUMS --><li class="rightside small-icon icon-mark-read"><a href="{U_MARK_FORUMS}" accesskey="m" data-ajax="mark_forums_read" title="{L_MARK_FORUMS_READ}"></a></li><!-- ENDIF -->
 			<!-- ELSEIF S_VIEWFORUM -->
-				<!-- IF S_HAS_SUBFORUM and U_MARK_FORUMS --><li class="rightside"><a href="{U_MARK_FORUMS}" data-ajax="mark_forums_read">{L_MARK_SUBFORUMS_READ}</a></li><!-- ENDIF -->
+				<!-- IF S_HAS_SUBFORUM and U_MARK_FORUMS --><li class="rightside small-icon icon-mark-read"><a href="{U_MARK_FORUMS}" data-ajax="mark_forums_read" title="{L_MARK_SUBFORUMS_READ}"></a></li><!-- ENDIF -->
 			<!-- ELSEIF S_VIEWTOPIC -->
-				<!-- IF U_VIEW_UNREAD_POST --><li class="rightside"><a href="{U_VIEW_UNREAD_POST}">{L_VIEW_UNREAD_POST}</a></li><!-- ENDIF -->
+				<!-- IF U_VIEW_UNREAD_POST --><li class="rightside small-icon icon-view"><a href="{U_VIEW_UNREAD_POST}" title="{L_VIEW_UNREAD_POST}"></a></li><!-- ENDIF -->
 			<!-- ELSEIF SEARCH_MATCHES and not S_IN_SEARCH -->
 				<!-- IF SEARCH_TOPIC -->
 				<li class="rightside"><a class="arrow-{S_CONTENT_FLOW_BEGIN}" href="{U_SEARCH_TOPIC}">{L_RETURN_TO_TOPIC}</a></li>
 				<!-- ELSE -->
-				<li class="rightside"><a class="arrow-{S_CONTENT_FLOW_BEGIN}" href="{U_SEARCH}" title="{L_SEARCH_ADV}">{L_RETURN_TO_SEARCH_ADV}</a></li>
+				<li class="rightside"><a class="arrow-{S_CONTENT_FLOW_BEGIN}" href="{U_SEARCH}" title="{L_SEARCH_ADV}">{L_GO_TO_SEARCH_ADV}</a></li>
 				<!-- ENDIF -->
 			<!-- ENDIF -->
 		<!-- ENDIF -->

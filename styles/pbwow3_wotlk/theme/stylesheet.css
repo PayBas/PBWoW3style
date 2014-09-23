@@ -16,14 +16,11 @@ body {
 }
 
 #logo {
-	margin-top: 20px;
-}
-
-.imageset.site_logo {
 	background: url("./images/logo.png") no-repeat 50% 0;
+	background-size: 100% 100%;
 	width: 262px;
 	height: 134px;
-	background-size: 100% 100%;
+	margin-top: 20px;
 }
 
 .navblock {
@@ -114,12 +111,9 @@ a, a.topictitle, a.forumtitle { color: #f2c56e; }
 
 @media screen and (max-width: 859px), only screen and (max-device-width: 859px) {
 	#logo {
-		margin-top: 10px;
-	}
-
-	.imageset.site_logo {
 		width: 210px;
 		height: 107px;
+		margin-top: 10px;
 	}
 }
 

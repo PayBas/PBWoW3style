@@ -14,14 +14,11 @@ body {
 	background-position: 50% 0 !important;
 }
 
-.imageset.site_logo {
+#logo {
 	background: url("./images/logo.png") no-repeat 50% 0;
+	background-size: 100% 100%;
 	width: 258px;
 	height: 44px;
-	background-size: 100% 100%;
-}
-
-#logo {
 	margin-top: 50px;
 }
 

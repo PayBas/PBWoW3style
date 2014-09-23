@@ -24,13 +24,11 @@ body {
 }
 
 #logo {
-	margin: 10px 0;
-}
-.imageset.site_logo {
 	background: url("./images/logo.png") no-repeat 50% 0;
+	background-size: 100% 100%;
 	width: 308px;
 	height: 92px;
-	background-size: 100% 100%;
+	margin: 10px 0;
 }
 
 .headerbar {
@@ -1363,7 +1361,7 @@ dl.pm_read {
 }
 
 @media screen and (max-width: 859px), only screen and (max-device-width: 859px) {
-	.imageset.site_logo {
+	#logo {
 		width: 246px;
 		height: 74px;
 	}

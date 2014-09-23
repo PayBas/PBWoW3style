@@ -9,57 +9,58 @@
 /* Header & main body
 --------------------------------------------- */
 body {
-    background-color: #0D0119;
-    background-image: url("./images/global-bg2.jpg");
-    color: #8EB1BC;
+	background-color: #0D0119;
+	background-image: url("./images/global-bg2.jpg");
+	color: #8EB1BC;
 }
 
 #logo {
-    margin-bottom: 10px;
-}
-.imageset.site_logo {
-    background: url("./images/logo2.png") no-repeat 50% 0;
-    width: 288px;
-    height: 159px;
-    background-size: 100% 100%;
+	background: url("./images/logo2.png") no-repeat 50% 0;
+	background-size: 100% 100%;
+	width: 288px;
+	height: 159px;
+	margin-bottom: 10px;
 }
 
 .headerbar {
-    background: url("./images/triangles.png") no-repeat 49.999% 105%;
+	background: url("./images/triangles.png") no-repeat 49.999% 105%;
 }
 
 #page-body {
-    background: none;
-    background-color: #060b10;
-    background-color: rgba(11,1,22,0.7);
-    background-image: linear-gradient(rgba(59, 31, 78, 0.5), rgba(0, 216, 255, 0.5)), linear-gradient(rgba(59, 31, 78, 0.5), rgba(0, 216, 255, 0.5));
-    background-size: 1px 100%;
-    background-position: 100% 0, 0 0;
-    background-repeat: no-repeat;
-    border: none;
-    border-radius: 0;
-    border-bottom: 1px solid #00D8FF;
-    padding: 1px 20px 20px;
+	background: none;
+	background-color: #060b10;
+	background-color: rgba(11, 1, 22, 0.7);
+	background-image: linear-gradient(rgba(59, 31, 78, 0.5), rgba(0, 216, 255, 0.5)), linear-gradient(rgba(59, 31, 78, 0.5), rgba(0, 216, 255, 0.5));
+	background-size: 1px 100%;
+	background-position: 100% 0, 0 0;
+	background-repeat: no-repeat;
+	border: none;
+	border-radius: 0;
+	border-bottom: 1px solid #00D8FF;
+	padding: 1px 20px 20px;
 }
+
 #page-body:before,
 #page-body:after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    left: auto;
-    margin-left: -20px; /* compensate for the padding */
-    box-shadow: none;
-    z-index: -1;
+	content: "";
+	position: absolute;
+	width: 100%;
+	left: auto;
+	margin-left: -20px; /* compensate for the padding */
+	box-shadow: none;
+	z-index: -1;
 }
+
 #page-body:before {
-    background: url("./images/pink-background.png") no-repeat scroll 50% 0 rgba(0, 0, 0, 0);
-    height: 650px;
-    top: -374px;
+	background: url("./images/pink-background.png") no-repeat scroll 50% 0 rgba(0, 0, 0, 0);
+	height: 650px;
+	top: -374px;
 }
+
 #page-body:after {
-    background: url("./images/blue-background.png") no-repeat scroll 50% 0 rgba(0, 0, 0, 0);
-    height: 316px;
-    bottom: -78px;
+	background: url("./images/blue-background.png") no-repeat scroll 50% 0 rgba(0, 0, 0, 0);
+	height: 316px;
+	bottom: -78px;
 }
 
 /* Common
@@ -283,7 +284,7 @@ li.header dt, li.header dd, li.header a, table.table1 thead th,
 
 /* Index & forum lists
 --------------------------------------------- */
-ul.forums dl,
+.forum-blocks dl.icon,
 .misc-block,
 .stat-block p {
     background: #0E131C;
@@ -302,11 +303,14 @@ ul.forums dl,
     margin: 4px;
 }
 
-.forabg dl.icon .list-inner {
+.forum-blocks dl.icon .list-inner {
     color: #3D6F95;
     /*font-family: Arial;*/
 }
-.forabg dd.forum-stats, .forabg dd.redirect, .forabg dd.mcp-status, #recent-topics dd.lastpost {
+.forum-blocks dd.forum-stats,
+.forum-blocks dd.redirect,
+.forum-blocks dd.mcp-status,
+#recent-topics dd.lastpost {
     color: #8EB1BC;
     color: rgba(142,177,188,0.50);
 }
@@ -1460,20 +1464,17 @@ body.section-viewtopic .stat-block p {
 .pm_read							{ background-image: url("./images/icons/topic_read.png"); }
 .pm_unread							{ background-image: url("./images/icons/topic_unread.png"); }
 
-
 /* =Media queries
 -------------------------------------------------------------- */
-@media screen and (max-width: 859px), only screen and (max-device-width: 859px)
-{
-    .imageset.site_logo {
-        width: 216px;
-        height: 120px;
-    }
+@media screen and (max-width: 859px), only screen and (max-device-width: 859px) {
+	#logo {
+		width: 216px;
+		height: 120px;
+	}
 }
 
-@media screen and (min-width: 1000px), only screen and (max-device-width: 1000px)
-{
-    #wrapper {
-        min-height: 850px;
-    }
+@media screen and (min-width: 1000px), only screen and (max-device-width: 1000px) {
+	#wrapper {
+		min-height: 850px;
+	}
 }

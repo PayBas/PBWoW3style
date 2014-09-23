@@ -16,14 +16,11 @@ body {
 }
 
 #logo {
-	margin-left: 0;
-}
-
-.imageset.site_logo {
 	background: url("./images/logo-small.png") no-repeat 50% 50%;
+	background-size: 100% 100%;
 	width: 330px;
 	height: 178px;
-	background-size: 100% 100%;
+	margin-left: 0;
 }
 
 .navblock {
@@ -44,9 +41,10 @@ body {
 /* =Media queries
 -------------------------------------------------------------- */
 @media screen and (max-width: 859px), only screen and (max-device-width: 859px) {
-	.imageset.site_logo {
+	#logo {
 		width: 264px;
 		height: 142px;
+		margin-bottom: 20px;
 	}
 }
 

@@ -132,10 +132,6 @@ Get all the FontAwesome CSS codes here: https://fortawesome.github.io/Font-Aweso
 /* PBWoW.com specific stuff (personal preference)
 --------------------------------------------- */
 
-.section-viewforum .forabg ul.forums dl {
-	min-height: inherit;
-}
-
 body.section-viewtopic .postbody h3,
 #qr_postform .fields1 > dl {
 	display: none;

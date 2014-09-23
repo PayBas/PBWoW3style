@@ -314,20 +314,7 @@ ul.menu li {
 
 /* Board3 Portal
 --------------------------------------------- */
-#portal-body ul.forums li {
-	float: none;
-	width: auto;
-}
-
-#portal-body ul.forums dl {
-	overflow: hidden;
-	padding: 0;
-	min-height: inherit;
-}
-
-#portal-body ul.forums dd {
-	padding: 3px;
-}
+/* TODO */
 
 /* mChat MOD (TODO for future)
 --------------------------------------------- */

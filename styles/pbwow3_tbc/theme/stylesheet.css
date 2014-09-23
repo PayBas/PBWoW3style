@@ -10,7 +10,7 @@ body {
 	background-image: url("./images/bg.jpg");
 }
 
-.imageset.site_logo {
+#logo {
 	background: url("./images/logo.png") no-repeat 50% 0;
 	width: 280px;
 	height: 130px;
@@ -31,7 +31,7 @@ body {
 /* =Media queries
 -------------------------------------------------------------- */
 @media screen and (max-width: 859px), only screen and (max-device-width: 859px) {
-	.imageset.site_logo {
+	#logo {
 		width: 224px;
 		height: 104px;
 		margin-top: 10px;

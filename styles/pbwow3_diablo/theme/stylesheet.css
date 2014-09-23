@@ -22,14 +22,11 @@ body.topbar {
 }
 
 #logo {
-	margin: -15px 0 0 -10px;
-}
-
-.imageset.site_logo {
 	background: url("./images/logo.png") no-repeat 50% 0;
 	background-size: 100% 100%;
 	width: 310px;
 	height: 241px;
+	margin: -15px 0 0 -10px;
 }
 
 .navblock {
@@ -224,10 +221,13 @@ h2 {
 
 /* Index & forum lists
 --------------------------------------------- */
-.forabg dd.forum-stats, .forabg dd.redirect, .forabg dd.mcp-status, #recent-topics dd.lastpost {
+.forum-blocks dd.forum-stats,
+.forum-blocks dd.redirect,
+.forum-blocks dd.mcp-status,
+#recent-topics dd.lastpost {
 	color: #6A5336;
 }
-ul.forums dl:hover {
+.forum-blocks dl:hover  {
 	border-color: #999;
 }
 
@@ -352,7 +352,7 @@ ul.forums dl:hover {
 	font-family: "Exocet Blizzard Light","Palatino Linotype",Times,serif;
 }
 
-div#phpbb_announcement:hover {
+#phpbb_announcement:hover {
 	border-color: #999;
 }
 
@@ -361,6 +361,7 @@ div#phpbb_announcement:hover {
 	height: 822px;
 	width: 2000px;
 }
+
 #video-border {
 	background: url("./images/section-border.png") repeat-x 0 0;
 	box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.5);
@@ -384,7 +385,7 @@ div#phpbb_announcement:hover {
 }
 
 @media screen and (max-width: 859px), only screen and (max-device-width: 859px) {
-	.imageset.site_logo {
+	#logo {
 		width: 248px;
 		height: 192px;
 	}
