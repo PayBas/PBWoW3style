@@ -224,9 +224,6 @@ h2 {
 	font-size: 3em;
 	letter-spacing: -0.05em;
 	margin-top: 0.5em;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	white-space: nowrap;
 }
 h2 a { color: #F3E6D0; }
 h2 a:hover { color: #FFF; text-decoration: none; }
@@ -778,11 +775,6 @@ table.info tbody th {
 .post.bg2 > .inner {
 	background-color: #1B1B1B;
 	background: linear-gradient(to bottom, rgba(14, 14, 14, 1) 0, rgba(27, 27, 27, 0) 82px), linear-gradient(to top, rgba(14, 14, 14, 1) 0, rgba(27, 27, 27, 0) 38px), #1B1B1B;
-}
-
-.post-container .post > .inner,
-.post.pm > .inner {
-	/*position: relative;  @TODO necessary? */
 }
 
 .post.reported {

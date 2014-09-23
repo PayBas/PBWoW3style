@@ -14,8 +14,14 @@ body {
 	background-position: 100% 0, 0 0;
 	background-repeat: no-repeat;
 }
-#page-body:before, #page-body:after {
+
+#page-body:before {
 	margin-left: -5px;
+}
+
+#body-header:before,
+#body-header.no-search:before {
+	display: block;
 }
 
 #body-header ul.navlinks {

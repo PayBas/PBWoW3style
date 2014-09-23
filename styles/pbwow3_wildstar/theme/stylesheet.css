@@ -24,7 +24,8 @@ body {
 
 #top-bar {
 	background: rgba(11,13,19,0.75);
-	border-bottom-color: rgba(5,81,126,0.75);
+	border-bottom: 1px solid rgba(5,81,126,0.75);
+	padding: 0;
 }
 #top-bar > .inner {
 	border: none;
