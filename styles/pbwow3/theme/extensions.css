@@ -15,7 +15,7 @@
 }
 
 #recent-topics li.row dl {
-	padding: 10px 5px 10px 0;
+	padding: 9px 5px 13px 0;
 }
 
 #recent-topics li.row dl:after {
@@ -173,6 +173,12 @@ ul.menu li {
 	line-height: inherit;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Pages
+--------------------------------------------- */
+h2.pages-title {
+	font-size: 3em;
 }
 
 /* Lightbox

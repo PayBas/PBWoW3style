@@ -1,9 +1,9 @@
 /*  phpBB3 Style Sheet
-    --------------------------------------------------------------
+	--------------------------------------------------------------
 	Style name:			PBWoW 3 Heroes of the Storm
 	Based on style:		PBWoW 3
 	Original author:	PayBas ( http://pbwow.com/ )
-    --------------------------------------------------------------
+	--------------------------------------------------------------
 */
 
 /* Header & main body
@@ -54,64 +54,69 @@ body {
 
 /* Common
 --------------------------------------------- */
+.bg1, .bg2, .bg3 {
+	background: none;
+}
+
 .panel,
 .panel-container .panel {
-    background-color: rgba(0, 0, 0, 0.4);
-    background-image: linear-gradient(rgba(161, 139, 175, 0.45), rgba(161, 139, 175, 0.14)), linear-gradient(rgba(161, 139, 175, 0.45), rgba(161, 139, 175, 0.14));
-    background-position: 0 0, 100% 0;
-    background-repeat: no-repeat;
-    background-size: 1px 100%;
-    border: none;
-    border-bottom: 1px solid rgba(161,139,175,0.14);
-    border-top: 1px solid rgba(161,139,175,0.45);
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
-    color: #8EB1BC;
+	background-color: rgba(0, 0, 0, 0.4);
+	background-image: linear-gradient(rgba(161, 139, 175, 0.45), rgba(161, 139, 175, 0.14)), linear-gradient(rgba(161, 139, 175, 0.45), rgba(161, 139, 175, 0.14));
+	background-position: 0 0, 100% 0;
+	background-repeat: no-repeat;
+	background-size: 1px 100%;
+	border: none;
+	border-bottom: 1px solid rgba(161,139,175,0.14);
+	border-top: 1px solid rgba(161,139,175,0.45);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+	color: #8EB1BC;
 }
 
 .forumbg,
 .forumbg > .inner,
 table.table1,
+.panel-container table.table1,
 ul.cplist {
-    background: none;
-    border: none;
-    padding: 0;
-    box-shadow: none;
-    outline: none;
+	background: none;
+	border: none;
+	padding: 0;
+	box-shadow: none;
+	outline: none;
 }
 
 .forumbg {
-    margin-top: 5px;
-    margin-bottom: 15px;
+	margin-top: 5px;
+	margin-bottom: 15px;
 }
 
 /* Links, arrows & text
 --------------------------------------------- */
 @font-face {
-    font-family: "exo";
-    font-style: normal;
-    font-weight: 700;
-    src:url("//storage.googleapis.com/wcs-fonts/fontfiles/exo/exo-bold-webfont.eot?#iefix") format("embedded-opentype"),
-    url("//storage.googleapis.com/wcs-fonts/fontfiles/exo/exo-bold-webfont.woff") format("woff"),
-    url("//storage.googleapis.com/wcs-fonts/fontfiles/exo/exo-bold-webfont.ttf") format("truetype"),
-    url("//storage.googleapis.com/wcs-fonts/fontfiles/exo/exo-bold-webfont.svg#exobold") format("svg");
+	font-family: "exo";
+	font-style: normal;
+	font-weight: 700;
+	src:url("//storage.googleapis.com/wcs-fonts/fontfiles/exo/exo-bold-webfont.eot?#iefix") format("embedded-opentype"),
+	url("//storage.googleapis.com/wcs-fonts/fontfiles/exo/exo-bold-webfont.woff") format("woff"),
+	url("//storage.googleapis.com/wcs-fonts/fontfiles/exo/exo-bold-webfont.ttf") format("truetype"),
+	url("//storage.googleapis.com/wcs-fonts/fontfiles/exo/exo-bold-webfont.svg#exobold") format("svg");
 }
 @font-face {
-    font-family: "exo";
-    font-style: normal;
-    font-weight: 400;
-    src:url("//storage.googleapis.com/wcs-fonts/fontfiles/exo/exo-regular-webfont.eot?#iefix") format("embedded-opentype"),
-    url("//storage.googleapis.com/wcs-fonts/fontfiles/exo/exo-regular-webfont.woff") format("woff"),
-    url("//storage.googleapis.com/wcs-fonts/fontfiles/exo/exo-regular-webfont.ttf") format("truetype"),
-    url("//storage.googleapis.com/wcs-fonts/fontfiles/exo/exo-regular-webfont.svg#exoregular") format("svg");
+	font-family: "exo";
+	font-style: normal;
+	font-weight: 400;
+	src:url("//storage.googleapis.com/wcs-fonts/fontfiles/exo/exo-regular-webfont.eot?#iefix") format("embedded-opentype"),
+	url("//storage.googleapis.com/wcs-fonts/fontfiles/exo/exo-regular-webfont.woff") format("woff"),
+	url("//storage.googleapis.com/wcs-fonts/fontfiles/exo/exo-regular-webfont.ttf") format("truetype"),
+	url("//storage.googleapis.com/wcs-fonts/fontfiles/exo/exo-regular-webfont.svg#exoregular") format("svg");
 }
 /* @font-face {
-    font-family: "icomoon";
-    font-style: normal;
-    font-weight: normal;
-    src:url("//storage.googleapis.com/wcs-fonts/fontfiles/heroes-icons/heroes.eot?#iefixadcul8") format("embedded-opentype"),
-    url("//storage.googleapis.com/wcs-fonts/fontfiles/heroes-icons/heroes.woff?adcul8") format("woff"),
-    url("//storage.googleapis.com/wcs-fonts/fontfiles/heroes-icons/heroes.ttf?adcul8") format("truetype"),
-    url("//storage.googleapis.com/wcs-fonts/fontfiles/heroes-icons/heroes.svg?adcul8#icomoon") format("svg");
+	font-family: "icomoon";
+	font-style: normal;
+	font-weight: normal;
+	src:url("//storage.googleapis.com/wcs-fonts/fontfiles/heroes-icons/heroes.eot?#iefixadcul8") format("embedded-opentype"),
+	url("//storage.googleapis.com/wcs-fonts/fontfiles/heroes-icons/heroes.woff?adcul8") format("woff"),
+	url("//storage.googleapis.com/wcs-fonts/fontfiles/heroes-icons/heroes.ttf?adcul8") format("truetype"),
+	url("//storage.googleapis.com/wcs-fonts/fontfiles/heroes-icons/heroes.svg?adcul8#icomoon") format("svg");
 } */
 
 a 			{ color: #4F93B6; }
@@ -122,11 +127,11 @@ a.topictitle:active,	a.forumtitle:active	{ color: #00D8FF; }
 
 a.up:before, a.down:after, a.left:before, a.right:after, a.top:before, a.top2:before,
 a.arrow-up:before, a.arrow-down:after, a.arrow-left:before, a.arrow-right:after {
-    color: #00B2DC;
+	color: #00B2DC;
 }
 a.up:hover:before, a.down:hover:after, a.left:hover:before, a.right:hover:after, a.top:hover:before, a.top2:hover:before,
 a.arrow-up:hover:before, a.arrow-down:hover:after, a.arrow-left:hover:before, a.arrow-right:hover:after {
-    color: #00D1FF;
+	color: #00D1FF;
 }
 
 /* Post body links */
@@ -136,102 +141,106 @@ a.arrow-up:hover:before, a.arrow-down:hover:after, a.arrow-left:hover:before, a.
 
 /* Headings */
 h2 {
-    font-family: "exo","Myriad Pro",Myriad,Arial,sans-serif;
-    text-shadow: 0 0 16px #009CFF;
+	font-family: "exo","Myriad Pro",Myriad,Arial,sans-serif;
+	text-shadow: 0 0 16px #009CFF;
 }
 h2, h2 a	{ color: #CCFFFF; }
 h2 a:hover	{ color: #FFF; }
 
 .content h2, .panel h2 {
-    color: #66CCFF;
-    border-bottom-color: #3380C8;
+	color: #66CCFF;
+	border-bottom-color: #3380C8;
 }
 
 h3 {
-    color: #8d66c6;
-    border-color: rgba(29,63,98,0.5);
+	color: #8d66c6;
+	border-color: rgba(29,63,98,0.5);
+}
+
+.pm .postbody h3.first {
+	color: #66CCFF;
 }
 
 hr {
-    border: 0 none #14324E;
-    border-top: 1px solid #14324E;
+	border: 0 none #14324E;
+	border-top: 1px solid #14324E;
 }
 
 hr.dashed {
-    border-top-color: #14324E;
+	border-top-color: #14324E;
 }
 
 .forumbg .header a, .forabg .header a, th a,
 li.header dt, li.header dd, li.header a, table.table1 thead th,
 #cp-main table.table1 thead th, #cp-main .panel li.header dd, #cp-main .panel li.header dt {
-    color: #CCFFFF;
+	color: #CCFFFF;
 }
 
 /* Header box
 --------------------------------------------- */
 .navblock, .navblock > .inner {
-    border: none;
-    border-radius: 0;
+	border: none;
+	border-radius: 0;
 }
 .navblock {
-    background-color: #060b10;
-    background-color: rgba(6,11,16,0.9);
-    box-shadow: 0 0 12px 2px rgba(0,0,0,0.6);
-    border: none;
-    border-radius:0;
-    border-bottom: 3px solid #43286B;
-    background-image: linear-gradient(#14324E, #43286B), linear-gradient(#14324E, #43286B);
-    background-size: 3px 100%;
-    background-position: 100% 0, 0 0;
-    background-repeat: no-repeat;
-    color: #858084;
+	background-color: #060b10;
+	background-color: rgba(6,11,16,0.9);
+	box-shadow: 0 0 12px 2px rgba(0,0,0,0.6);
+	border: none;
+	border-radius:0;
+	border-bottom: 3px solid #43286B;
+	background-image: linear-gradient(#14324E, #43286B), linear-gradient(#14324E, #43286B);
+	background-size: 3px 100%;
+	background-position: 100% 0, 0 0;
+	background-repeat: no-repeat;
+	color: #858084;
 
-    /*
-        background: linear-gradient(rgba(4, 14, 26, 0.7), rgba(12, 60, 89, 0.7)) repeat scroll 0 0 rgba(0, 0, 0, 0);
-        border-color: #151e47 #151e47 #005b8b;
-        border-image: none;
-        border-style: solid;
-        border-width: 2px;
+	/*
+		background: linear-gradient(rgba(4, 14, 26, 0.7), rgba(12, 60, 89, 0.7)) repeat scroll 0 0 rgba(0, 0, 0, 0);
+		border-color: #151e47 #151e47 #005b8b;
+		border-image: none;
+		border-style: solid;
+		border-width: 2px;
 
-        text-transform: uppercase;
-        transition: all 0.3s ease 0s;
-        vertical-align: middle;
+		text-transform: uppercase;
+		transition: all 0.3s ease 0s;
+		vertical-align: middle;
 
 
-        margin-bottom: 1px;
-        text-shadow: 0 0 1em #009cff;
+		margin-bottom: 1px;
+		text-shadow: 0 0 1em #009cff;
 
-        background: linear-gradient(169deg, #260d54, #000000) repeat scroll 0 0 rgba(0, 0, 0, 0);
-        border-color: #182e83;
-        color: white;
-    }
-    .navblock:before {
-       background: -moz-linear-gradient(left center , #deb9fd, #d878ff 10%, #9b72fb) repeat scroll 0 0 rgba(0, 0, 0, 0);
-        bottom: -6px;
-        content: "";
-        display: block;
-        height: 3px;
-        left: -2px;
-        opacity: 0;
-        position: absolute;
-        right: -2px;
-        transition: opacity 0.25s ease 0s;
+		background: linear-gradient(169deg, #260d54, #000000) repeat scroll 0 0 rgba(0, 0, 0, 0);
+		border-color: #182e83;
+		color: white;
+	}
+	.navblock:before {
+	   background: -moz-linear-gradient(left center , #deb9fd, #d878ff 10%, #9b72fb) repeat scroll 0 0 rgba(0, 0, 0, 0);
+		bottom: -6px;
+		content: "";
+		display: block;
+		height: 3px;
+		left: -2px;
+		opacity: 0;
+		position: absolute;
+		right: -2px;
+		transition: opacity 0.25s ease 0s;
 
-         box-shadow: 0 0 1.5em 2px #d878ff;
-        opacity: 1;*/
+		 box-shadow: 0 0 1.5em 2px #d878ff;
+		opacity: 1;*/
 }
 
 /* Breadcrumbs & Navlinks
 --------------------------------------------- */
 #body-header {
-    background-color: #060b10;
-    background-color: rgba(11,1,22,0.7);
-    background-image: linear-gradient(rgba(59, 31, 78, 0.5), rgba(59, 31, 78, 0.5)), linear-gradient(rgba(59, 31, 78, 0.5), rgba(59, 31, 78, 0.5));
-    background-size: 1px 100%;
-    background-position: 100% 0, 0 0;
-    background-repeat: no-repeat;
-    border-top: 1px solid #3B1F4E;
-    min-height: 47px;
+	background-color: #060b10;
+	background-color: rgba(11,1,22,0.7);
+	background-image: linear-gradient(rgba(59, 31, 78, 0.5), rgba(59, 31, 78, 0.5)), linear-gradient(rgba(59, 31, 78, 0.5), rgba(59, 31, 78, 0.5));
+	background-size: 1px 100%;
+	background-position: 100% 0, 0 0;
+	background-repeat: no-repeat;
+	border-top: 1px solid #3B1F4E;
+	min-height: 47px;
 }
 
 #body-header:before,
@@ -247,33 +256,33 @@ li.header dt, li.header dd, li.header a, table.table1 thead th,
 }
 
 #body-header:after {
-    display: none;
+	display: none;
 }
 
 #body-header ul.navlinks {
-    padding: 7px 15px;
+	padding: 7px 15px;
 }
 
 #body-header .breadcrumbs .crumb {
-    font-weight: normal;
+	font-weight: normal;
 }
 #body-header .breadcrumbs .crumb a {
-    color: #653576;
-    text-transform: uppercase;
+	color: #653576;
+	text-transform: uppercase;
 }
 #body-header .breadcrumbs .crumb a:hover {
-    color: #C920C7;
+	color: #C920C7;
 }
 #body-header .breadcrumbs .crumb a:before {
-    border-bottom-color: #653576;
+	border-bottom-color: #653576;
 }
 #body-header .breadcrumbs .crumb a:hover:before {
-    border-bottom-color: #C920C7;
+	border-bottom-color: #C920C7;
 }
 
 .breadcrumbs .crumb:before {
-    font-size: 0.8em;
-    color: #653576;
+	font-size: 0.8em;
+	color: #653576;
 }
 
 /* Index & forum lists
@@ -340,7 +349,7 @@ ul.topiclist li.header,
 table.table1 thead tr {
 	background: none;
 	border: none;
-	border-bottom: 1px solid rgba(0, 156, 255, 0.3);
+	border-bottom: 1px solid rgba(0, 156, 255, 0.35);
 }
 
 li.header dt, li.header dd,
@@ -367,6 +376,7 @@ ul.topiclist li.row dl {
 li.row,
 li.row.bg1,
 li.row.bg2,
+.panel-container .panel li.row,
 .panel-container .panel li.row.bg1,
 .panel-container .panel li.row.bg2 {
 	background: none;
@@ -377,6 +387,7 @@ li.row.bg2,
 li.row:hover,
 li.row.bg1:hover,
 li.row.bg2:hover,
+.panel-container .panel li.row:hover,
 .panel-container .panel li.row.bg1:hover,
 .panel-container .panel li.row.bg2:hover {
 	background: rgba(34, 49, 84, 0.25);
@@ -413,6 +424,11 @@ table.table1 {
 	color: #8eb1bc;
 }
 
+.panel-container table.table1 thead th {
+	color: #FFF;
+	border-bottom-color: rgba(0,156,255,0.3);
+}
+
 table.table1 tbody tr,
 table.table1 tbody tr.bg1,
 table.table1 tbody tr.bg2,
@@ -426,13 +442,16 @@ table.zebra-list tbody tr:nth-child(even) {
 table.table1 tbody tr:hover, table.table1 tbody tr.hover,
 table.table1 tbody tr.bg1:hover, table.table1 tbody tr.bg1.hover,
 table.table1 tbody tr.bg2:hover, table.table1 tbody tr.bg2.hover,
-table.table1 tbody tr.bg3:hover, table.table1 tbody tr.bg3.hover {
+table.table1 tbody tr.bg3:hover, table.table1 tbody tr.bg3.hover,
+table.zebra-list tbody tr:nth-child(odd):hover,
+table.zebra-list tbody tr:nth-child(even):hover {
 	background: rgba(34, 49, 84, 0.25);
 	color: #FFF;
 }
 
 table.table1 tbody tr.bg3 {
 	background: rgba(69, 123, 190, 0.15);
+	border-color: #172040;
 }
 
 /* Post styling
@@ -672,15 +691,15 @@ dl.thumbnail dt a:hover img {
 /* Buttons
 --------------------------------------------- */
 .button {
-    background: #072d57;
-    background: linear-gradient(rgba(8, 28, 52, 0.5), rgba(7, 45, 87, 0.5) 50%, rgba(34, 54, 127, 0.5)) ;
-    border: 1px solid #112E62;
-    border-radius: 0;
-    color: #34FFFF !important;
-    font-family: "exo","Myriad Pro",Myriad,Arial,sans-serif;
-    box-shadow: 0 1px 7px 0 rgba(0,0,0,0.6);
-    text-shadow: 1px 1px rgba(0,0,0,0.4);
-    transition: all 0.3s;
+	background: #072d57;
+	background: linear-gradient(rgba(8, 28, 52, 0.5), rgba(7, 45, 87, 0.5) 50%, rgba(34, 54, 127, 0.5));
+	border: 1px solid #112E62;
+	border-radius: 0;
+	color: #34FFFF !important;
+	font-family: "exo", "Myriad Pro", Myriad, Arial, sans-serif;
+	box-shadow: 0 1px 7px 0 rgba(0, 0, 0, 0.6);
+	text-shadow: 1px 1px rgba(0, 0, 0, 0.4);
+	transition: all 0.3s;
 	/* padding-top: 1px; */
 }
 
@@ -688,63 +707,63 @@ dl.thumbnail dt a:hover img {
 .dropdown-visible .dropdown-select,
 .dropdown-visible .dropdown-select:hover,
 .nojs .dropdown-container:hover .dropdown-select {
-    background: #072d57;
-    background: linear-gradient(rgba(8, 28, 52, 0.75), rgba(7, 45, 87, 0.75) 50%, rgba(34, 54, 127, 0.75));
-    border-color: #112E62;
-    color: #FFF !important;
-    text-shadow: 0 0 4px rgba(255,255,255,0.5);
-    box-shadow: 0 0 10px rgba(0,102,153,0.25);
+	background: #072d57;
+	background: linear-gradient(rgba(8, 28, 52, 0.75), rgba(7, 45, 87, 0.75) 50%, rgba(34, 54, 127, 0.75));
+	border-color: #112E62;
+	color: #FFF !important;
+	text-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+	box-shadow: 0 0 10px rgba(0, 102, 153, 0.25);
 }
 
 .buttons .button:before {
-    content: "";
-    display: block;
-    position: absolute;
-    left: -1px;
-    top: -3px;
-    height: 100%;
-    width: 2px;
-    background-color: #00f0ff;
-    background: linear-gradient(#a4ffff,#ffffff,#a4ffff);
-    box-shadow: 0 0 30px #009cff,0 0 16px #009cff;
+	content: "";
+	display: block;
+	position: absolute;
+	left: -1px;
+	top: -3px;
+	height: 100%;
+	width: 2px;
+	background-color: #00f0ff;
+	background: linear-gradient(#a4ffff, #ffffff, #a4ffff);
+	box-shadow: 0 0 30px #009cff, 0 0 16px #009cff;
 }
 
 .dropdown-select:after,
 .dropdown-select:hover:after,
 .dropdown-visible .dropdown-select:after,
 .nojs .dropdown-container:hover .dropdown-select:after {
-    border-color: #112E62;
+	border-color: #112E62;
 }
 
 .button1.disabled {
-    background-image: linear-gradient(to bottom, #202020 0%, #111111 100%);
-    border-color: #3f3f3f;
-    box-shadow: 0 1px 7px 0 rgba(0,0,0,0.6), inset 0 0 3px 0 rgba(0,0,0,0.8);
-    text-shadow: 1px 1px rgba(0,0,0,0.8);
-    color: #224967;
+	background-image: linear-gradient(to bottom, #202020 0%, #111111 100%);
+	border-color: #3f3f3f;
+	box-shadow: 0 1px 7px 0 rgba(0, 0, 0, 0.6), inset 0 0 3px 0 rgba(0, 0, 0, 0.8);
+	text-shadow: 1px 1px rgba(0, 0, 0, 0.8);
+	color: #224967;
 }
 
 /* Forms
 --------------------------------------------- */
 select {
-    background-image: url("./images/icons/select.png");
-    border-color: #0F2E63;
-    color: #8EB1BC;
+	background-image: url("./images/icons/select.png");
+	border-color: #0F2E63;
+	color: #8EB1BC;
 }
 
 fieldset dt {
-    color: #3D6F95;
+	color: #3D6F95;
 }
 
 #message-box textarea { color: #8eb1bc; }
 
 .inputbox {
-    border-color: #14324E;
-    color: #8eb1bc;
+	border-color: #14324E;
+	color: #8eb1bc;
 }
 .inputbox:hover,
 .inputbox:focus {
-    border-color: #3380c8;
+	border-color: #3380c8;
 }
 
 .inputbox:-ms-input-placeholder { color: #976DA2 !important; opacity: 0.6; }
@@ -754,83 +773,87 @@ fieldset dt {
 
 .search-box .inputbox,
 .search-box a.button {
-    border-radius: 0;
+	border-radius: 0;
 }
 .search-box .inputbox {
-    border-color: #112e62;
+	border-color: #112e62;
 }
 
 /* Form buttons */
 a.button1, input.button1,
 a.button2, input.button2, input.button3 {
-    padding: 3px 4px;
-    background: linear-gradient(rgba(4,14,26,0.7), rgba(12,60,89,0.7)) repeat scroll 0 0 rgba(0,0,0,0);
-    border-color: #0F2E63 #0F2E63 #1F62B5;
-    border-radius: 0;
-    color: #CFF;
-    font-family: "exo","Myriad Pro",Myriad,Arial,sans-serif;
-    font-size: 1.1em;
-    text-shadow: 0 0 0.7em #009CFF;
-    box-shadow: 0 1px 7px 0 rgba(0,0,0,0.6);
-    transition: all 0.3s;
+	padding: 3px 4px;
+	background: linear-gradient(rgba(4, 14, 26, 0.7), rgba(12, 60, 89, 0.7)) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	border-color: #0F2E63 #0F2E63 #1F62B5;
+	border-radius: 0;
+	color: #CFF;
+	font-family: "exo", "Myriad Pro", Myriad, Arial, sans-serif;
+	font-size: 1.1em;
+	text-shadow: 0 0 0.7em #009CFF;
+	box-shadow: 0 1px 7px 0 rgba(0, 0, 0, 0.6);
+	transition: all 0.3s;
 }
 
 a.button1, a.button1:link, a.button1:visited, a.button1:active,
 a.button2, a.button2:link, a.button2:visited, a.button2:active {
-    color: #DDD;
-    padding: 2px 8px;
+	color: #DDD;
+	padding: 2px 8px;
 }
 
 a.button1:hover, input.button1:hover,
 a.button2:hover, input.button2:hover, input.button3:hover {
-    background: linear-gradient(169deg, #260D54, #000000) repeat scroll 0 0 rgba(0,0,0,0);
-    border-color: #182E83 #182E83 #1F62B5;
-    text-shadow: 0 0 0.9em #009CFF;
-    box-shadow: 0 0 4px rgba(155, 114, 251, 0.25);
+	background: linear-gradient(169deg, #260D54, #000000) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	border-color: #182E83 #182E83 #1F62B5;
+	text-shadow: 0 0 0.9em #009CFF;
+	box-shadow: 0 0 4px rgba(155, 114, 251, 0.25);
 }
 
 input.button1:active, input.button3:active, input.button2:active {
-    background-image: none;
-    box-shadow: inset 0 0 2px 1px #000, 0 2px 5px 1px rgba(0,0,0,0.5);
-    border-color: #3380C8;
+	background-image: none;
+	box-shadow: inset 0 0 2px 1px #000, 0 2px 5px 1px rgba(0, 0, 0, 0.5);
+	border-color: #3380C8;
 }
+
 input.button1:focus, input.button2:focus, input.button3:focus {
-    border-color: #3B1360;
+	border-color: #3B1360;
 }
 
 fieldset.submit-buttons input {
-    padding: 8px 10px;
-    font-size: 1.2em;
+	padding: 8px 10px;
+	font-size: 1.2em;
 }
 
+/* Posting */
 #postingbox,
 #cp-main #postingbox {
-    background-image:	linear-gradient(rgba(161, 139, 175, 0.45), rgba(161, 139, 175, 0.14)),
-    linear-gradient(rgba(161, 139, 175, 0.45), rgba(161, 139, 175, 0.14)),
-    url("./images/reply_bg.png");
-    background-position: 0 0, 100% 0, 50% 0;
-    background-repeat: no-repeat;
-    background-size: 1px 100%, 1px 100%, auto;
+	background-image: linear-gradient(rgba(161, 139, 175, 0.45), rgba(161, 139, 175, 0.14)),
+	linear-gradient(rgba(161, 139, 175, 0.45), rgba(161, 139, 175, 0.14)),
+	url("./images/reply_bg.png");
+	background-position: 0 0, 100% 0, 50% 0;
+	background-repeat: no-repeat;
+	background-size: 1px 100%, 1px 100%, auto;
 }
 
 #format-buttons input {
-    background: #4a0b6b;
-    background: linear-gradient(#480769, #572e76);
-    border-color: #570d74;
-    box-shadow: none;
-    color: #FFF;
-    text-shadow: 0 0 0.6em #CC00FF;
+	background: #4a0b6b;
+	background: linear-gradient(#480769, #572e76);
+	border-color: #570d74;
+	box-shadow: none;
+	color: #FFF;
+	text-shadow: 0 0 0.6em #CC00FF;
 }
+
 #format-buttons input:hover {
-    background: #4a0b6b;
-    background: linear-gradient(#67358d, #49086b);
-    border-color: #731095;
-    box-shadow: none;
-    text-shadow: 0 0 0.6em #CC00FF;
+	background: #4a0b6b;
+	background: linear-gradient(#67358d, #49086b);
+	border-color: #731095;
+	box-shadow: none;
+	text-shadow: 0 0 0.6em #CC00FF;
 }
+
 #format-buttons input:active {
-    background: #4a0b6b;
-    box-shadow: none;
+	background: #4a0b6b;
+	box-shadow: none;
 }
 
 /* Search box (header)
@@ -883,122 +906,110 @@ fieldset.submit-buttons input {
 
 /* CP common
 --------------------------------------------- */
-ul.cplist {
-
-}
-
-.panel-container li.header, .panel-container thead {
-
-}
-
-.panel-container table.table1 {
-    background: none;
-    border: none;
-}
-
-.panel-container .panel li.row {
-    border-top: none;
-}
-
 #cp-main table.table1 {
-    margin-top: 1em;
+	margin-top: 1em;
 }
 
 #cp-main .pm {
-    background-color: rgba(0,0,0,0.4);
-    background:	linear-gradient(rgba(161, 139, 175, 0.45), rgba(161, 139, 175, 0.14)) 0 0 no-repeat,
+	background-color: rgba(0,0,0,0.4);
+	background:	linear-gradient(rgba(161, 139, 175, 0.45), rgba(161, 139, 175, 0.14)) 0 0 no-repeat,
 				linear-gradient(rgba(161, 139, 175, 0.45), rgba(161, 139, 175, 0.14)) 100% 0 no-repeat,
 				url("./images/post_bg_highly_rated.png") 50% -1px no-repeat;
-    background-size: 1px 100%, 1px 100%, auto !important;
-    border: none;
-    border-bottom: 1px solid rgba(161,139,175,0.14);
-    border-top: 1px solid rgba(161,139,175,0.45);
+	background-size: 1px 100%, 1px 100%, auto !important;
+	border: none;
+	border-bottom: 1px solid rgba(161,139,175,0.14);
+	border-top: 1px solid rgba(161,139,175,0.45);
 }
 
 .cp-mini {
-    background-color: rgba(46, 116, 150, 0.1);
-    border-color: #14324E;
+	background-color: rgba(46, 116, 150, 0.1);
+	border-color: #14324E;
 }
 
 #cp-main h3, #cp-main hr, #cp-menu hr {
-    border-color: rgba(29,63,98,0.5);
+	border-color: rgba(29,63,98,0.5);
 }
 
 .panel-container h3,
 .panel-container hr,
 #cp-menu hr {
-    border-color: rgba(0,156,255,0.3);
+	border-color: rgba(0,156,255,0.3);
 }
-.panel-container table.table1 thead th {
-    color: #FFF;
-    border-bottom-color: rgba(0,156,255,0.3);
+
+#gallery label {
+	background-color: rgba(0, 0, 0, 0.4);
+	border-color: #14324E;
+}
+
+#gallery label:hover {
+	background-color: rgba(28, 40, 100, 0.15);
+	border-color: #009CFF;
 }
 
 /* UCP/MCP Tabs
 --------------------------------------------- */
 #tabs .tab > a,
 #minitabs .tab > a {
-    background-color: rgba(0, 0, 0, 0.3);
-    background-image:	linear-gradient(rgba(161, 139, 175, 0.45), rgba(161, 139, 175, 0.14)),
-    linear-gradient(rgba(161, 139, 175, 0.45), rgba(161, 139, 175, 0.14));
-    background-position: 0 1px, 100% 1px;
-    background-repeat: no-repeat;
-    background-size: 1px 100%;
-    background-origin: border-box;
-    border-color: rgba(161, 139, 175, 0.45) transparent transparent;
-    border-radius: 0;
-    color: #8EB1BC;
+	background-color: rgba(0, 0, 0, 0.3);
+	background-image: linear-gradient(rgba(161, 139, 175, 0.45), rgba(161, 139, 175, 0.14)), linear-gradient(rgba(161, 139, 175, 0.45), rgba(161, 139, 175, 0.14));
+	background-position: 0 1px, 100% 1px;
+	background-repeat: no-repeat;
+	background-size: 1px 100%;
+	background-origin: border-box;
+	border-color: rgba(161, 139, 175, 0.45) transparent transparent;
+	border-radius: 0;
+	color: #8EB1BC;
 }
 
 #tabs .tab > a:hover,
 #minitabs .tab > a:hover {
-    background-color: rgba(0, 0, 0, 0.6);
-    background-image: none;
-    border-color: rgba(161, 139, 175, 0.45);
-    color: #FFF;
+	background-color: rgba(0, 0, 0, 0.6);
+	background-image: none;
+	border-color: rgba(161, 139, 175, 0.45);
+	color: #FFF;
 }
 
 #tabs .activetab > a,
 #tabs .activetab > a:hover,
 #minitabs .activetab > a,
 #minitabs .activetab > a:hover {
-    background: rgba(0, 0, 0, 0.4);
-    border-color: rgba(161, 139, 175, 0.45);
-    border-bottom-color: rgba(0, 0, 0, 0.6);
-    color: #CCFFFF;
+	background: rgba(0, 0, 0, 0.4);
+	border-color: rgba(161, 139, 175, 0.45);
+	border-bottom-color: rgba(0, 0, 0, 0.6);
+	color: #CCFFFF;
 }
 
 #navigation a {
-    color: #4F93B6;
-    background: #0a1119;
-    background: rgba(15,25,36,0.8) linear-gradient(to left, rgba(0,0,0,0.6) 0,rgba(0,0,0,0) 100px);
-    border-color: #14324E;
+	color: #4F93B6;
+	background: #0a1119;
+	background: rgba(15,25,36,0.8) linear-gradient(to left, rgba(0,0,0,0.6) 0,rgba(0,0,0,0) 100px);
+	border-color: #14324E;
 }
 
 #tabs .activetab > a:hover,
 #minitabs .activetab > a:hover,
 #navigation a:hover,
 #navigation #active-subsection a {
-    color: #FFF;
+	color: #FFF;
 }
 
 #navigation #active-subsection a:hover {
-    color: #66CCFF;
+	color: #66CCFF;
 }
 
 #navigation a:hover,
 #navigation #active-subsection a {
-    background-color: rgba(29, 63, 98, 0.3);
+	background-color: rgba(29, 63, 98, 0.3);
 }
 
 /* Footer
 --------------------------------------------- */
 #page-footer {
-    margin-top: 5px;
+	margin-top: 5px;
 }
 
 .copyright {
-    color: #456;
+	color: #456;
 }
 
 /* Pagination
@@ -1009,8 +1020,7 @@ ul.cplist {
 
 .pagination > ul > li {
 	background-color: #000;
-	background-image: linear-gradient(rgba(0, 156, 255, 0.3), rgba(17, 46, 98, 0.6)),
-	linear-gradient(rgba(0, 156, 255, 0.3), rgba(17, 46, 98, 0.6));
+	background-image: linear-gradient(rgba(0, 156, 255, 0.3), rgba(17, 46, 98, 0.6)), linear-gradient(rgba(0, 156, 255, 0.3), rgba(17, 46, 98, 0.6));
 	background-size: 1px 100%;
 	background-position: 100% 0, 0 0;
 	background-repeat: no-repeat;
@@ -1032,9 +1042,9 @@ ul.cplist {
 .pagination .active a:hover,
 .pagination .dropdown-visible a.dropdown-trigger,
 .nojs .pagination .dropdown-container:hover a.dropdown-trigger {
-	background-image: linear-gradient(rgba(8, 28, 52, 0.75), rgba(7, 45, 87, 0.75) 50%, rgba(34, 54, 127, 0.75)),
-	linear-gradient(rgba(0, 156, 255, 0.3), rgba(17, 46, 98, 0.6)),
-	linear-gradient(rgba(0, 156, 255, 0.3), rgba(17, 46, 98, 0.6));
+	background-image:	linear-gradient(rgba(8, 28, 52, 0.75), rgba(7, 45, 87, 0.75) 50%, rgba(34, 54, 127, 0.75)),
+						linear-gradient(rgba(0, 156, 255, 0.3), rgba(17, 46, 98, 0.6)),
+						linear-gradient(rgba(0, 156, 255, 0.3), rgba(17, 46, 98, 0.6));
 	background-size: 100% 100%, 1px 100%, 1px 100%;
 	background-position: 0 0, 100% 0, 0 0;
 	background-repeat: repeat, no-repeat, no-repeat;
@@ -1065,46 +1075,46 @@ ul.cplist {
 /* Quick-reply
 --------------------------------------------- */
 #qr_postform .panel {
-    background: url("./images/reply_bg.png") 50% 0 no-repeat;
-    border: none;
-    box-shadow: none;
-    margin: 0;
-    padding: 15px;
-    max-width: inherit;
-    min-height: 200px;
+	background: url("./images/reply_bg.png") 50% 0 no-repeat;
+	border: none;
+	box-shadow: none;
+	margin: 0;
+	padding: 15px;
+	max-width: inherit;
+	min-height: 200px;
 }
 
 #qr_postform #message-box {
-    background: none;
-    padding: 0;
-    margin: 5px 0 10px;
+	background: none;
+	padding: 0;
+	margin: 5px 0 10px;
 }
 
 #qr_postform textarea {
-    border-radius: 0;
-    background: #040D1A;
+	border-radius: 0;
+	background: #040D1A;
 }
 #qr_postform textarea:focus {
-    box-shadow: 0 0 3px 1px #3380c8;
+	box-shadow: 0 0 3px 1px #3380c8;
 }
 
 #qr_postform fieldset.submit-buttons {
-    background: none;
-    padding: 0;
+	background: none;
+	padding: 0;
 }
 
 /* Collapseable blocks
 --------------------------------------------- */
 .collapse-box h2,
 .stat-block h3 {
-    font-family: "exo","Myriad Pro",Myriad,Arial,sans-serif;
-    color: #ECFFFF;
-    text-shadow: 0 0 16px #009CFF;
-    border-bottom-color: #172040;
+	font-family: "exo","Myriad Pro",Myriad,Arial,sans-serif;
+	color: #ECFFFF;
+	text-shadow: 0 0 16px #009CFF;
+	border-bottom-color: #172040;
 }
 .collapse-box h2:hover,
 .stat-block h3:hover {
-    border-bottom-color: #FE00F5;
+	border-bottom-color: #FE00F5;
 }
 
 .collapse-box h2 a:link, .collapse-box h2 a:visited,
@@ -1119,23 +1129,23 @@ ul.cplist {
 
 .collapse-box h2 a[href="#"]:before,
 .stat-block h3 a[href="#"]:before {
-    content: "\f0d8";
-    font-size: 0.8em;
-    opacity: 1;
+	content: "\f0d8";
+	font-size: 0.8em;
+	opacity: 1;
 }
 .collapse-box h2.open a[href="#"]:before,
 .stat-block h3.open a[href="#"]:before {
-    content: "\f0d7";
+	content: "\f0d7";
 }
 
 .collapse-box h2 a:before,
 .stat-block h3 a:before {
-    color: #523878;
+	color: #523878;
 }
 .collapse-box h2:hover a:before,
 .stat-block h3:hover a:before {
-    color: #A41CB0;
-    text-shadow: 0 0 5px #FE00F5;
+	color: #A41CB0;
+	text-shadow: 0 0 5px #FE00F5;
 }
 
 /* Rules & Errors
@@ -1143,266 +1153,277 @@ ul.cplist {
 div.rules,
 body.section-viewforum div.rules,
 body.section-viewtopic div.rules {
-    padding: 12px;
-    background-color: transparent;
-    background-image: 	linear-gradient(#AA1155 0%, #001111 50%, #AA1155 100%),
-    linear-gradient(#AA1155 0%, #001111 50%, #AA1155 100%),
-    linear-gradient(to right, #AA1155 0%, #FF1111 50%, #AA1155 100%),
-    linear-gradient(to right, #AA1155 0%, #FF1111 50%, #AA1155 100%);
-    background-size: 2px 100%, 2px 100%, 100% 2px, 100% 2px;
-    background-position: 100% 0, 0 0, 0 0, 0 100%;
-    background-repeat: no-repeat;
-    border: none;
-    box-shadow: none;
+	padding: 12px;
+	background-color: transparent;
+	background-image:	linear-gradient(#AA1155 0%, #001111 50%, #AA1155 100%),
+						linear-gradient(#AA1155 0%, #001111 50%, #AA1155 100%),
+						linear-gradient(to right, #AA1155 0%, #FF1111 50%, #AA1155 100%),
+						linear-gradient(to right, #AA1155 0%, #FF1111 50%, #AA1155 100%);
+	background-size: 2px 100%, 2px 100%, 100% 2px, 100% 2px;
+	background-position: 100% 0, 0 0, 0 0, 0 100%;
+	background-repeat: no-repeat;
+	border: none;
+	box-shadow: none;
 }
 div.rules > .inner,
 body.section-viewforum div.rules > .inner,
 body.section-viewtopic div.rules > .inner {
-    background: none;
-    border: none;
-    box-shadow: none;
-    padding: 0;
+	background: none;
+	border: none;
+	box-shadow: none;
+	padding: 0;
 }
 
 div.rules strong {
-    background-color: transparent;
-    background-image: 	linear-gradient(to bottom, rgba(50,1,20,1),rgba(60,5,5,0.6)),
-    linear-gradient(to right, rgba(255,0,40,0) 0%, rgba(255,0,40,0.8) 50%, rgba(255,0,40,0) 100%);
-    background-size: 100% 100%, 100% 1px;
-    background-position: 0 0, 0 100%;
-    background-repeat: repeat, no-repeat;
-    border: none;
-    font-family: "exo","Myriad Pro",Myriad,Arial,sans-serif;
-    color: #FFF;
-    padding: 7px;
-    font-size: 1.5em;
-    box-shadow: none;
+	background-color: transparent;
+	background-image: 	linear-gradient(to bottom, rgba(50,1,20,1),rgba(60,5,5,0.6)),
+	linear-gradient(to right, rgba(255,0,40,0) 0%, rgba(255,0,40,0.8) 50%, rgba(255,0,40,0) 100%);
+	background-size: 100% 100%, 100% 1px;
+	background-position: 0 0, 0 100%;
+	background-repeat: repeat, no-repeat;
+	border: none;
+	font-family: "exo","Myriad Pro",Myriad,Arial,sans-serif;
+	color: #FFF;
+	padding: 7px;
+	font-size: 1.5em;
+	box-shadow: none;
 }
 
 div.rules-link {
-    text-align: center;
-    background: none !important;
+	text-align: center;
+	background: none !important;
 }
 div.rules-link a {
-    display: inline-block;
-    background-color: #f90;
-    background-image: linear-gradient(#ff9900,#ff6600);
-    box-shadow: 0 0 2em 0.3em rgba(255,0,246,0.3);
-    border: 2px solid #ffb674;
-    vertical-align: middle;
-    padding: 0.5em 1.5em;
-    margin: 10px;
-    color: #FFF;
-    font-family: "exo","Myriad Pro",Myriad,Arial,sans-serif;
-    font-size: 27px;
-    transition:	all 0.15s ease-in-out 0s;
+	display: inline-block;
+	background-color: #f90;
+	background-image: linear-gradient(#ff9900,#ff6600);
+	box-shadow: 0 0 2em 0.3em rgba(255,0,246,0.3);
+	border: 2px solid #ffb674;
+	vertical-align: middle;
+	padding: 0.5em 1.5em;
+	margin: 10px;
+	color: #FFF;
+	font-family: "exo","Myriad Pro",Myriad,Arial,sans-serif;
+	font-size: 27px;
+	transition:	all 0.15s ease-in-out 0s;
 }
 div.rules-link a:hover {
-    background-color: #F60;
-    background-image: linear-gradient(#ff9900,#ff6600);
-    box-shadow: 0 0 2em 0.3em rgba(255,0,246,0.3),inset 0 0 0.5em #fff;
-    text-decoration: none;
-    border: 2px solid #ffb674;
+	background-color: #F60;
+	background-image: linear-gradient(#ff9900,#ff6600);
+	box-shadow: 0 0 2em 0.3em rgba(255,0,246,0.3),inset 0 0 0.5em #fff;
+	text-decoration: none;
+	border: 2px solid #ffb674;
 }
 
 .postbody div.rules {
-    padding: 6px 10px;
+	padding: 6px 10px;
 }
 
 /*p.rules {
 	background: #060b10;
-    background-color: rgba(0,0,0,0.2);
+	background-color: rgba(0,0,0,0.2);
 	background-image: linear-gradient(to right, rgba(255,0,40,0) 0%, rgba(255,0,40,1) 50%, rgba(255,0,40,0) 100%), linear-gradient(to right, rgba(255,0,40,0) 0%, rgba(255,0,40,1) 50%, rgba(255,0,40,0) 100%);
 	background-size: 100% 2px, 100% 2px;
 	background-position: 0 0, 0 100%;
 	background-repeat: no-repeat;
 	border: none;
-    color: #FFF;
+	color: #FFF;
 	text-align: center;
 	padding: 10px;
 	padding: 1rem;
 	box-shadow: 0 0 7px 0 rgba(0,0,0,0.4);
 }*/
 #information {
-    text-align: center;
-    padding: 10px !important;
+	text-align: center;
+	padding: 10px !important;
 }
 
 /* Drop-down menus
 --------------------------------------------- */
 ul.linklist li.responsive-menu a.responsive-menu-link:before {
-    color: #9dbecb;
+	color: #9dbecb;
 }
 
 .dropdown {
-    border-radius: 0;
+	border-radius: 0;
 }
 .dropdown .pointer {
-    border-color: #C965EB transparent;
+	border-color: #C965EB transparent;
 }
 .dropdown .pointer-inner {
-    border-color: #000 transparent;
-    bottom: -13px;
+	border-color: #000 transparent;
+	bottom: -13px;
 }
 .dropdown-up .pointer-inner {
-    bottom: auto;
-    top: -13px;
+	bottom: auto;
+	top: -13px;
 }
 .dropdown .dropdown-contents {
-    background: #000;
-    background-color: rgba(0,0,0,0.95);
-    border: 2px solid #C965EB;
-    border-radius: 0;
-    box-shadow: 0 0 15px rgba(162, 0, 255, 0.3);
+	background: #000;
+	background-color: rgba(0,0,0,0.95);
+	border: 2px solid #C965EB;
+	border-radius: 0;
+	box-shadow: 0 0 15px rgba(162, 0, 255, 0.3);
 }
 
 /* Notifications */
 .dropdown-extended .header, .dropdown-extended .footer {
-    border-color: #653576;
+	border-color: #653576;
 }
 .dropdown-extended .header {
-    background: linear-gradient(rgba(34,54,127,0.5), rgba(7,45,87,0.5) 50%, rgba(8,28,52,0.5));
+	background: linear-gradient(rgba(34,54,127,0.5), rgba(7,45,87,0.5) 50%, rgba(8,28,52,0.5));
 }
 .dropdown-extended .pointer-inner {
-    border-color: #171b4a transparent;
+	border-color: #171b4a transparent;
 }
 
 .dropdown-extended ul li {
-    border-bottom-color: rgba(0,156,255,0.3);
+	border-top-color: rgba(0,156,255,0.3);
 }
 .dropdown-extended ul li:hover {
-    background: #11212F;
-    background: rgba(34, 49, 84, 0.25);
+	background: #11212F;
+	background: rgba(34, 49, 84, 0.25);
 }
 .dropdown-extended ul li.bg2 {
-    background: rgba(69,123,190,0.20);
+	background: rgba(69,123,190,0.20);
 }
 .dropdown-extended ul li.bg2:hover {
-    background: rgba(69,123,190,0.25);
+	background: rgba(69,123,190,0.25);
 }
 
 .dropdown-extended a.mark_read {
-    background-color: #000;
+	background-color: #000;
 }
 
 /* Subforum menus */
 .forums .dropdown-trigger {
-    background-image: url("./images/icons/child-arrow-big.gif");
+	background-image: url("./images/icons/child-arrow-big.gif");
 }
 .forums .dropdown-contents {
-    background-clip: border-box;
-    background-origin: padding-box;
-    background-color: rgba(0, 0, 0, 0.95);
-    background-image: linear-gradient(#73CFFF, #007CBD), linear-gradient(#73CFFF, #007CBD);
-    background-position: 100% 0, 0 0;
-    background-repeat: no-repeat;
-    background-size: 4px 100%;
-    border: none;
-    border-bottom: 4px solid #007CBD;
-    border-top: 4px solid #73CFFF;
-    border-radius: 0;
-    color: #8EB1BC;
-    box-shadow: 0 0 20px 0 rgba(0, 156, 255, 0.3);
-    padding: 5px 10px;
+	background-clip: border-box;
+	background-origin: padding-box;
+	background-color: rgba(0, 0, 0, 0.95);
+	background-image: linear-gradient(#73CFFF, #007CBD), linear-gradient(#73CFFF, #007CBD);
+	background-position: 100% 0, 0 0;
+	background-repeat: no-repeat;
+	background-size: 4px 100%;
+	border: none;
+	border-bottom: 4px solid #007CBD;
+	border-top: 4px solid #73CFFF;
+	border-radius: 0;
+	color: #8EB1BC;
+	box-shadow: 0 0 20px 0 rgba(0, 156, 255, 0.3);
+	padding: 5px 10px;
 }
 .forums .dropdown-contents a 		{ color: #48CCFF; }
 .forums .dropdown-contents a:hover 	{ color: #FFF; }
 
 /* Profile Context Menu */
 .profile-context .dropdown {
-    top: 20px;
+	top: 20px;
 }
 .profile-context .user-icons a {
-    background-color: #0F0C25;
-    background-image: url("./images/icons/context.gif");
-    color: #00B6FF;
-    border-radius: 0 !important;
+	background-color: #0F0C25;
+	background-image: url("./images/icons/context.gif");
+	color: #00B6FF;
+	border-radius: 0 !important;
 }
 .profile-context .user-icons a:hover {
-    background-color: #1F1A44;
-    color: #FFF;
+	background-color: #1F1A44;
+	color: #FFF;
 }
 
 /* Top-bar
 --------------------------------------------- */
 #top-bar {
-    /*background: url("./images/top-bar.jpg") repeat-x 50% 100% #0C0413;*/
+	background: url("./images/top-bar.jpg") repeat-x 50% 100% #0C0413; /* fall-back */
 	background: linear-gradient(to right, #000000, #2ca8e0, #000000) no-repeat scroll 0 100% / 100% 1px, linear-gradient(#0b0117, #191c49) 0 0 / 100% 100%;
-    border: none;
-    font-family: "exo","Myriad Pro",Myriad,Arial,sans-serif;
-    font-size: 1.4em;
-    line-height: 40px;
+	border: none;
+	font-family: "exo", "Myriad Pro", Myriad, Arial, sans-serif;
+	font-size: 1.4em;
+	line-height: 40px;
 	padding-bottom: 1px;
 }
+
 #top-bar > .inner {
-    border-left-color: rgba(0,0,0,0.2);
-    border-right: 1px solid rgba(0,216,255,0.1);
+	border-left-color: rgba(0, 0, 0, 0.2);
+	border-right: 1px solid rgba(0, 216, 255, 0.1);
 }
+
 #top-bar .linklist > li {
-    border-left: 1px solid rgba(0,216,255,0.1);
-    border-right-color: rgba(0,0,0,0.2);
+	border-left: 1px solid rgba(0, 216, 255, 0.1);
+	border-right-color: rgba(0, 0, 0, 0.2);
 }
 
 #top-bar .linklist > li.link a {
-    font-weight: normal;
-    color: #CCFFFF;
+	font-weight: normal;
+	color: #CCFFFF;
 }
+
 #top-bar .linklist > li.link a:hover {
-    color: #FFF;
+	color: #FFF;
 }
 
 /* Miscellaneous styles
 --------------------------------------------- */
 body.pbwow3_heroes.section-index.videobg .headerbar,
 body.pbwow3_heroes.videobg-all .headerbar {
-    background: none;
+	background: none;
 }
 body.pbwow3_heroes.section-index.videobg #page-body, body.pbwow3_heroes.videobg-all #page-body,
 body.pbwow3_heroes.section-index.videobg #body-header, body.pbwow3_heroes.videobg-all #body-header {
-    background-color: rgba(8,1,22,0.90);
+	background-color: rgba(8,1,22,0.90);
 }
 
 body.section-viewforum .stat-block p,
 body.section-viewtopic .stat-block p {
-    background: none;
-    border: none;
-    box-shadow: none;
-    border-top: 1px solid #172040;
+	background: none;
+	border: none;
+	box-shadow: none;
+	border-top: 1px solid #172040;
+}
+
+.phpbb_alert {
+	background: #000;
+	background-color: rgba(0,0,0,0.95);
+	border: 2px solid #C965EB;
+	border-radius: 0;
+	box-shadow: 0 0 15px rgba(162, 0, 255, 0.3);
 }
 
 .action-bar {
-    margin: 10px 4px;
+	margin: 10px 4px;
 }
 
 #topicreview {
-    background-color: rgba(0,0,0,0.4);
+	background-color: rgba(0,0,0,0.4);
 }
 
 #video-container {
-    background: url("./videos/heroes.jpg") no-repeat 49.999% 0;
-    height: 736px;
-    top: -50px;
-    width: 1940px;
+	background: url("./videos/heroes.jpg") no-repeat 49.999% 0;
+	height: 736px;
+	top: -50px;
+	width: 1940px;
 }
 #video-border {
-    background: url("./videos/video-border3.jpg") repeat-x 0 0;
-    top: 736px;
-    height: 200px;
+	background: url("./videos/video-border3.jpg") repeat-x 0 0;
+	top: 736px;
+	height: 200px;
 }
 
 /* Icon images
 --------------------------------------------- */
 .small-icon > a:before,
 #page-footer li.breadcrumbs:before {
-    color: #9DBECB;
+	color: #9DBECB;
 }
 
 #body-header li.breadcrumbs:before {
-    color: #C920C7;
+	color: #C920C7;
 }
 
 .imageset:before {
-    color: #8EB1BC;
+	color: #8EB1BC;
 }
 
 .forums .dropdown-contents a.subforum.read		{ background-image: url("./images/icons/icon_post_read.png"); }

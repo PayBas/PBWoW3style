@@ -1,10 +1,10 @@
 /*  phpBB3 Style Sheet
-    --------------------------------------------------------------
+	--------------------------------------------------------------
 	Style name:			PBWoW 3
 	Based on style:		prosilver (the default phpBB 3.1.x style)
 	Original author:	Tom Beddard ( http://www.subblue.com/ )
 	Modified by:		PayBas ( http://pbwow.com/ )
-    --------------------------------------------------------------
+	--------------------------------------------------------------
 */
 
 /* Header & main body
@@ -568,6 +568,10 @@ li.row:hover,
 	background-color: rgba(30, 30, 30, 0.8);
 }
 
+.panel-container li.header {
+	color: #FFF;
+}
+
 li.row strong {
 	color: #FFF;
 }
@@ -678,6 +682,7 @@ table.table1 thead th {
 
 .panel-container table.table1 thead th {
 	border: none;
+	color: #FFF;
 }
 
 table.table1 tbody th {
@@ -1187,7 +1192,7 @@ body.section-search p:not(.jumpbox-return) a.arrow-right {
 --------------------------------------------- */
 .content h2, .panel h2 {
 	color: #00C0FF;
-	border-bottom: 1px solid #888;
+	border-bottom: 1px solid #666;
 }
 
 .postbody h3 {
@@ -1762,11 +1767,6 @@ dl.mini dt {
 .panel-container hr,
 #cp-menu hr {
 	border-color: #444;
-}
-
-.panel-container li.header,
-.panel-container thead {
-	color: #FFF;
 }
 
 /* PM Message history */
