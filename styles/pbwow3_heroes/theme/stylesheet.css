@@ -1278,7 +1278,7 @@ ul.linklist li.responsive-menu a.responsive-menu-link:before {
 }
 
 .dropdown-extended ul li {
-	border-top-color: rgba(0,156,255,0.3);
+	border-color: rgba(0,156,255,0.3);
 }
 .dropdown-extended ul li:hover {
 	background: #11212F;

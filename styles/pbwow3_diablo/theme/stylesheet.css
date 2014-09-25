@@ -235,11 +235,14 @@ h2 {
 .stat-block h3 {
 	font-family: "Exocet Blizzard","Palatino Linotype",Times,serif;
 	font-size: 24px;
-	font-size: 2.4rem;
 }
 .collapse-box h2 a[href="#"]:before,
 .stat-block h3 a[href="#"]:before {
 	font-size: 0.7em;
+}
+
+.stat-block h3 {
+	font-size: 20px;
 }
 
 
@@ -307,21 +310,16 @@ h2 {
 #qr_postform .panel:after {
 	content: "";
 	position: absolute;
-	left: 50%;
-	-webkit-transform: translateX(-50%);
-	-ms-transform: translateX(-50%);
-	transform: translateX(-50%);
+	width: 100%;
 }
 #qr_postform .panel:before {
 	background: url("./images/deco.png") 50% 0 no-repeat;
 	height: 45px;
-	width: 100%;
 	bottom: -24px;
 }
 #qr_postform .panel:after {
 	background: url("./images/skull.png") 50% 0 no-repeat;
 	height: 90px;
-	width: 60px;
 	bottom: -54px;
 }
 #qr_postform .panel:hover:after {
