@@ -823,6 +823,11 @@ input.button1:active, input.button3:active, input.button2:active {
 	width: 31px !important;
 }
 
+.rtl .search-header {
+	right: auto;
+	left: 10px;
+}
+
 /* CP common
 --------------------------------------------- */
 #cp-main .pm,

@@ -1,38 +1,21 @@
 /* Heroes of the Storm IE8 & IE9 style specific markup */
 
-/* TODO: this crap is old */
-
 .navblock {
 	border: 3px solid #43286B;
 	border-top: none;
 }
 
-.wow-post-frame2,
-.wow-poll-box1 {
-	border: 3px solid #43286B;
-}
-
-
-.wow-topics .innerborder1,
-table.table1,
-ul.cplist,
-div.chatbox1 {
-	border: 2px solid #43286B;
-}
-
-table.table1, ul.cplist {
-	padding: 0;
-}
-
-
-.wow-index .subforums-menu,
-#topic_preview {
-	border: 1px solid #8d66c6;
+.forum-blocks dl.icon,
+.misc-block,
+.stat-block p {
+	background: rgba(30, 40, 85, 0.5);
+	border-color: rgba(99, 79, 155, 0.25);
 }
 
 .panel, #cp-main .panel, #cp-main .pm {
 	border: 1px solid #14324E;
 }
+
 
 .wow-topics div.rules dl, .section-posting div.rules dl {
 	border: 2px solid #AA1155;

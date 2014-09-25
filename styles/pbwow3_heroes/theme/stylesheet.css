@@ -290,7 +290,6 @@ li.header dt, li.header dd, li.header a, table.table1 thead th,
 .forum-blocks dl.icon,
 .misc-block,
 .stat-block p {
-	background: #0E131C;
 	background-color: transparent;
 	background-image:	linear-gradient(rgba(99, 79, 155, 0.25), #0B0117),
 						linear-gradient(rgba(99, 79, 155, 0.25), #0B0117),

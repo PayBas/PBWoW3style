@@ -175,7 +175,7 @@ ul.menu li {
 
 /* mChat MOD (TODO for future)
 --------------------------------------------- */
-.section-mchat #body-content {
+/*.section-mchat #body-content {
 	background: url("./images/particles.png") 100% 101% no-repeat;
 	background-clip: border-box;
 	background-origin: border-box;
@@ -217,4 +217,4 @@ div.mChatBG1:hover, div.mChatBG2:hover {
 }
 div.mChatBG1 span, div.mChatBG2 span {
 	color: #224967;
-}
+}*/

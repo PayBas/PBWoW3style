@@ -1213,7 +1213,7 @@ body.section-search p:not(.jumpbox-return) a.arrow-right {
 
 .post .postbody h3,
 .post p.author {
-	margin-left: 10px !important;
+	margin-left: 10px !important; /* TODO check */
 }
 
 blockquote {
@@ -2629,6 +2629,7 @@ input#pf_pbbnetavatar, label[for=pf_pbbnetavatar] {
 
 .small-icon > a {
 	padding-left: 0 !important;
+	padding-right: 0 !important;
 }
 
 .small-icon > a:before,
