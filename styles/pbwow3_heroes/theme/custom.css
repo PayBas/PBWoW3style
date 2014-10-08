@@ -27,23 +27,23 @@ Get all the FontAwesome CSS codes here: https://fortawesome.github.io/Font-Aweso
 
 .blizz #viewprofile .panel:first-of-type,
 .propass #viewprofile .panel:first-of-type,
-.mvp #viewprofile .panel:first-of-type { 
+.mvp #viewprofile .panel:first-of-type {
 	background-position: 0 0, 100% 0, 50% -1px;
 	background-repeat: no-repeat;
 	background-size: 1px 100%, 1px 100%, auto;
 }
-.blizz #viewprofile .panel:first-of-type { 
+.blizz #viewprofile .panel:first-of-type {
     background-image:	linear-gradient(rgba(161, 139, 175, 0.45), rgba(161, 139, 175, 0.14)),
 						linear-gradient(rgba(161, 139, 175, 0.45), rgba(161, 139, 175, 0.14)),
 						url("./images/post_bg_blizzard.png");
 	background-position: 0 0, 100% 0, 0 -1px;
 }
-.propass #viewprofile .panel:first-of-type { 
+.propass #viewprofile .panel:first-of-type {
     background-image:	linear-gradient(rgba(161, 139, 175, 0.45), rgba(161, 139, 175, 0.14)),
 						linear-gradient(rgba(161, 139, 175, 0.45), rgba(161, 139, 175, 0.14)),
 						url("./images/post_bg_propass.png");
 }
-.mvp #viewprofile .panel:first-of-type { 
+.mvp #viewprofile .panel:first-of-type {
     background-image:	linear-gradient(rgba(161, 139, 175, 0.45), rgba(161, 139, 175, 0.14)),
 						linear-gradient(rgba(161, 139, 175, 0.45), rgba(161, 139, 175, 0.14)),
 						url("./images/post_bg_mvp.png");
@@ -55,6 +55,8 @@ Get all the FontAwesome CSS codes here: https://fortawesome.github.io/Font-Aweso
 
 .blizz .content { color: #00C0FF; }
 .blizz .content strong { color: #FFF; }
+.blizz .postlink { color: #D970FD; }
+.blizz .postlink:hover { color: #CCFFFF; }
 
 .mvp .content { color: #00D158; }
 .mvp .content strong { color: #FFF; }

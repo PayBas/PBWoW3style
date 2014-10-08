@@ -25,7 +25,9 @@
 <!-- EVENT forumlist_body_category_header_after -->
 
 	<!-- IF not forumrow.S_IS_CAT -->
+		<!-- EVENT forumlist_body_forum_row_before -->
 		<li class="row">
+			<!-- EVENT forumlist_body_forum_row_prepend -->
 			<dl class="icon {forumrow.FORUM_IMG_STYLE}">
 				<dt title="{forumrow.FORUM_FOLDER_IMG_ALT}">
 					<!-- IF forumrow.FORUM_IMAGE --><div class="forum-image">{forumrow.FORUM_IMAGE}</div><!-- ENDIF -->
@@ -74,7 +76,9 @@
 					</dd>
 				<!-- ENDIF -->
 			</dl>
+			<!-- EVENT forumlist_body_forum_row_append -->
 		</li>
+		<!-- EVENT forumlist_body_forum_row_after -->
 	<!-- ENDIF -->
 
 <!-- IF forumrow.S_LAST_ROW -->
