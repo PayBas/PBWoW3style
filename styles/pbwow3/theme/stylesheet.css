@@ -1372,7 +1372,7 @@ code.inline {
 	background-image: linear-gradient(to bottom, #373737 0%, #111111 100%);
 	border: 1px solid #5D5D5D;
 	border-radius: 3px;
-	color: inherit !important;
+	color: #CCC;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	height: auto;
 	line-height: 28px;
@@ -1390,13 +1390,14 @@ code.inline {
 }
 
 .button:hover,
+.button:active,
 .dropdown-visible .dropdown-select,
 .dropdown-visible .dropdown-select:hover,
 .nojs .dropdown-container:hover .dropdown-select {
 	background-color: #37dfff;
 	background-image: linear-gradient(to bottom, #37dfff 0%, #1041e2 100%);
 	border-color: #238eff;
-	color: #FFF !important;
+	color: #FFF;
 	text-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
 	box-shadow: 0 1px 7px 0 rgba(0, 0, 0, 0.5), inset 0 1px 3px 0 rgba(255, 255, 255, 0.8);
 }

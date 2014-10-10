@@ -701,7 +701,7 @@ dl.thumbnail dt a:hover img,
 	background: linear-gradient(rgba(8, 28, 52, 0.5), rgba(7, 45, 87, 0.5) 50%, rgba(34, 54, 127, 0.5));
 	border: 1px solid #112E62;
 	border-radius: 0;
-	color: #34FFFF !important;
+	color: #34FFFF;
 	font-family: "exo", "Myriad Pro", Myriad, Arial, sans-serif;
 	box-shadow: 0 1px 7px 0 rgba(0, 0, 0, 0.6);
 	text-shadow: 1px 1px rgba(0, 0, 0, 0.4);
@@ -710,13 +710,14 @@ dl.thumbnail dt a:hover img,
 }
 
 .button:hover,
+.button:active,
 .dropdown-visible .dropdown-select,
 .dropdown-visible .dropdown-select:hover,
 .nojs .dropdown-container:hover .dropdown-select {
 	background: #072d57;
 	background: linear-gradient(rgba(8, 28, 52, 0.75), rgba(7, 45, 87, 0.75) 50%, rgba(34, 54, 127, 0.75));
 	border-color: #112E62;
-	color: #FFF !important;
+	color: #FFF;
 	text-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
 	box-shadow: 0 0 10px rgba(0, 102, 153, 0.25);
 }
