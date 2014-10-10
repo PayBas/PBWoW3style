@@ -1233,6 +1233,13 @@ ul.linklist li.responsive-menu a.responsive-menu-link:before {
 	color: #acbdc8;
 }
 
+.profile-context a {
+	color: #9dbecb;
+}
+.profile-context a:hover {
+	color: #FFF;
+}
+
 .profile-context .user-icons a {
 	background: #6b7f8d;
 	color: #c7dceb;

@@ -1304,8 +1304,8 @@ dl.thumbnail img,
 .postbody a > img.postimage {
 	background-color: rgba(0, 0, 0, 0.4);
 	/*border: 1px solid #372511 !important;*/
-	border: 1px solid #666 !important;
-	border-radius: 5px !important;
+	border: 1px solid #666 !important; /* !important for lightbox script */
+	border-radius: 5px !important; /* !important for lightbox script */
 	box-shadow: 0 0 6px #000000;
 	padding: 0;
 	transition: border 0.25s ease-out 0s;
@@ -1318,7 +1318,7 @@ dl.thumbnail dt a:hover,
 
 dl.thumbnail dt a:hover img,
 .postbody a > img.postimage:hover {
-	border: 1px solid #CD9000 !important;
+	border: 1px solid #CD9000 !important; /* !important for lightbox script */
 }
 
 .posthilit {

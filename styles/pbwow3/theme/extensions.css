@@ -324,8 +324,8 @@ h2.pages-title {
 .removethanks-icon:before { content: "\f165"; background: none; }
 
 .icon-thanks, .icon-thanks_toplist { padding-left: 0; }
-.icon-thanks_toplist > a:before { content: "\f005"; }
-.icon-thanks > a:before { content: "\f164"; }
+.icon-thanks_toplist > a:before { content: "\f006"; }
+.icon-thanks > a:before { content: "\f087"; }
 
 /* Board3 Portal
 --------------------------------------------- */
