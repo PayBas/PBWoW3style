@@ -5,7 +5,6 @@
 	Original author:	PayBas ( http://pbwow.com/ )
     --------------------------------------------------------------
 */
-
 @import url(http://fonts.googleapis.com/css?family=Jockey+One);
 
 body {
@@ -22,24 +21,31 @@ body {
 	margin-top: 50px;
 }
 
+.headerbar {
+	min-height: 180px;
+}
+
 #top-bar {
-	background: rgba(11,13,19,0.75);
-	border-bottom: 1px solid rgba(5,81,126,0.75);
+	background: rgba(11, 13, 19, 0.75);
+	border-bottom: 1px solid rgba(5, 81, 126, 0.75);
 	padding: 0;
 }
+
 #top-bar > .inner {
 	border: none;
 }
+
 #top-bar .linklist > li {
 	border: none;
 }
+
 #top-bar strong {
 	font-weight: normal;
 }
 
 #body-header,
 #page-body {
-	background-color: rgba(11,1,22,0.7) !important;
+	background-color: rgba(11, 1, 22, 0.7) !important;
 }
 
 .postprofile .avatar-container {
@@ -52,7 +58,7 @@ body {
 
 h2, .collapse-box h2, .stat-block h3 {
 	letter-spacing: normal;
-	text-shadow: 0 0 14px rgba(0,156,255,0.7);
+	text-shadow: 0 0 14px rgba(0, 156, 255, 0.7);
 }
 
 h2,
@@ -72,5 +78,5 @@ table.table1 thead th,
 .button,
 a.button1, input.button1,
 a.button2, input.button2, input.button3 {
-	font-family: "Jockey One","Myriad Pro",Myriad,Arial,sans-serif;
+	font-family: "Jockey One", "Myriad Pro", Myriad, Arial, sans-serif;
 }
