@@ -329,7 +329,7 @@ h2 {
 
 /* Drop-down menus
 --------------------------------------------- */
-.postprofile .context .user-icons a {
+.profile-context .user-icons a {
 	background-image: url("./images/context.gif");
 }
 

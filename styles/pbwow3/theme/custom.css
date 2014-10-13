@@ -42,22 +42,22 @@ Get all the FontAwesome CSS codes here: https://fortawesome.github.io/Font-Aweso
 
 /*.postprofile .profile-posts, */
 /*.postprofile .profile-pb_wow_guild,*/
-.postprofile .profile-pb_wow_level,
-.postprofile .profile-pb_wow_race,
-.postprofile .profile-pb_wow_gender,
-.postprofile .profile-pb_wow_class,
-.postprofile .profile-pb_diablo_class,
-.postprofile .profile-pb_diablo_gender,
-.postprofile .profile-pb_diablo_follower,
-.postprofile .profile-pb_wildstar_race,
-.postprofile .profile-pb_wildstar_class,
-.postprofile .profile-pb_wildstar_gender,
-.postprofile .profile-pb_wildstar_path,
-.postprofile .profile-pb_bnet_host,
-.postprofile .profile-pb_bnet_realm,
-.postprofile .profile-pb_bnet_name,
-.postprofile .profile-pb_bnet_url,
-.postprofile .profile-pb_bnet_avatar {
+.profile-context .profile-pb_wow_level,
+.profile-context .profile-pb_wow_race,
+.profile-context .profile-pb_wow_gender,
+.profile-context .profile-pb_wow_class,
+.profile-context .profile-pb_diablo_class,
+.profile-context .profile-pb_diablo_gender,
+.profile-context .profile-pb_diablo_follower,
+.profile-context .profile-pb_wildstar_race,
+.profile-context .profile-pb_wildstar_class,
+.profile-context .profile-pb_wildstar_gender,
+.profile-context .profile-pb_wildstar_path,
+.profile-context .profile-pb_bnet_host,
+.profile-context .profile-pb_bnet_realm,
+.profile-context .profile-pb_bnet_name,
+.profile-context .profile-pb_bnet_url,
+.profile-context .profile-pb_bnet_avatar {
 	display: none;
 }
 
@@ -71,13 +71,13 @@ Get all the FontAwesome CSS codes here: https://fortawesome.github.io/Font-Aweso
  * (example of how to use only CSS to style profile fields)
 --------------------------------------------- */
 
-.postprofile .profile-custom-field:before,
-.postprofile .profile-custom-field:after { font-family: FontAwesome; }
+.profile-context .profile-custom-field:before,
+.profile-context .profile-custom-field:after { font-family: FontAwesome; }
 
-.postprofile .profile-pb_wow_guild { font-weight: bold; }
-.postprofile .profile-pb_wow_guild strong { display: none; }
-.postprofile .profile-pb_wow_guild:before { content: '\f104'; }
-.postprofile .profile-pb_wow_guild:after { content: ' \f105'; }
+.profile-context .profile-pb_wow_guild { font-weight: bold; }
+.profile-context .profile-pb_wow_guild strong { display: none; }
+.profile-context .profile-pb_wow_guild:before { content: '\f104'; }
+.profile-context .profile-pb_wow_guild:after { content: ' \f105'; }
 
 
 /* General post content styling

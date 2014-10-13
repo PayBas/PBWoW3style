@@ -1330,12 +1330,19 @@ ul.linklist li.responsive-menu a.responsive-menu-link:before {
 .profile-context .dropdown {
 	top: 20px;
 }
+
+.profile-context dt,
+.profile-context strong {
+	color: #66CCFF;
+}
+
 .profile-context .user-icons a {
 	background-color: #0F0C25;
 	background-image: url("./images/icons/context.gif");
 	color: #00B6FF;
 	border-radius: 0 !important;
 }
+
 .profile-context .user-icons a:hover {
 	background-color: #1F1A44;
 	color: #FFF;
