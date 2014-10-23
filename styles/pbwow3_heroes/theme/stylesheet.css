@@ -994,6 +994,10 @@ fieldset.submit-buttons input {
 	border-color: #14324E;
 }
 
+.rtl #navigation a {
+	background: rgba(15,25,36,0.8) linear-gradient(to right, rgba(0,0,0,0.6) 0,rgba(0,0,0,0) 100px);
+}
+
 #tabs .activetab > a:hover,
 #minitabs .activetab > a:hover,
 #navigation a:hover,
@@ -1503,6 +1507,31 @@ body.section-viewtopic .stat-block p {
 
 .pm_read							{ background-image: url("./images/icons/topic_read.png"); }
 .pm_unread							{ background-image: url("./images/icons/topic_unread.png"); }
+
+/* Right-to-Left languages
+--------------------------------------------- */
+.rtl #page-body:before {
+	margin-right: -20px; /* compensate for the padding */
+}
+
+.rtl .search-header {
+	right: auto;
+	left: 0;
+}
+
+.rtl .search-header .inputbox {
+	padding: 12px 12px 12px 0 !important;
+	float: right !important;
+}
+
+.rtl .search-header button.search-icon {
+	right: auto;
+	left: 2px;
+}
+
+.rtl .forum-blocks dl.icon {
+	background-position: 0 1px, 100% 1px, 0 0, 0 0;
+}
 
 /* =Media queries
 -------------------------------------------------------------- */

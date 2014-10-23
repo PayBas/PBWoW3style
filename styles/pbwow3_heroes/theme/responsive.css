@@ -31,3 +31,9 @@ body {
 .post-container, #qr_postform, .topic_poll .panel {
 	margin: 0 -4px;
 }
+
+/* Right-to-Left languages
+--------------------------------------------- */
+.rtl #page-body:before {
+	margin-right: -5px;
+}

@@ -175,6 +175,10 @@ ul.menu li {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.notouch #phpbb_announcement:hover .close {
+	opacity: 1;
+}
+
 /* Pages
 --------------------------------------------- */
 h2.pages-title {
