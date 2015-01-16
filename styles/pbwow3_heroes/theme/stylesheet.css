@@ -1374,12 +1374,12 @@ ul.linklist li.responsive-menu a.responsive-menu-link:before {
 	border-right-color: rgba(0, 0, 0, 0.2);
 }
 
-#top-bar .linklist > li.link a {
+#top-bar .linklist > li.link > a {
 	font-weight: normal;
 	color: #CCFFFF;
 }
 
-#top-bar .linklist > li.link a:hover {
+#top-bar .linklist > li.link > a:hover {
 	color: #FFF;
 }
 
