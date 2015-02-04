@@ -242,6 +242,10 @@ hr {
 	color: #8d929c;
 }
 
+.forum-blocks dl.unread {
+	background: #F2F1F0;
+}
+
 /* Hover states */
 .forum-blocks dl:hover {
 	background: #FFFFFF;
