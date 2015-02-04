@@ -287,7 +287,7 @@ li.header dt, li.header dd, li.header a, table.table1 thead th,
 
 /* Index & forum lists
 --------------------------------------------- */
-.forum-blocks dl.icon,
+.forum-blocks dl,
 .misc-block,
 .stat-block p {
 	background-color: transparent;
@@ -305,7 +305,7 @@ li.header dt, li.header dd, li.header a, table.table1 thead th,
 	margin: 4px;
 }
 
-.forum-blocks dl.icon .list-inner {
+.forum-blocks dl .list-inner {
 	color: #3D6F95;
 	/*font-family: Arial;*/
 }
@@ -360,7 +360,7 @@ table.table1 thead th {
 	margin-bottom: 0;
 }
 
-li.header dl.icon dt {
+li.header dl dt {
 	text-indent: 10px;
 }
 
@@ -1529,7 +1529,7 @@ body.section-viewtopic .stat-block p {
 	left: 2px;
 }
 
-.rtl .forum-blocks dl.icon {
+.rtl .forum-blocks dl {
 	background-position: 0 1px, 100% 1px, 0 0, 0 0;
 }
 

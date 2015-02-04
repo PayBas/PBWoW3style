@@ -28,10 +28,10 @@
 		<!-- EVENT forumlist_body_forum_row_before -->
 		<li class="row">
 			<!-- EVENT forumlist_body_forum_row_prepend -->
-			<dl class="icon {forumrow.FORUM_IMG_STYLE}">
+			<dl>
 				<dt title="{forumrow.FORUM_FOLDER_IMG_ALT}">
 					<!-- IF forumrow.FORUM_IMAGE --><div class="forum-image">{forumrow.FORUM_IMAGE}</div><!-- ENDIF -->
-					<a href="{forumrow.U_VIEWFORUM}" class="icon-link"></a>
+					<a href="{forumrow.U_VIEWFORUM}" class="icon-link<!-- IF not forumrow.FORUM_IMAGE --> no-forum-image {forumrow.FORUM_IMG_STYLE}<!-- ENDIF -->"></a>
 
 					<!-- IF .forumrow.subforum and forumrow.S_LIST_SUBFORUMS -->
 					<div class="dropdown-container dropdown-button-control">
