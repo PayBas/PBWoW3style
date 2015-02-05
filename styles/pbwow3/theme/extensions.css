@@ -358,7 +358,7 @@ h2.pages-title {
 .icon-thanks_toplist > a:before { content: "\f006"; }
 .icon-thanks > a:before { content: "\f087"; }
 
-/* Ajax Shoutbox
+/* Ajax Shoutbox (by Paul)
 --------------------------------------------- */
 .ajaxshoutbox_panel {
 	margin: 0 2px;
@@ -521,6 +521,16 @@ ul.shoutboxlist .ajaxshoutbox_delete_btn:before {
 		clear: both;
 		margin-left: auto;
 	}
+}
+
+/* Top Five
+--------------------------------------------- */
+#top_five li {
+	padding: 4px 0;
+}
+
+#top_five .meta {
+	font-size: 9px;
 }
 
 /* Board3 Portal
