@@ -102,7 +102,7 @@ body {
 }
 
 #site-description p.skiplink {
-	display: inherit;
+	display: none;
 }
 
 /* Common
