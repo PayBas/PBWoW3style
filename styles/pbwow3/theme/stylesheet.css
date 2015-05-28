@@ -135,8 +135,13 @@ body {
 	margin: 0;
 }
 
-.bg1 { background: rgba(49, 49, 49, 0.75); }
-.bg2 { background: rgba(27, 27, 27, 0.75); }
+.bg1	{
+	background: rgba(49, 49, 49, 0.75);
+}
+
+.bg2	{
+	background: rgba(27, 27, 27, 0.75);
+}
 
 #simple-wrap {
 	padding: 0 0 10px;
@@ -203,9 +208,19 @@ a.arrow-up:before, a.arrow-down:after, a.arrow-left:before, a.arrow-right:after 
 .forumbg .header a:active, .forabg .header a:active, th a:active { color: #00C0FF; }
 
 /* Post body links */
-.postlink 			{ border-bottom: 1px dotted #FFB019; }
-.postlink:hover 	{ border-bottom-color: #00C0FF; background: none; text-decoration: none; }
-.postlink:active 	{ border-bottom-color: #FFF; }
+.postlink {
+	border-bottom: 1px dotted #FFB019;
+}
+
+.postlink:hover {
+	background: none;
+	border-bottom-color: #00C0FF;
+	text-decoration: none;
+}
+
+.postlink:active {
+	border-bottom-color: #FFF;
+}
 
 /* Profile links */
 .postprofile a:hover, .postprofile dt.author a:hover, .search .postprofile a:hover {
@@ -1919,26 +1934,26 @@ dl.mini dt {
 }
 
 .pagination li a {
-	color: #CCC;
 	background-color: #1A1A1A;
 	border-color: #575757;
+	color: #CCC;
 }
 
 .pagination li a:hover,
 .pagination .active a:hover,
 .pagination .dropdown-visible a.dropdown-trigger,
 .nojs .pagination .dropdown-container:hover a.dropdown-trigger {
-	border-color: #FFF;
 	background-color: #000;
+	border-color: #FFF;
 	color: #FFF;
 	text-decoration: none;
 	box-shadow: 0 0 5px 1px rgba(0, 192, 255, 0.7);
 }
 
 .pagination li.active span {
-	color: #FFFFFF;
 	background-color: #0D1A2D;
 	border-color: #B28910;
+	color: #FFFFFF;
 }
 
 .pagination li.active span:hover {
@@ -2727,7 +2742,6 @@ input#pf_pbbnetavatar, label[for=pf_pbbnetavatar] {
 .icon-register > a:before 			{ content: "\f044"; }
 .icon-restore-permissions > a:before { content: "\f079"; }
 .icon-search > a:before 			{ content: "\f002"; }
-.icon-search-advanced > a:before 	{ content: "\f1de"; }
 .icon-search-self > a:before 		{ content: "\f007"; }
 .icon-search-unanswered > a:before 	{ content: "\f1ae"; }
 .icon-search-unread > a:before 		{ content: "\f06e"; }
