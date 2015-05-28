@@ -18,6 +18,10 @@ Get all the FontAwesome CSS codes here: https://fortawesome.github.io/Font-Aweso
 .red .bg1 .postprofile { background-image: url("./images/avatar-bg1-red.jpg"); }
 .red .bg2 .postprofile { background-image: url("./images/avatar-bg2-red.jpg"); }
 
+.propass .postprofile .avatar {
+   overflow: visible;
+}
+
 .propass .postprofile .avatar:after {
 	background-image: url("./images/propass.gif");
 	content: "";
