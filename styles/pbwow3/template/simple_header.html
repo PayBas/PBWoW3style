@@ -2,7 +2,7 @@
 <html dir="{S_CONTENT_DIRECTION}" lang="{S_USER_LANG}">
 <head>
 <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 {META}
 <title>{SITENAME} &bull; <!-- IF S_IN_MCP -->{L_MCP} &bull; <!-- ELSEIF S_IN_UCP -->{L_UCP} &bull; <!-- ENDIF -->{PAGE_TITLE}</title>
 
@@ -27,7 +27,7 @@
 
 	<link href="{T_STYLESHEET_LINK}" rel="stylesheet" />
 
-	<!-- IF T_THEME_NAME == 'pbwow3' || T_THEME_NAME == 'pbwow3_battlecry' || T_THEME_NAME == 'pbwow3_garrison' || T_THEME_NAME == 'pbwow3_pandaria' || T_THEME_NAME == 'pbwow3_tbc' || T_THEME_NAME == 'pbwow3_warlords' -->
+	<!-- IF T_THEME_NAME == 'pbwow3' || T_THEME_NAME == 'pbwow3_battlecry' || T_THEME_NAME == 'pbwow3_garrison' || T_THEME_NAME == 'pbwow3_pandaria' || T_THEME_NAME == 'pbwow3_tbc' || T_THEME_NAME == 'pbwow3_tribute' || T_THEME_NAME == 'pbwow3_warlords' -->
 	<link href="{ROOT_PATH}styles/pbwow3/theme/{T_THEME_LANG_NAME}/stylesheet.css?assets_version={T_ASSETS_VERSION}" rel="stylesheet" />
 	<!-- ELSEIF T_THEME_NAME == 'pbwow3_wotlk' || T_THEME_NAME == 'pbwow3_xmas' -->
 	<link href="{ROOT_PATH}styles/pbwow3_wotlk/theme/{T_THEME_LANG_NAME}/stylesheet.css?assets_version={T_ASSETS_VERSION}" rel="stylesheet" />
@@ -67,4 +67,4 @@
 
 <div id="wrap" style="margin-top: 0">
 	<a id="top" class="anchor" accesskey="t"></a>
-	<div id="page-body">
+	<div id="page-body" role="main">
