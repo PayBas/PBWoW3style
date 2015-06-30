@@ -287,9 +287,9 @@ h2 {
 }
 
 .pagination li a {
-	color: #ad835a;
-	border-color: #5f6670;
 	background-color: #0F1113;
+	border-color: #5f6670;
+	color: #ad835a;
 }
 .pagination li a:hover,
 .pagination .active a:hover,
