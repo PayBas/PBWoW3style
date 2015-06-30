@@ -1553,6 +1553,14 @@ fieldset.submit-buttons input { padding: 4px 6px; }
 
 #message-box textarea { color: #CCC; }
 
+#message-box textarea.drag-n-drop {
+	outline-color: rgba(102, 102, 102, 0.5);
+}
+
+#message-box textarea.drag-n-drop-highlight {
+	outline-color: rgba(17, 163, 234, 0.5);
+}
+
 .inputbox {
 	background-color: #040D1A;
 	border-color: #7F7F7F;
