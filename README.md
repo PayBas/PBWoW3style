@@ -1,6 +1,6 @@
 #### PBWoW 3 Style
 
-@author Paybas
+Author @Paybas
 
 Updated by @Galixte, @Sajaki
 
