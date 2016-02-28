@@ -14,6 +14,14 @@ body {
 	min-height: 255px;
 }
 
+#logo {
+	background: url("./images/logo-small.png") no-repeat 50% 50%;
+	background-size: 100% 100%;
+	width: 330px;
+	height: 171px;
+	margin-left: 0;
+}
+
 .navblock {
 	background: rgba(0,0,0,0.75);
 }
