@@ -12,7 +12,7 @@ Updated by @Galixte, @Sajaki
 
 3.0.5
 - updated for phpbb 3.1.6
-- added theme images for pbWoW (core)
+- added theme images for pbWoW (only the Core Theme)
 - fixed placement of avatar
 
 ## License
