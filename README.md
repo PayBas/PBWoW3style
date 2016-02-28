@@ -10,7 +10,9 @@ Updated by @Galixte, @Sajaki
 
 ## Changes
 
-3.0.5
+3.0.6 (28-2-2016)
+- updated for phpbb 3.1.7
+3.0.5 (28-2-2016)
 - updated for phpbb 3.1.6
 - added theme images for pbWoW (only the Core Theme)
 - fixed placement of avatar
