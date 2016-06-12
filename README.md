@@ -1,4 +1,4 @@
-#### PBWoW 3 Style
+## PBWoW 3 Style for phpBB 3.1.9
 
 Author @Paybas
 
