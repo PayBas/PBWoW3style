@@ -10,6 +10,10 @@ Updated by @Galixte, @Sajaki
 
 ## Changes
 
+3.0.8 (13-6-2016)
+- updated for phpbb 3.1.9
+- updated for recent topics 2.1
+
 3.0.7 (28-2-2016)
 - updated for phpbb 3.1.8
 
