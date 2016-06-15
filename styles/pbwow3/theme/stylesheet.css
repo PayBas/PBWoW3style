@@ -891,6 +891,7 @@ table.info tbody th {
 .postprofile .avatar img {
 	width: 64px;
 	height: 64px;
+	padding: 0px;
 }
 
 .online .postprofile dt strong:before,
