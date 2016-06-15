@@ -5,7 +5,6 @@ Author @Paybas
 Updated by @Galixte, @Sajaki
 
 ## Support
-- http://www.pbWoW.com (is down)
 - http://www.avathar.be/bbdkp/viewforum.php?f=82
 
 ## Changes
