@@ -4,12 +4,6 @@
 
 <!-- EVENT index_body_markforums_before -->
 
-<!-- IF RECENT_TOPICS_DISPLAY -->
-	<!-- IF ADS_INDEX_CODE and not S_IS_BOT -->
-	<div class="misc-block advertisement">{ADS_INDEX_CODE}</div>
-	<!-- ENDIF -->
-<!-- ENDIF -->
-
 <!-- EVENT index_body_markforums_after -->
 
 <!-- INCLUDE forumlist_body.html -->
@@ -53,6 +47,12 @@
 <!-- ENDIF -->
 
 <!-- EVENT index_body_stat_blocks_after -->
+
+<!-- IF RECENT_TOPICS_DISPLAY -->
+<!-- IF ADS_INDEX_CODE and not S_IS_BOT and $ADSIDE eq false -->
+<div class="misc-block advertisement">{ADS_INDEX_CODE}</div>
+<!-- ENDIF -->
+<!-- ENDIF -->
 
 <div class="clear"></div>
 
