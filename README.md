@@ -1,14 +1,18 @@
-#### PBWoW 3 Style
+## PBWoW 3 Style for phpBB 3.1.9
 
-@author Paybas
+Author @Paybas
 
 Updated by @Galixte, @Sajaki
 
 ## Support
-- http://www.pbWoW.com (is down)
 - http://www.avathar.be/bbdkp/viewforum.php?f=82
 
 ## Changes
+
+3.0.8.2 (19-6-2016)
+- updated for phpbb 3.1.9
+- updated for recent topics 2.1
+- fix avatar offset
 
 3.0.7 (28-2-2016)
 - updated for phpbb 3.1.8
@@ -24,7 +28,7 @@ Updated by @Galixte, @Sajaki
 ## License
 
 [GNU General Public License v2](http://opensource.org/licenses/gpl-2.0.php)
-copyright bbdkp.com
-This application is opensource software released under the GPL. Please see source code and the docs directory for more details. If you use this software and find it to be useful, we ask that you retain the copyright notice below.
+This application is opensource software released under the GPL.
+We request that you retain the copyright notice below.
 
 

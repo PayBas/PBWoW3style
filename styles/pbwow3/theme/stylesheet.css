@@ -880,17 +880,18 @@ table.info tbody th {
 	background: #000 url("./images/portrait-frame-clean.gif") no-repeat 50% 50%;
 	display: inline-block;
 	float: none;
+	height: 64px;
 	margin: 1px auto 0;
-	padding: 1px 4px 7px 1px;
+	padding: 8px 10px 11px 8px;
 	position: relative;
 	width: 64px;
-	height: 64px;
 	overflow: hidden;
 }
 
 .postprofile .avatar img {
 	width: 64px;
 	height: 64px;
+	padding: 0px;
 }
 
 .online .postprofile dt strong:before,
@@ -2960,7 +2961,7 @@ body.pbwow3 #page-body:before {
 	.forum-blocks li.row,
 	.index-left .forum-blocks li.row {
 		width: 100%;
-		min-height: inherit;
+		min-height: 60px;
 	}
 
 	.forum-blocks li.row dl {
