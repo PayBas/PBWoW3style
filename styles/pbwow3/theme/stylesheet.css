@@ -2961,7 +2961,7 @@ body.pbwow3 #page-body:before {
 	.forum-blocks li.row,
 	.index-left .forum-blocks li.row {
 		width: 100%;
-		min-height: inherit;
+		min-height: 60px;
 	}
 
 	.forum-blocks li.row dl {
