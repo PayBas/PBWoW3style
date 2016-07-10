@@ -9,6 +9,9 @@ Updated by @Galixte, @Sajaki
 
 ## Changes
 
+3.0.8.3
+- remove redundant recent items css
+
 3.0.8.2 (19-6-2016)
 - updated for phpbb 3.1.9
 - updated for recent topics 2.1
