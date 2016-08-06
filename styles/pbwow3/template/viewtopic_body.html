@@ -95,19 +95,16 @@
 					{L_TOTAL_VOTES}{L_COLON} <span class="poll_total_vote_cnt">{TOTAL_VOTES}</span>
 				</div>
 
-				<div class="poll-footer">
-					<!-- IF not S_DISPLAY_RESULTS -->
-					<a href="{U_VIEW_RESULTS}" class="button1">{L_VIEW_RESULTS}</a>
-					<!-- ELSE -->
-					<a href="#" class="button1 disabled">{L_VIEW_RESULTS}</a>
-					<!-- ENDIF -->
+				<div<!-- IF not S_DISPLAY_RESULTS and S_CAN_VOTE --> class="poll-footer"<!-- ENDIF -->>
+				<!-- IF not S_DISPLAY_RESULTS -->
+				<a href="{U_VIEW_RESULTS}" class="button1">{L_VIEW_RESULTS}</a>
+				<!-- ENDIF -->
 
-					<!-- IF S_CAN_VOTE -->
-					<input type="submit" name="update" value="{L_SUBMIT_VOTE}" class="button1" />
-					<!-- ELSE -->
-					<input type="button" name="" value="{L_SUBMIT_VOTE}" class="button1 disabled" />
-					<!-- ENDIF -->
+				<!-- IF S_CAN_VOTE -->
+				<input type="submit" name="update" value="{L_SUBMIT_VOTE}" class="button1" />
+				<!-- ENDIF -->
 				</div>
+
 			</fieldset>
 			<div class="vote-submitted hidden">{L_VOTE_SUBMITTED}</div>
 		</div>

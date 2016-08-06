@@ -53,7 +53,6 @@ body.topbar {
 	box-shadow: 0 0 12px 6px rgba(0,0,0,0.6);
 }
 
-
 /* Links, arrows & text
 --------------------------------------------- */
 @font-face {
@@ -404,4 +403,11 @@ h2 {
 	#wrapper {
 		min-height: 850px;
 	}
+}
+
+
+/* copyright
+-------------------------------------------------------------- */
+.copyright {
+	z-index: 1;
 }
