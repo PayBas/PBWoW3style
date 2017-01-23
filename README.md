@@ -1,4 +1,4 @@
-## PBWoW 3 Style for phpBB 3.1.9
+## PBWoW 3 Style for phpBB 3.1.10
 
 Author @Paybas
 
@@ -8,6 +8,9 @@ Updated by @Galixte, @Sajaki
 - http://www.avathar.be/bbdkp/viewforum.php?f=82
 
 ## Changes
+
+3.1.10 (15-12-2016)
+- updated for phpbb 3.1.10
 
 3.0.8.3
 - remove redundant recent items css
