@@ -1,0 +1,74 @@
+/* Link Styles
+---------------------------------------- */
+
+/* Links, arrows & text
+--------------------------------------------- */
+
+a 			{ color: #FFB019; }
+a:hover 	{ color: #FFFFFF; }
+a:active	{ color: #00C0FF; }
+
+a.up, a.down, a.left, a.right, a.top, a.top2,
+a.arrow-up, a.arrow-down, a.arrow-left, a.arrow-right {
+    text-indent: 0;
+}
+
+a.up:hover, a.down:hover, a.left:hover, a.right:hover, a.top:hover, a.top2:hover,
+a.arrow-up:hover, a.arrow-down:hover, a.arrow-left:hover, a.arrow-right:hover {
+    text-shadow: 0 0 2px #009CFF;
+    text-decoration: none;
+}
+
+a.up:before, a.down:after, a.left:before, a.right:after, a.top:before, a.top2:before,
+a.arrow-up:before, a.arrow-down:after, a.arrow-left:before, a.arrow-right:after {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    font-size: inherit;
+    line-height: 0;
+    text-decoration: none;
+    padding-right: 3px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a.up:before, a.arrow-up:before		{ content: "\f077"; }
+a.down:after, a.arrow-down:after	{ content: "\f078"; padding-right: 0; padding-left: 3px; }
+a.left:before, a.arrow-left:before	{ content: "\f053"; }
+a.right:after, a.arrow-right:after	{ content: "\f054"; padding-right: 0; padding-left: 3px; }
+
+a.top:before { content: "\f077"; }
+a.top2:before { content: "\f077"; }
+a.top2 {
+    font-size: 10px;
+    padding-left: 0;
+}
+
+/* Arrow links  */
+a.arrow-up, a.arrow-down, a.arrow-left, a.arrow-right { padding: 0 3px !important; }
+a.arrow-up:before, a.arrow-down:after, a.arrow-left:before, a.arrow-right:after { font-size: 0.7em; vertical-align: middle; }
+
+.forumbg .header a, .forabg .header a, th a { color: #FFFFFF; }
+.forumbg .header a:active, .forabg .header a:active, th a:active { color: #00C0FF; }
+
+/* Post body links */
+.postlink {
+    border-bottom: 1px dotted #FFB019;
+}
+
+.postlink:hover {
+    background: none;
+    border-bottom-color: #00C0FF;
+    text-decoration: none;
+}
+
+.postlink:active {
+    border-bottom-color: #FFF;
+}
+
+/* Profile links */
+.postprofile a:hover, .postprofile dt.author a:hover, .search .postprofile a:hover {
+    text-decoration: none;
+}
+
