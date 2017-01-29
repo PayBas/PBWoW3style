@@ -1,4 +1,4 @@
-/* Breadcrumb Menu
+/* Breadcrumb Menu Extension support
 --------------------------------------------- */
 #breadcrumb-menu .dropdown .pointer {
 	border-color: #444 transparent;
@@ -70,7 +70,7 @@
 	right: auto;
 }
 
-/* Board Rules
+/* Board Rules extension support
 --------------------------------------------- */
 .mini-panel {
 	background: #111;
@@ -99,7 +99,7 @@ ul.menu li {
 	color: #FFF;
 }
 
-/* Board Announcements
+/* Board Announcements extension support
 --------------------------------------------- */
 #phpbb_announcement {
 	background: #141414;

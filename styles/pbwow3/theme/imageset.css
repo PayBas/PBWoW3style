@@ -1,0 +1,45 @@
+/* Imageset */
+span.imageset {
+    display: inline-block !important;
+    background: none;
+    margin: 0;
+    padding: 0;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.imageset:before {
+    color: #888;
+    display: block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: inherit;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.imageset.icon_contact,
+.imageset.icon_topic_reported,
+.imageset.icon_topic_unapproved,
+.imageset.icon_topic_deleted {
+    position: relative;
+    background: none !important;
+    padding: 15px 0 0 17px;
+    text-align: center;
+}
+
+
+.imageset.icon_topic_poll 			{ background: url("./images/icons/poll.gif") 100% 100% no-repeat; padding: 14px 0 0 20px; vertical-align: middle; }
+.imageset.icon_topic_attach 		{ background-image: url("./images/icons/icon_topic_attach.gif"); padding: 10px 0 0 7px; }
+.imageset.icon_post_target 			{ background-image: url("./images/icons/icon_post_read.gif"); padding: 9px 0 0 11px; }
+.imageset.icon_post_target_unread 	{ background-image: url("./images/icons/icon_post_unread.gif"); padding: 9px 0 0 11px; }
+.imageset.icon_topic_latest 		{ background-image: url("./images/icons/icon_topic_latest.gif"); padding: 9px 0 0 11px; }
+.imageset.icon_topic_newest 		{ background-image: url("./images/icons/icon_topic_newest.gif"); padding: 9px 0 0 11px; }
+.unread .imageset.icon_topic_latest { background-image: url("./images/icons/icon_topic_newest.gif"); padding: 9px 0 0 11px; }

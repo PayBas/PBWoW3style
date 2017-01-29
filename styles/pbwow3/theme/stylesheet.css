@@ -10,13 +10,56 @@
 @import url("common.css");
 @import url("links.css");
 @import url("colours.css");
-@import url("fontawesome.css");
 @import url("content.css");
 @import url("forms.css");
 @import url("buttons.css");
+@import url("imageset.css");
 @import url("cp.css");
+@import url("fontawesome.css");
 
-/* Top-bar (custom)
+/* PBWoW Master style specific assets (overall_header {T_THEME_NAME}
+   (excluded for children)
+--------------------------------------------- */
+
+body.pbwow3 {
+	background-attachment: scroll !important;
+}
+
+body.pbwow3 #logo {
+	background-image: none;
+	width: 266px;
+	height: 126px;
+	margin: 15px 10px 10px -10px;
+}
+
+body.pbwow3 #video-background {
+	display: none;
+}
+
+body.pbwow3 #page-body:before {
+	display: none;
+}
+
+@media only screen and (max-width: 999px), only screen and (max-device-width: 999px) {
+	body.pbwow3 {
+		background-image: url("./images/theme/wod-small.jpg");
+		background-position: 0 0;
+	}
+
+	body.pbwow3.topbar {
+		background-position: 0 41px;
+	}
+}
+
+@media screen and (max-width: 859px) {
+	body.pbwow3 #logo {
+		width: 200px;
+		height: 100px;
+		margin: 0 0 25px 0;
+	}
+}
+
+/* Top-bar (only available if pbwow extension is on)
 --------------------------------------------- */
 #top-bar {
 	background: url("./images/bar-bg.jpg") no-repeat scroll 50% 100% #002540;
@@ -94,7 +137,8 @@ body.topbar .navblock {
 	margin-top: 1px;
 }
 
-/* Miscellaneous styles
+
+/* used in Miscellaneous pbwow styles
 --------------------------------------------- */
 #video-background {
 	position: absolute;
@@ -188,48 +232,6 @@ input#pf_pbbnetavatar, label[for=pf_pbbnetavatar] {
 
 .topic_poll + hr {
 	display: none;
-}
-
-/* PBWoW Master style specific assets
-   (excluded for children)
---------------------------------------------- */
-
-body.pbwow3 {
-	background-attachment: scroll !important;
-}
-
-body.pbwow3 #logo {
-	background-image: none;
-	width: 266px;
-	height: 126px;
-	margin: 15px 10px 10px -10px;
-}
-
-body.pbwow3 #video-background {
-	display: none;
-}
-
-body.pbwow3 #page-body:before {
-	display: none;
-}
-
-@media only screen and (max-width: 999px), only screen and (max-device-width: 999px) {
-	body.pbwow3 {
-		background-image: url("./images/theme/wod-small.jpg");
-		background-position: 0 0;
-	}
-
-	body.pbwow3.topbar {
-		background-position: 0 41px;
-	}
-}
-
-@media screen and (max-width: 859px) {
-	body.pbwow3 #logo {
-		width: 200px;
-		height: 100px;
-		margin: 0 0 25px 0;
-	}
 }
 
 /* =Media queries (all >700px rules are in responsive.css)
