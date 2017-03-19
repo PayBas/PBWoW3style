@@ -135,9 +135,20 @@ a.arrow-up:hover:before, a.arrow-down:hover:after, a.arrow-left:hover:before, a.
 }
 
 /* Post body links */
-.postlink 			{ color: #66CCFF; border-bottom-color: #2f7899; }
-.postlink:hover		{ color: #CCFFFF; border-bottom-color: #4F93B6; }
-.postlink:active	{ color: #CCFFFF; border-bottom-color: #4F93B6; }
+.postlink {
+	border-bottom-color: #2f7899;
+	color: #66CCFF;
+}
+
+.postlink:hover {
+	border-bottom-color: #4F93B6;
+	color: #CCFFFF;
+}
+
+.postlink:active {
+	border-bottom-color: #4F93B6;
+	color: #CCFFFF;
+}
 
 /* Headings */
 h2 {
@@ -755,6 +766,14 @@ fieldset dt {
 }
 
 #message-box textarea { color: #8eb1bc; }
+
+#message-box textarea.drag-n-drop {
+	outline-color: rgba(102, 102, 102, 0.5);
+}
+
+#message-box textarea.drag-n-drop-highlight {
+	outline-color: rgba(17, 163, 234, 0.5);
+}
 
 .inputbox {
 	border-color: #14324E;

@@ -13,6 +13,7 @@
 					<!-- IF S_DISPLAY_SEARCH -->
 						<li class="separator"></li>
 						<!-- IF S_REGISTERED_USER -->
+						<!-- EVENT navbar_header_user_profile_prepend -->
 							<li class="small-icon icon-search-self"><a href="{U_SEARCH_SELF}" role="menuitem">{L_SEARCH_SELF}</a></li>
 						<!-- ENDIF -->
 						<!-- IF S_USER_LOGGED_IN -->
@@ -80,6 +81,7 @@
 				<!-- INCLUDE notification_dropdown.html -->
 			</li>
 		<!-- ENDIF -->
+		<!-- EVENT navbar_header_user_profile_append -->
 	<!-- ELSE -->
 		<li class="small-icon icon-logout rightside"  data-skip-responsive="true"><a href="{U_LOGIN_LOGOUT}" title="{L_LOGIN_LOGOUT}" accesskey="x" role="menuitem">{L_LOGIN_LOGOUT}</a></li>
 		<!-- IF S_REGISTER_ENABLED and not (S_SHOW_COPPA or S_REGISTRATION) -->
